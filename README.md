@@ -1,1 +1,1 @@
-# Single Cell Express Atlas Knowledge Graph
+# Single Cell Expression Atlas Knowledge Graph
