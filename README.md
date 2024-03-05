@@ -1,1 +1,1 @@
-# scxa_kg
+# Single Cell Express Atlas Knowledge Graph
