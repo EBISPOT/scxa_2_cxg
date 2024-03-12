@@ -50,11 +50,16 @@ def convert(study: str):
         "developmental_stage_ontology": "developmental_stage_ontology_term_id",
         "inferred_sex": "sex",
         "inferred_sex_ontology": "sex_ontology_term_id",
+        "sex_ontology": "sex_ontology_term_id",
+        "cell_type_ontology": "cell_type_ontology_term_id", 
         "inferred_cell_type_-_ontology_labels": "cell_type",
         "inferred_cell_type_-_ontology_labels_ontology": "cell_type_ontology_term_id",
+        "authors_cell_type_-_ontology_labels": "cell_type",
+        "authors_cell_type_-_ontology_labels_ontology": "cell_type_ontology_term_id",
         "organism_ontology": "organism_ontology_term_id",
         "organism_part": "tissue",
-        "organism_part_ontology": "tissue_ontology_term_id"
+        "organism_part_ontology": "tissue_ontology_term_id",
+        "disease_ontology": "disease_ontology_term_id"
         },
         inplace=True
     )
