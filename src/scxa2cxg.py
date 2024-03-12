@@ -1,9 +1,9 @@
 import json
 import os
 from ftplib import FTP
-from urllib import request
 
 import anndata as ad
+import httpx
 import pandas as pd
 
 BASE_URL = "https://ftp.ebi.ac.uk/pub/databases/microarray/data/atlas/sc_experiments/{study}/"
@@ -18,7 +18,6 @@ def download_files(study: str):
     download_dir = os.path.join("downloads")
     study_dir = os.path.join(download_dir, study)
     h5ad_path = f"{study_dir}/{study}{H5AD_EXT_FILE}"
-    metadata_path = f"{study_dir}/{study}{METADATA_EXT_FILE}"
 
     if not os.path.isdir(download_dir):
         os.mkdir(download_dir)
@@ -27,24 +26,23 @@ def download_files(study: str):
         os.mkdir(study_dir)
 
     if not os.path.exists(h5ad_path):
-        request.urlretrieve(
-            f"{BASE_URL.format(study=study)}{study}{H5AD_EXT_FILE}",
-            h5ad_path
-        )
-
-    if not os.path.exists(metadata_path):
-        request.urlretrieve(
-            f"{BASE_URL.format(study=study)}{study}{METADATA_EXT_FILE}",
-            metadata_path
-        )
+        res = httpx.get(f"{BASE_URL.format(study=study)}{study}{H5AD_EXT_FILE}")
+        with open(h5ad_path, 'wb') as f:
+            f.write(res.content)
 
 
 def convert(study: str):
     """
     Change column names to be conform to CxG schema v4.0.0
     """
-    ann_data = ad.read_h5ad(f"downloads/{study}/{study}{H5AD_EXT_FILE}")
-    new_obs = pd.DataFrame(data=ann_data.obs.copy(), index=ann_data.obs.index.copy())
+    ann_data = ad.read_h5ad(
+        f"downloads/{study}/{study}{H5AD_EXT_FILE}",
+        backed="r+"
+    )
+    new_obs = pd.DataFrame(
+        data=ann_data.obs.copy(),
+        index=ann_data.obs.index.copy()
+    )
     obs_cols = ann_data.obs_keys()
 
     new_obs.rename(columns={
@@ -82,17 +80,18 @@ def get_studies(filter_study: str):
 
     for filename in ftp.nlst():
         if filename.startswith(filter_study):
-            studies.append(filename)
+            if "E-CURD-100" not in filename:
+                studies.append(filename)
 
     ftp.quit()
     return studies
 
 
-def main(chunk: int = 10):
+def main(chunk: int = 25):
     """
     Main function to process studies and convert them into CxG schema
     """
-    studies = get_studies("E-GEO")
+    studies = get_studies("E-HCAD")
 
     obs_by_experiment = {}
     for study in studies[:chunk]:
