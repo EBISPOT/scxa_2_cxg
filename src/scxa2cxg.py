@@ -4,7 +4,6 @@ from ftplib import FTP
 
 import anndata as ad
 import httpx
-import pandas as pd
 
 BASE_URL = "https://ftp.ebi.ac.uk/pub/databases/microarray/data/atlas/sc_experiments/{study}/"
 H5AD_EXT_FILE = ".project.h5ad"
@@ -40,7 +39,6 @@ def convert(study: str):
         backed="r+"
     )
     new_obs = ann_data.obs.copy()
-    duplicated_cols = [col for col in ann_data.obs_keys() if ".1" in col]
     obs_cols = ann_data.obs_keys()
 
     new_obs.rename(columns={
@@ -61,6 +59,7 @@ def convert(study: str):
         },
         inplace=True
     )
+    duplicated_cols = [col for col in new_obs.columns if ".1" in col]
     new_obs.drop(labels=duplicated_cols, axis="columns", inplace=True)
 
     ann_data.obs = new_obs
