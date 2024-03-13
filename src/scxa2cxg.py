@@ -39,10 +39,8 @@ def convert(study: str):
         f"downloads/{study}/{study}{H5AD_EXT_FILE}",
         backed="r+"
     )
-    new_obs = pd.DataFrame(
-        data=ann_data.obs.copy(),
-        index=ann_data.obs.index.copy()
-    )
+    new_obs = ann_data.obs.copy()
+    duplicated_cols = [col for col in ann_data.obs_keys() if ".1" in col]
     obs_cols = ann_data.obs_keys()
 
     new_obs.rename(columns={
@@ -51,7 +49,7 @@ def convert(study: str):
         "inferred_sex": "sex",
         "inferred_sex_ontology": "sex_ontology_term_id",
         "sex_ontology": "sex_ontology_term_id",
-        "cell_type_ontology": "cell_type_ontology_term_id", 
+        "cell_type_ontology": "cell_type_ontology_term_id",
         "inferred_cell_type_-_ontology_labels": "cell_type",
         "inferred_cell_type_-_ontology_labels_ontology": "cell_type_ontology_term_id",
         "authors_cell_type_-_ontology_labels": "cell_type",
@@ -63,10 +61,10 @@ def convert(study: str):
         },
         inplace=True
     )
+    new_obs.drop(labels=duplicated_cols, axis="columns", inplace=True)
 
     ann_data.obs = new_obs
-    ad.AnnData.write_h5ad(
-        ann_data,
+    ann_data.write_h5ad(
         f"downloads/{study}/{study}_modified{H5AD_EXT_FILE}",
         compression="gzip"
     )
@@ -92,18 +90,40 @@ def get_studies(filter_study: str):
     return studies
 
 
+def get_studies_downloaded(root_path):
+    """
+    Get the studies located in the downloads folder
+    """
+    for dir_name in os.listdir(root_path):
+        yield dir_name
+
+
+def check_modified(study: str):
+    """
+    Check if conversion worked
+    """
+    ann_data = ad.read_h5ad(
+        f"downloads/{study}/{study}_modified{H5AD_EXT_FILE}",
+        backed="r+"
+    )
+    print(ann_data.obs_keys())
+
+
 def main(chunk: int = 25):
     """
     Main function to process studies and convert them into CxG schema
     """
-    studies = get_studies("E-HCAD")
+    # studies = get_studies("E-HCAD")
 
     obs_by_experiment = {}
-    for study in studies[:chunk]:
+    # for study in studies[:chunk]:
+    for study in get_studies_downloaded("downloads"):
         print(f"Downloading files for {study}")
         download_files(study)
         print("Download completed")
         obs_columns = convert(study)
+        print(obs_columns)
+        check_modified(study)
         obs_by_experiment[study] = obs_columns
 
     with open("obs_columns_by_experiment.json", 'w', encoding='utf-8') as f:
