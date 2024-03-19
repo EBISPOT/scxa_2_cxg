@@ -39,7 +39,9 @@ def convert(study: str):
         backed="r+"
     )
     new_obs = ann_data.obs.copy()
+    new_var = ann_data.var.copy()
     obs_cols = ann_data.obs_keys()
+    print(ann_data.var_keys())
 
     new_obs.rename(columns={
         "developmental_stage": "development_stage",
@@ -62,7 +64,21 @@ def convert(study: str):
     duplicated_cols = [col for col in new_obs.columns if ".1" in col]
     new_obs.drop(labels=duplicated_cols, axis="columns", inplace=True)
 
+    new_var.rename(columns={
+        "type": "feature_biotype",
+        "gene_name": "feature_name",
+    })
+
+    print(new_var.gene_name.drop_duplicates().tolist())
+    # print(new_var.gene_version.drop_duplicates().tolist()) # not available in all experiments
+    print(new_var.gene_biotype.drop_duplicates().tolist())
+    print(new_var.gene_source.drop_duplicates().tolist())
+    print(new_var.type.drop_duplicates().tolist())
+    print(new_var.source.drop_duplicates().tolist())
+    print(new_var.mito.drop_duplicates().tolist())
+
     ann_data.obs = new_obs
+    ann_data.var = new_var
     ann_data.write_h5ad(
         f"downloads/{study}/{study}_modified{H5AD_EXT_FILE}",
         compression="gzip"
@@ -105,7 +121,8 @@ def check_modified(study: str):
         f"downloads/{study}/{study}_modified{H5AD_EXT_FILE}",
         backed="r+"
     )
-    print(ann_data.obs_keys())
+    if ann_data:
+        print("good")
 
 
 def main(chunk: int = 25):
@@ -121,7 +138,7 @@ def main(chunk: int = 25):
         download_files(study)
         print("Download completed")
         obs_columns = convert(study)
-        print(obs_columns)
+        # print(obs_columns)
         check_modified(study)
         obs_by_experiment[study] = obs_columns
 
