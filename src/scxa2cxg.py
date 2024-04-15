@@ -1,5 +1,6 @@
 import json
 import os
+import re
 from ftplib import FTP
 
 import anndata as ad
@@ -68,7 +69,9 @@ def convert(study: str):
         },
         inplace=True
     )
-    duplicated_cols = [col for col in new_obs.columns if ".1" in col]
+    duplicated_cols = [
+        col for col in new_obs.columns if re.search(r"[a-z]\.[1-9]", col)
+    ]
     new_obs.drop(labels=duplicated_cols, axis="columns", inplace=True)
 
     new_var = ann_data.var.copy()
