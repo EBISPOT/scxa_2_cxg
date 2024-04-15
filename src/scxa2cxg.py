@@ -71,6 +71,9 @@ def convert(study: str):
     duplicated_cols = [col for col in new_obs.columns if ".1" in col]
     new_obs.drop(labels=duplicated_cols, axis="columns", inplace=True)
 
+    new_var = ann_data.var.copy()
+    new_var["feature_is_filtered"] = False
+
     metadata = pd.read_csv(
         f"downloads/{study}/{study}{METADATA_EXT_FILE}", sep="\t"
     )
@@ -80,6 +83,7 @@ def convert(study: str):
     new_uns["title"] = metadata.loc[["Investigation Title"]]["1.1"].values[0]
 
     ann_data.obs = new_obs
+    ann_data.var = new_var
     ann_data.uns = new_uns
     ann_data.write_h5ad(
         f"downloads/{study}/{study}_modified{H5AD_EXT_FILE}",
@@ -124,7 +128,8 @@ def check_modified(study: str):
         f"downloads/{study}/{study}_modified{H5AD_EXT_FILE}",
         backed="r+"
     )
-    print(ann_data.obs_keys())
+    if ann_data:
+        print("good")
 
 
 def main(chunk: int = 25):
