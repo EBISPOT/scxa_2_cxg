@@ -4,10 +4,11 @@ from ftplib import FTP
 
 import anndata as ad
 import httpx
+import pandas as pd
 
 BASE_URL = "https://ftp.ebi.ac.uk/pub/databases/microarray/data/atlas/sc_experiments/{study}/"
 H5AD_EXT_FILE = ".project.h5ad"
-METADATA_EXT_FILE = ".cell_metadata.tsv"
+METADATA_EXT_FILE = ".idf.txt"
 
 
 def download_files(study: str):
@@ -17,6 +18,7 @@ def download_files(study: str):
     download_dir = os.path.join("downloads")
     study_dir = os.path.join(download_dir, study)
     h5ad_path = f"{study_dir}/{study}{H5AD_EXT_FILE}"
+    metadata_path = f"{study_dir}/{study}{METADATA_EXT_FILE}"
 
     if not os.path.isdir(download_dir):
         os.mkdir(download_dir)
@@ -25,8 +27,17 @@ def download_files(study: str):
         os.mkdir(study_dir)
 
     if not os.path.exists(h5ad_path):
-        res = httpx.get(f"{BASE_URL.format(study=study)}{study}{H5AD_EXT_FILE}")
+        res = httpx.get(
+            f"{BASE_URL.format(study=study)}{study}{H5AD_EXT_FILE}"
+        )
         with open(h5ad_path, 'wb') as f:
+            f.write(res.content)
+
+    if not os.path.exists(metadata_path):
+        res = httpx.get(
+            f"{BASE_URL.format(study=study)}{study}{METADATA_EXT_FILE}"
+        )
+        with open(metadata_path, 'wb') as f:
             f.write(res.content)
 
 
@@ -39,8 +50,6 @@ def convert(study: str):
         backed="r+"
     )
     new_obs = ann_data.obs.copy()
-    obs_cols = ann_data.obs_keys()
-
     new_obs.rename(columns={
         "developmental_stage": "development_stage",
         "developmental_stage_ontology": "developmental_stage_ontology_term_id",
@@ -62,13 +71,22 @@ def convert(study: str):
     duplicated_cols = [col for col in new_obs.columns if ".1" in col]
     new_obs.drop(labels=duplicated_cols, axis="columns", inplace=True)
 
+    metadata = pd.read_csv(
+        f"downloads/{study}/{study}{METADATA_EXT_FILE}", sep="\t"
+    )
+    metadata.set_index(metadata["MAGE-TAB Version"], inplace=True)
+
+    new_uns = ann_data.uns.copy()
+    new_uns["title"] = metadata.loc[["Investigation Title"]]["1.1"].values[0]
+
     ann_data.obs = new_obs
+    ann_data.uns = new_uns
     ann_data.write_h5ad(
         f"downloads/{study}/{study}_modified{H5AD_EXT_FILE}",
         compression="gzip"
     )
 
-    return obs_cols
+    return ann_data
 
 
 def get_studies(filter_study: str):
@@ -89,12 +107,13 @@ def get_studies(filter_study: str):
     return studies
 
 
-def get_studies_downloaded(root_path):
+def get_studies_downloaded(root_path, filter_study):
     """
     Get the studies located in the downloads folder
     """
     for dir_name in os.listdir(root_path):
-        yield dir_name
+        if dir_name.startswith(filter_study):
+            yield dir_name
 
 
 def check_modified(study: str):
@@ -114,19 +133,24 @@ def main(chunk: int = 25):
     """
     # studies = get_studies("E-HCAD")
 
-    obs_by_experiment = {}
+    cols_by_experiment = {}
     # for study in studies[:chunk]:
-    for study in get_studies_downloaded("downloads"):
+    for study in get_studies_downloaded("downloads", "E-GEOD-103771"):
+        experiment = {}
         print(f"Downloading files for {study}")
         download_files(study)
         print("Download completed")
-        obs_columns = convert(study)
-        print(obs_columns)
-        check_modified(study)
-        obs_by_experiment[study] = obs_columns
+        conv_anndata = convert(study)
+        # print(obs_columns)
+        # check_modified(study)
+        experiment["obs_columns"] = conv_anndata.obs_keys()
+        experiment["uns_columns"] = conv_anndata.uns_keys()
+        experiment["var_columns"] = conv_anndata.var_keys()
+        experiment["obsm_columns"] = conv_anndata.obsm_keys()
+        cols_by_experiment[study] = experiment
 
     with open("obs_columns_by_experiment.json", 'w', encoding='utf-8') as f:
-        json.dump(obs_by_experiment, f, ensure_ascii=False, indent=4)
+        json.dump(cols_by_experiment, f, ensure_ascii=False, indent=4)
 
 
 if __name__ == '__main__':
