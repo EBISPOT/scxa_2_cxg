@@ -72,18 +72,7 @@ def convert(study: str):
     new_obs.drop(labels=duplicated_cols, axis="columns", inplace=True)
 
     new_var = ann_data.var.copy()
-    new_var.rename(columns={
-        "type": "feature_biotype",
-        "gene_name": "feature_name",
-    })
-
-    print(new_var.gene_name.drop_duplicates().tolist())
-    # print(new_var.gene_version.drop_duplicates().tolist()) # not available in all experiments
-    print(new_var.gene_biotype.drop_duplicates().tolist())
-    print(new_var.gene_source.drop_duplicates().tolist())
-    print(new_var.type.drop_duplicates().tolist())
-    print(new_var.source.drop_duplicates().tolist())
-    print(new_var.mito.drop_duplicates().tolist())
+    new_var["feature_is_filtered"] = False
 
     metadata = pd.read_csv(
         f"downloads/{study}/{study}{METADATA_EXT_FILE}", sep="\t"
