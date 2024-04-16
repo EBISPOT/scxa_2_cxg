@@ -10,6 +10,27 @@ import pandas as pd
 BASE_URL = "https://ftp.ebi.ac.uk/pub/databases/microarray/data/atlas/sc_experiments/{study}/"
 H5AD_EXT_FILE = ".project.h5ad"
 METADATA_EXT_FILE = ".idf.txt"
+SDRF_EXT_FILE = ".sdrf.txt"
+ASSAY_MAPPING = {
+    "smart-like": "http://www.ebi.ac.uk/efo/EFO_0010184",
+    "smart-seq": "http://www.ebi.ac.uk/efo/EFO_0008930",
+    "smart-seq2": "http://www.ebi.ac.uk/efo/EFO_0008931",
+    "10xV1": "http://www.ebi.ac.uk/efo/EFO_0010183",
+    "10xV1a": "http://www.ebi.ac.uk/efo/EFO_0010183",
+    "10xV1i": "http://www.ebi.ac.uk/efo/EFO_0010183",
+    "10xV2": "http://www.ebi.ac.uk/efo/EFO_0009899",
+    "10x 5' v1": "http://www.ebi.ac.uk/efo/EFO_0011025",
+    "10xV3": "http://www.ebi.ac.uk/efo/EFO_0009922",
+    "10x Ig enrichment": "http://www.ebi.ac.uk/efo/EFO_0010715",
+    "10x feature barcode (cell surface protein profiling)": "http://www.ebi.ac.uk/efo/EFO_0030011",
+    "drop-seq": "http://www.ebi.ac.uk/efo/EFO_0008722",
+    "seq-well": "http://www.ebi.ac.uk/efo/EFO_0008919",
+    "SCRB-seq": "http://www.ebi.ac.uk/efo/EFO_0010004",
+    "MARS-seq": "http://www.ebi.ac.uk/efo/EFO_0008796",
+    "CEL-seq": "http://www.ebi.ac.uk/efo/EFO_0008679",
+    "CEL-seq2": "http://www.ebi.ac.uk/efo/EFO_0010010",
+    "STRT-seq": "http://www.ebi.ac.uk/efo/EFO_0008953"
+}
 
 
 def download_files(study: str):
@@ -20,6 +41,7 @@ def download_files(study: str):
     study_dir = os.path.join(download_dir, study)
     h5ad_path = f"{study_dir}/{study}{H5AD_EXT_FILE}"
     metadata_path = f"{study_dir}/{study}{METADATA_EXT_FILE}"
+    sdrf_path = f"{study_dir}/{study}{SDRF_EXT_FILE}"
 
     if not os.path.isdir(download_dir):
         os.mkdir(download_dir)
@@ -39,6 +61,13 @@ def download_files(study: str):
             f"{BASE_URL.format(study=study)}{study}{METADATA_EXT_FILE}"
         )
         with open(metadata_path, 'wb') as f:
+            f.write(res.content)
+
+    if not os.path.exists(sdrf_path):
+        res = httpx.get(
+            f"{BASE_URL.format(study=study)}{study}{SDRF_EXT_FILE}"
+        )
+        with open(sdrf_path, 'wb') as f:
             f.write(res.content)
 
 
@@ -73,6 +102,12 @@ def convert(study: str):
         col for col in new_obs.columns if re.search(r"[a-z]\.[1-9]", col)
     ]
     new_obs.drop(labels=duplicated_cols, axis="columns", inplace=True)
+
+    meta_sdrf = pd.read_csv(
+        f"downloads/{study}/{study}{SDRF_EXT_FILE}", sep="\t"
+    )
+    meta_sdrf.set_index(meta_sdrf["Source Name"], inplace=True)
+    new_obs["assay_ontology_term_id"] = ASSAY_MAPPING[meta_sdrf["Comment[library construction]"].iloc[0]]
 
     new_var = ann_data.var.copy()
     new_var["feature_is_filtered"] = False
