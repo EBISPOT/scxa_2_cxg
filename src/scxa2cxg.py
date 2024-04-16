@@ -82,7 +82,7 @@ def convert(study: str):
     new_obs = ann_data.obs.copy()
     new_obs.rename(columns={
         "developmental_stage": "development_stage",
-        "developmental_stage_ontology": "developmental_stage_ontology_term_id",
+        "developmental_stage_ontology": "development_stage_ontology_term_id",
         "inferred_sex": "sex",
         "inferred_sex_ontology": "sex_ontology_term_id",
         "sex_ontology": "sex_ontology_term_id",
