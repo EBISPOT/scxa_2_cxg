@@ -1,0 +1,1418 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:efo="http://www.ebi.ac.uk/efo/"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+    <Ontology/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <rdfs:label>definition</rdfs:label>
+    </AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000117 -->
+
+    <AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000117">
+        <rdfs:label>term editor</rdfs:label>
+    </AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+    <AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator">
+        <oboInOwl:hasDbXref>http://purl.org/dc/elements/1.1/creator</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>dc-creator</oboInOwl:id>
+        <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_metadata_tag>
+        <oboInOwl:shorthand>dc-creator</oboInOwl:shorthand>
+        <rdfs:label>creator</rdfs:label>
+    </AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/date -->
+
+    <AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/date"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/date -->
+
+    <AnnotationProperty rdf:about="http://purl.org/dc/terms/date"/>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/definition_citation -->
+
+    <AnnotationProperty rdf:about="http://www.ebi.ac.uk/efo/definition_citation"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym -->
+
+    <AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym">
+        <rdfs:label>has_broad_synonym</rdfs:label>
+    </AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
+
+    <AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref">
+        <rdfs:label>database_cross_reference</rdfs:label>
+    </AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
+
+    <AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">
+        <obo:IAO_0000115>An alternative label for a given entity such as a commonly used abbreviation or synonym. </obo:IAO_0000115>
+        <rdfs:label>has_exact_synonym</rdfs:label>
+    </AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym -->
+
+    <AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym">
+        <rdfs:label>has_narrow_synonym</rdfs:label>
+    </AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasOBONamespace -->
+
+    <AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace">
+        <rdfs:label>has_obo_namespace</rdfs:label>
+    </AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym -->
+
+    <AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym">
+        <rdfs:label>has_related_synonym</rdfs:label>
+    </AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#id -->
+
+    <AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#inSubset -->
+
+    <AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset">
+        <rdfs:label>in_subset</rdfs:label>
+    </AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#is_metadata_tag -->
+
+    <AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#is_metadata_tag"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#shorthand -->
+
+    <AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#shorthand">
+        <rdfs:label>shorthand</rdfs:label>
+    </AnnotationProperty>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#comment -->
+
+    <AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#label -->
+
+    <AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#seeAlso -->
+
+    <AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#seeAlso">
+        <oboInOwl:hasDbXref>http://www.w3.org/2000/01/rdf-schema#seeAlso</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>seeAlso</oboInOwl:id>
+        <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_metadata_tag>
+        <oboInOwl:shorthand>seeAlso</oboInOwl:shorthand>
+        <rdfs:label>see also</rdfs:label>
+    </AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0008679 -->
+
+    <Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0008679">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0010183"/>
+        <obo:IAO_0000115>Cell expression by linear amplification and sequencing (CEL-Seq).</obo:IAO_0000115>
+        <obo:IAO_0000117>Dani Welter</obo:IAO_0000117>
+        <oboInOwl:hasDbXref>PMID:22939981</oboInOwl:hasDbXref>
+        <rdfs:label>CEL-seq</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0008720 -->
+
+    <Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0008720">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0010183"/>
+        <obo:IAO_0000115>Massively parallel sNuc-Seq with droplet technology.</obo:IAO_0000115>
+        <obo:IAO_0000117>Dani Welter</obo:IAO_0000117>
+        <oboInOwl:hasDbXref>PMID:28846088</oboInOwl:hasDbXref>
+        <rdfs:label>DroNc-seq</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0008722 -->
+
+    <Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0008722">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0010183"/>
+        <obo:IAO_0000115>Analyze mRNA transcripts from individual cells in droplets (Drop-seq).</obo:IAO_0000115>
+        <obo:IAO_0000117>Dani Welter</obo:IAO_0000117>
+        <oboInOwl:hasDbXref>PMID:26000488</oboInOwl:hasDbXref>
+        <rdfs:label>Drop-seq</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0008780 -->
+
+    <Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0008780">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0010183"/>
+        <obo:IAO_0000115>Indexing droplets (inDrop).</obo:IAO_0000115>
+        <obo:IAO_0000117>Dani Welter</obo:IAO_0000117>
+        <oboInOwl:hasDbXref>PMID:26000487</oboInOwl:hasDbXref>
+        <rdfs:label>inDrop</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0008796 -->
+
+    <Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0008796">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0010183"/>
+        <obo:IAO_0000115>Massively parallel RNA single-cell sequencing framework.</obo:IAO_0000115>
+        <obo:IAO_0000117>Dani Welter</obo:IAO_0000117>
+        <oboInOwl:hasDbXref>PMID:24531970</oboInOwl:hasDbXref>
+        <rdfs:label>MARS-seq</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0008877 -->
+
+    <Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0008877">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0010183"/>
+        <obo:IAO_0000115>Whole-transcript amplification for single-cells (Quartz-Seq).</obo:IAO_0000115>
+        <obo:IAO_0000117>Dani Welter</obo:IAO_0000117>
+        <oboInOwl:hasDbXref>PMID:23594475</oboInOwl:hasDbXref>
+        <rdfs:label>Quartz-seq</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0008904 -->
+
+    <Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0008904">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0010891"/>
+        <obo:IAO_0000115>A single cell ATAC-seq method for mapping single cell genomes for transposase-accessible chromatin. Single nuclei are isolated using a microfluidics platform such as Fluidigm C1.</obo:IAO_0000115>
+        <obo:IAO_0000117>Dani Welter</obo:IAO_0000117>
+        <oboInOwl:hasDbXref>PMID:26083756</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>single cell ATAC-seq (Microfluidics)</oboInOwl:hasExactSynonym>
+        <rdfs:label>scATAC-seq (Microfluidics)</rdfs:label>
+    </Class>
+    <Axiom>
+        <annotatedSource rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008904"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <annotatedTarget>A single cell ATAC-seq method for mapping single cell genomes for transposase-accessible chromatin. Single nuclei are isolated using a microfluidics platform such as Fluidigm C1.</annotatedTarget>
+        <oboInOwl:hasDbXref>http://orcid.org/0000-0001-7505-5418</oboInOwl:hasDbXref>
+    </Axiom>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0008905 -->
+
+    <Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0008905">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0010183"/>
+        <obo:IAO_0000115>Single-cell bisulfite sequencing (scBS-seq).</obo:IAO_0000115>
+        <obo:IAO_0000117>Dani Welter</obo:IAO_0000117>
+        <oboInOwl:hasDbXref>PMID:25042786</oboInOwl:hasDbXref>
+        <rdfs:label>scBS-seq</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0008906 -->
+
+    <Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0008906">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0010183"/>
+        <obo:IAO_0000115>Droplet-based single-cell ChIP-seq (Drop-ChIP).</obo:IAO_0000115>
+        <obo:IAO_0000117>Dani Welter</obo:IAO_0000117>
+        <oboInOwl:hasDbXref>PMID:26458175</oboInOwl:hasDbXref>
+        <rdfs:label>scChIP-seq</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0008919 -->
+
+    <Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0008919">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0010183"/>
+        <obo:IAO_0000115>Barcoded mRNA capture beads and single cells are sealed in an array of subnanoliter wells.</obo:IAO_0000115>
+        <obo:IAO_0000117>Dani Welter</obo:IAO_0000117>
+        <oboInOwl:hasDbXref>PMID:28192419</oboInOwl:hasDbXref>
+        <rdfs:label>Seq-Well</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0008925 -->
+
+    <Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0008925">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0010891"/>
+        <obo:IAO_0000115>A single cell ATAC-seq method for multiplex profiling of chromatin accessibility by combinatorial cellular indexing. Single nuclei are identified by the unique combination of n5 barcodes and indices rather than by isolation.</obo:IAO_0000115>
+        <obo:IAO_0000117>Dani Welter</obo:IAO_0000117>
+        <oboInOwl:hasDbXref>PMID:25953818</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>sci-ATAC-seq</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>single cell ATAC-seq (cell index)</oboInOwl:hasExactSynonym>
+        <rdfs:label>scATAC-seq (cell index)</rdfs:label>
+    </Class>
+    <Axiom>
+        <annotatedSource rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008925"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <annotatedTarget>A single cell ATAC-seq method for multiplex profiling of chromatin accessibility by combinatorial cellular indexing. Single nuclei are identified by the unique combination of n5 barcodes and indices rather than by isolation.</annotatedTarget>
+        <oboInOwl:hasDbXref>http://orcid.org/0000-0001-7505-5418</oboInOwl:hasDbXref>
+    </Axiom>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0008930 -->
+
+    <Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0008930">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0010184"/>
+        <obo:IAO_0000115>Switch mechanism at the 5’ end of RNA templates (Smart).</obo:IAO_0000115>
+        <obo:IAO_0000117>Dani Welter</obo:IAO_0000117>
+        <oboInOwl:hasDbXref>PMID:22820318</oboInOwl:hasDbXref>
+        <rdfs:label>Smart-seq</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0008931 -->
+
+    <Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0008931">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0010184"/>
+        <obo:IAO_0000115>Switch mechanism at the 5’ end of RNA templates (Smart). According to the authors, Smart-seq2 transcriptome libraries have improved detection, coverage, bias and accuracy compared to Smart-seq libraries, and are generated with off-the-shelf reagents at lower cost.</obo:IAO_0000115>
+        <obo:IAO_0000117>Dani Welter</obo:IAO_0000117>
+        <oboInOwl:hasDbXref>PMID:24056875</oboInOwl:hasDbXref>
+        <rdfs:label>Smart-seq2</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0008953 -->
+
+    <Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0008953">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0010183"/>
+        <obo:IAO_0000115>Single-cell tagged reverse transcription (STRT).</obo:IAO_0000115>
+        <obo:IAO_0000117>Dani Welter</obo:IAO_0000117>
+        <oboInOwl:hasDbXref>PMID:21543516</oboInOwl:hasDbXref>
+        <rdfs:label>STRT-seq</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0008995 -->
+
+    <Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0008995">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0010183"/>
+        <obo:IAO_0000115>10x is a &quot;synthetic long-read&quot; technology and works by capturing a barcoded oligo-coated gel-bead and 0.3x genome copies into a single emulsion droplet, processing the equivalent of 1 million pipetting steps. Successive versions of the 10x chemistry use different barcode locations to improve the sequencing yield and quality of 10x experiments.</obo:IAO_0000115>
+        <obo:IAO_0000117>Dani Welter</obo:IAO_0000117>
+        <oboInOwl:hasBroadSynonym>10X</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasBroadSynonym>10x</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasExactSynonym>10x Genomics</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>10x single cell library construction</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>10X sequencing</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>10x sequencing</oboInOwl:hasRelatedSynonym>
+        <rdfs:label>10x technology</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0009294 -->
+
+    <Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0009294">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0010183"/>
+        <obo:IAO_0000115>CITE-seq is a method in which oligonucleotide-labeled antibodies are used to integrate cellular protein and transcriptome measurements into an efficient, single-cell readout.</obo:IAO_0000115>
+        <obo:IAO_0000117>Dani Welter</obo:IAO_0000117>
+        <oboInOwl:hasDbXref>PMID:28759029</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>cellular indexing of transcriptomes and epitopes by sequencing</oboInOwl:hasExactSynonym>
+        <rdfs:label>CITE-seq</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0009899 -->
+
+    <Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0009899">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0030003"/>
+        <obo:IAO_0000115>10X 3&apos; v2 is the second version of the 10x sequencing technology that sequences from the 3&apos; end of nucleic acid molecules. In the 3&apos; assay, the polyd(T) sequence is part of the gel bead oligo (which also contains the 10x Barcode, UMI, and partial Illumina Read 1 sequence), with the template switch oligo (TSO) supplied in the RT Primer.</obo:IAO_0000115>
+        <obo:IAO_0000117>Dani Welter</obo:IAO_0000117>
+        <oboInOwl:hasExactSynonym>10X 3&apos; v2</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>10X 3&apos; v2 sequencing</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>10X v2</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>10X v2 sequencing</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>10XV2</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>10x 3&apos; v2 sequencing</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>10x v2</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>10x v2 sequencing</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>10x_v2</oboInOwl:hasRelatedSynonym>
+        <rdfs:label>10x 3&apos; v2</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0009900 -->
+
+    <Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0009900">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0030004"/>
+        <obo:IAO_0000115>10X 5&apos; v2 is the second version of the 10x sequencing technology that sequences from the 5&apos; end of nucleic acid molecules. In the 5&apos; assay, the polyd(T) is supplied in the RT Primer, and the template switch oligo (TSO) is part of the gel bead oligo.</obo:IAO_0000115>
+        <obo:IAO_0000117>Dani Welter</obo:IAO_0000117>
+        <oboInOwl:hasExactSynonym>10X 5&apos; v2</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>10X 5&apos; v2 sequencing</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>10x 5&apos; v2 sequencing</oboInOwl:hasRelatedSynonym>
+        <rdfs:label>10x 5&apos; v2</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0009901 -->
+
+    <Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0009901">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0030003"/>
+        <obo:IAO_0000115>10x 3&apos; v1 is the first version of the 10X sequencing technology that sequences from the 3&apos; end of nucleic acid molecules. Differs from 5&apos; v1 in the captured end from the polyadenylated transcript.</obo:IAO_0000115>
+        <obo:IAO_0000117>Dani Welter</obo:IAO_0000117>
+        <oboInOwl:hasExactSynonym>10X 3&apos; v1</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>10X 3&apos; v1 sequencing</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>10X v1</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>10XV1</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>10x 3&apos; v1 sequencing</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>10x v1</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>10x v1 sequencing</oboInOwl:hasRelatedSynonym>
+        <rdfs:label>10x 3&apos; v1</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0009919 -->
+
+    <Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0009919">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0010183"/>
+        <obo:IAO_0000115>Split-pool ligation-based transcriptome sequencing (SPLiT-seq) is a single-cell RNA-seq method that labels the cellular origin of RNA through combinatorial barcoding.</obo:IAO_0000115>
+        <obo:IAO_0000117>Dani Welter</obo:IAO_0000117>
+        <oboInOwl:hasDbXref>PMID:29545511</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>split-pool ligation-based transcriptome sequencing</oboInOwl:hasExactSynonym>
+        <rdfs:label>SPLiT-seq</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0009920 -->
+
+    <Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0009920">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0010183"/>
+        <obo:IAO_0000115>A method for transferring RNA from tissue sections onto a surface covered in DNA-barcoded beads with known positions, allowing the locations of the RNA to be inferred by sequencing.</obo:IAO_0000115>
+        <obo:IAO_0000117>Dani Welter</obo:IAO_0000117>
+        <oboInOwl:hasDbXref>PMID:29545511</oboInOwl:hasDbXref>
+        <rdfs:label>Slide-seq</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0009922 -->
+
+    <Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0009922">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0030003"/>
+        <obo:IAO_0000115>10X 3&apos; v3 is the third version of the 10x sequencing technology that sequences from the 3&apos; end of nucleic acid molecules.</obo:IAO_0000115>
+        <obo:IAO_0000117>Dani Welter</obo:IAO_0000117>
+        <oboInOwl:hasExactSynonym>10X 3&apos; v3</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>10X v3</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>10X v3 sequencing</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>10XV3</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>10x 3&apos; v3 sequencing</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>10x v3</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>10x v3 sequencing</oboInOwl:hasRelatedSynonym>
+        <rdfs:label>10x 3&apos; v3</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0009979 -->
+
+    <Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0009979">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0010183"/>
+        <obo:IAO_0000115>A single cell Hi-C assay.</obo:IAO_0000115>
+        <obo:IAO_0000117>Dani Welter</obo:IAO_0000117>
+        <rdfs:label>single cell Hi-C</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0010004 -->
+
+    <Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0010004">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0010183"/>
+        <obo:IAO_0000115>SCRB-Seq is a cost-efficient, multiplexed, single-cell mRNA sequencing technique.</obo:IAO_0000115>
+        <obo:IAO_0000117>Dani Welter</obo:IAO_0000117>
+        <oboInOwl:hasExactSynonym>Single cell RNA barcoding and sequencing</oboInOwl:hasExactSynonym>
+        <rdfs:label>SCRB-seq</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0010010 -->
+
+    <Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0010010">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0010183"/>
+        <obo:IAO_0000115>A modified version of CEL-Seq with higher sensitivity.</obo:IAO_0000115>
+        <obo:IAO_0000117>Dani Welter</obo:IAO_0000117>
+        <oboInOwl:hasDbXref>PMID:27121950</oboInOwl:hasDbXref>
+        <rdfs:label>CEL-seq2</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0010022 -->
+
+    <Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0010022">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0010184"/>
+        <obo:IAO_0000115>Method that accurately quantifies transcript abundance even with small amounts of total RNA and effectively characterizes small samples extracted by laser-capture microdissection (LCM) from FFPE tissue. Modified 3Seq method - omitted poly (A) enrichment and replaced dsDNA ligation with template-switching cDNA synthesis</obo:IAO_0000115>
+        <obo:IAO_0000117>Dani Welter</obo:IAO_0000117>
+        <oboInOwl:hasExactSynonym>Smart-3seq</oboInOwl:hasExactSynonym>
+        <rdfs:label>Smart-3SEQ</rdfs:label>
+    </Class>
+    <Axiom>
+        <annotatedSource rdf:resource="http://www.ebi.ac.uk/efo/EFO_0010022"/>
+        <annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <annotatedTarget>Smart-3seq</annotatedTarget>
+        <efo:definition_citation>PMID:31519740</efo:definition_citation>
+    </Axiom>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0010058 -->
+
+    <Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0010058">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0010183"/>
+        <obo:IAO_0000115>Dissociation of a sample into individual cells using the Fluidigm C1 platform. Cells are captured on the C1 system (Fluidigm) and processed using the SMARTer chemistry (Clontech) according to the Fluidigm protocol.</obo:IAO_0000115>
+        <obo:IAO_0000117>Dani Welter</obo:IAO_0000117>
+        <rdfs:label>Fluidigm C1-based library preparation</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0010183 -->
+
+    <Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0010183">
+        <obo:IAO_0000115>A library preparation process that starts from a single cell.</obo:IAO_0000115>
+        <dc:creator>Olamidipupo Ajigboye</dc:creator>
+        <oboInOwl:hasExactSynonym>single cell library preparation</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>single-cell library construction</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>single-cell library preparation</oboInOwl:hasExactSynonym>
+        <rdfs:label>single cell library construction</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0010184 -->
+
+    <Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0010184">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0010183"/>
+        <obo:IAO_0000115>Library construction method using the SMART (Switching Mechanism at the 5&apos; end of the RNA Template) or SMARTer technology, producing full-length cDNA libraries.</obo:IAO_0000115>
+        <dc:creator>Olamidipupo Ajigboye</dc:creator>
+        <rdfs:label>Smart-like</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0010550 -->
+
+    <Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0010550">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0010183"/>
+        <obo:IAO_0000115>The sci-RNA-seq uses the combinatorial indexing to identify single cells without single cell isolation. Two-level indexing (RT barcode + PCR barcodes (i5 + i7)) or three-level indexing (RT barcode + PCR barcodes (i5 + i7) + Tn5 barcodes) can be used. Three-level indexing is a bit more difficult since you need to assemble many indexed Tn5 transposomes.</obo:IAO_0000115>
+        <obo:IAO_0000117>Zoe May Pendlington</obo:IAO_0000117>
+        <oboInOwl:hasDbXref>PMID:28818938</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">sci-RNA-seq</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0010713 -->
+
+    <Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0010713">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008995"/>
+        <obo:IAO_0000115>This method creates libraries that can capture gene expression, V(D)J sequences and feature barcodes from the same cells depending on the type of enrichment used.</obo:IAO_0000115>
+        <obo:IAO_0000117>Zoe May Pendlington</obo:IAO_0000117>
+        <oboInOwl:hasExactSynonym xml:lang="en">10X Immune profiling</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>10X V(D)J</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>10X VDJ</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Chromium Single Cell V(D)J</oboInOwl:hasExactSynonym>
+        <rdfs:label>10x immune profiling</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0010714 -->
+
+    <Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0010714">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0010713"/>
+        <obo:IAO_0000115>This method enriches 10X 5&apos; gene expression libraries with alpha and beta chain T cell receptor (TCR) sequences using PCR primers.</obo:IAO_0000115>
+        <obo:IAO_0000117>Zoe May Pendlington</obo:IAO_0000117>
+        <oboInOwl:hasExactSynonym xml:lang="en">10X TCR enrichment</oboInOwl:hasExactSynonym>
+        <rdfs:label>10x TCR enrichment</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0010715 -->
+
+    <Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0010715">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0010713"/>
+        <obo:IAO_0000115>This method enriches 10X 5&apos; gene expression libraries with heavy and light chain Immunoglobulin (Ig) sequences from B cells using PCR primers.</obo:IAO_0000115>
+        <obo:IAO_0000117>Zoe May Pendlington</obo:IAO_0000117>
+        <oboInOwl:hasExactSynonym>10X BCR enrichment</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">10X Ig enrichment</oboInOwl:hasExactSynonym>
+        <rdfs:label>10x Ig enrichment</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0010891 -->
+
+    <Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0010891">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0010183"/>
+        <obo:IAO_0000115>A method for detecting the accessible chromatin in individual cells by transposase-accessible chromatin sequencing assay.</obo:IAO_0000115>
+        <dc:creator>paola</dc:creator>
+        <oboInOwl:hasDbXref>http://orcid.org/0000-0002-8674-0039</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/w/index.php?title=ATAC-seq&amp;oldid=984332600#Single-cell_ATAC-seq</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>ATAC-seq (single cell)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>single cell ATAC-seq</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>single cell ATAC-sequencing</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>single cell assay for transposase-accessible chromatin using sequencing</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>single-cell ATAC-seq</oboInOwl:hasExactSynonym>
+        <rdfs:label>scATAC-seq</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0010961 -->
+
+    <Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0010961">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008995"/>
+        <obo:IAO_0000115>A spatial transcriptomics method developed by 10x Genomics that measures either the whole transcriptome or a defined set of transcripts in intact tissue sections and maps where gene activity is occurring.</obo:IAO_0000115>
+        <dc:creator>paola</dc:creator>
+        <oboInOwl:hasExactSynonym>10X Visium</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Visium</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://www.ebi.ac.uk/efo/added_for_HCA"/>
+        <rdfs:label>Visium Spatial Gene Expression</rdfs:label>
+    </Class>
+    <Axiom>
+        <annotatedSource rdf:resource="http://www.ebi.ac.uk/efo/EFO_0010961"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <annotatedTarget>A spatial transcriptomics method developed by 10x Genomics that measures either the whole transcriptome or a defined set of transcripts in intact tissue sections and maps where gene activity is occurring.</annotatedTarget>
+        <oboInOwl:hasDbXref>http://orcid.org/0000-0001-7505-5418</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://pages.10xgenomics.com/rs/446-PBO-704/images/10x_LIT059_ProductSheet_VisiumSpatialGeneExpression_Letter_digital.pdf</oboInOwl:hasDbXref>
+    </Axiom>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0010964 -->
+
+    <Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0010964">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0010183"/>
+        <obo:IAO_0000115>A single-cell RNA sequencing library construction method that generates barcoded libraries and is plate-based. An example would be a plate-based method that is not Smart-seq2 or a modified, barcoded version of Smart-seq2.</obo:IAO_0000115>
+        <dc:creator>paola</dc:creator>
+        <oboInOwl:hasExactSynonym>barcoded plate-based single-cell RNA-seq</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://www.ebi.ac.uk/efo/added_for_HCA"/>
+        <rdfs:label>barcoded plate-based single cell RNA-seq</rdfs:label>
+    </Class>
+    <Axiom>
+        <annotatedSource rdf:resource="http://www.ebi.ac.uk/efo/EFO_0010964"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <annotatedTarget>A single-cell RNA sequencing library construction method that generates barcoded libraries and is plate-based. An example would be a plate-based method that is not Smart-seq2 or a modified, barcoded version of Smart-seq2.</annotatedTarget>
+        <oboInOwl:hasDbXref>http://orcid.org/0000-0002-2443-7325</oboInOwl:hasDbXref>
+    </Axiom>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0011025 -->
+
+    <Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0011025">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0030004"/>
+        <obo:IAO_0000115>10x 5&apos; v1 is the first version of the 10X sequencing technology that sequences from the 5&apos; end of nucleic acid molecules. Differs from 3&apos; v1 in the captured end from the polyadenylated transcript.</obo:IAO_0000115>
+        <dc:creator>paola</dc:creator>
+        <oboInOwl:hasExactSynonym>10X 5&apos; v1</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>10x 5&apos; v1</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>10X 5&apos; v3</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>10x 5&apos; v1 sequencing</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>10x 5&apos; v3</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>10x 5&apos; v3 sequencing</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>10x v1 5&apos; sequencing</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:inSubset rdf:resource="http://www.ebi.ac.uk/efo/added_for_HCA"/>
+        <rdfs:label>10x 5&apos; v1</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0022045 -->
+
+    <Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0022045">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0010891"/>
+        <obo:IAO_0000115>A single cell plate-based three-level combinatorial indexing assay that measures chromatin accessibility. The first two rounds of split-pool indexing are achieved by successive ligations to each end of the Tn5 transposase complex, and the third round remains through PCR. The protocol no longer requires cell sorting and has been optimized to maximize recovery of fragments per cell.</obo:IAO_0000115>
+        <dc:creator>Zoe May Pendlington</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-01-03T10:14:49Z</dc:date>
+        <rdfs:label xml:lang="en">sci-ATAC-seq3</rdfs:label>
+    </Class>
+    <Axiom>
+        <annotatedSource rdf:resource="http://www.ebi.ac.uk/efo/EFO_0022045"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <annotatedTarget>A single cell plate-based three-level combinatorial indexing assay that measures chromatin accessibility. The first two rounds of split-pool indexing are achieved by successive ligations to each end of the Tn5 transposase complex, and the third round remains through PCR. The protocol no longer requires cell sorting and has been optimized to maximize recovery of fragments per cell.</annotatedTarget>
+        <efo:definition_citation>PMID:33184180</efo:definition_citation>
+        <efo:definition_citation>https://orcid.org/0000-0003-4389-9821</efo:definition_citation>
+    </Axiom>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0022488 -->
+
+    <Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0022488">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0010184"/>
+        <obo:IAO_0000115>Smart-seq3 is an advanced single-cell RNA sequencing technology that provides full-length transcriptome coverage. It incorporates a 5&apos; unique molecular identifier (UMI) RNA counting strategy, allowing for the in silico reconstruction of thousands of RNA molecules per cell. This method enhances transcript quantification accuracy and enables the detailed study of allele- and isoform-resolution within single cells. Smart-seq3 is particularly noted for its high sensitivity and ability to reconstruct the full-length transcripts of single cells
+
+Smart-seq3 is a continuation and improvement of the Smart-seq technology, specifically Smart-seq2.</obo:IAO_0000115>
+        <dc:creator>Zoe May Pendlington</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-11-28T13:49:20Z</dc:date>
+        <rdfs:label xml:lang="en">Smart-seq3</rdfs:label>
+    </Class>
+    <Axiom>
+        <annotatedSource rdf:resource="http://www.ebi.ac.uk/efo/EFO_0022488"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <annotatedTarget>Smart-seq3 is an advanced single-cell RNA sequencing technology that provides full-length transcriptome coverage. It incorporates a 5&apos; unique molecular identifier (UMI) RNA counting strategy, allowing for the in silico reconstruction of thousands of RNA molecules per cell. This method enhances transcript quantification accuracy and enables the detailed study of allele- and isoform-resolution within single cells. Smart-seq3 is particularly noted for its high sensitivity and ability to reconstruct the full-length transcripts of single cells
+
+Smart-seq3 is a continuation and improvement of the Smart-seq technology, specifically Smart-seq2.</annotatedTarget>
+        <efo:definition_citation>PMID:32518404</efo:definition_citation>
+        <efo:definition_citation>PMID:37953195</efo:definition_citation>
+    </Axiom>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0022490 -->
+
+    <Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0022490">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0010183"/>
+        <obo:IAO_0000115>ScaleBio technology that utilizes a plate-based approach with combinatorial indexing to generate single cell libraries.</obo:IAO_0000115>
+        <dc:creator>Zoe May Pendlington</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-01-10T09:12:40Z</dc:date>
+        <rdfs:label xml:lang="en">ScaleBio single cell RNA sequencing</rdfs:label>
+    </Class>
+    <Axiom>
+        <annotatedSource rdf:resource="http://www.ebi.ac.uk/efo/EFO_0022490"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <annotatedTarget>ScaleBio technology that utilizes a plate-based approach with combinatorial indexing to generate single cell libraries.</annotatedTarget>
+        <efo:definition_citation>https://scale.bio/wp-content/uploads/2023/06/ScaleBio_Poster_scRNA-scATAC.pdf</efo:definition_citation>
+    </Axiom>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0022492 -->
+
+    <Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0022492">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0010183"/>
+        <obo:IAO_0000115>A method to jointly profile chromatin conformation and cytosine DNA methylation from the same cell.</obo:IAO_0000115>
+        <dc:creator>Zoe May Pendlington</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-01-11T09:24:17Z</dc:date>
+        <oboInOwl:hasExactSynonym>sn-m3C-seq</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">snm3C-seq</rdfs:label>
+    </Class>
+    <Axiom>
+        <annotatedSource rdf:resource="http://www.ebi.ac.uk/efo/EFO_0022492"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <annotatedTarget>A method to jointly profile chromatin conformation and cytosine DNA methylation from the same cell.</annotatedTarget>
+        <efo:definition_citation>PMID:31501549</efo:definition_citation>
+        <efo:definition_citation>https://orcid.org/0000-0003-4389-9821</efo:definition_citation>
+    </Axiom>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0030001 -->
+
+    <Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0030001">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0010183"/>
+        <obo:IAO_0000115>A combinatorial indexing-based coassay that jointly profiles chromatin accessibility and mRNA (CAR) in each of thousands of single cells, combining sci–ATAC sequencing (sci-ATAC-seq) and sci-RNA-seq into a single protocol.</obo:IAO_0000115>
+        <dc:creator>paola</dc:creator>
+        <oboInOwl:hasExactSynonym>single-cell combinatorial indexing chromatin accessibility and mRNA profiling</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://www.ebi.ac.uk/efo/added_for_HCA"/>
+        <rdfs:label>sci-CAR</rdfs:label>
+    </Class>
+    <Axiom>
+        <annotatedSource rdf:resource="http://www.ebi.ac.uk/efo/EFO_0030001"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <annotatedTarget>A combinatorial indexing-based coassay that jointly profiles chromatin accessibility and mRNA (CAR) in each of thousands of single cells, combining sci–ATAC sequencing (sci-ATAC-seq) and sci-RNA-seq into a single protocol.</annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:30166440</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://orcid.org/0000-0002-3163-0115</oboInOwl:hasDbXref>
+    </Axiom>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0030002 -->
+
+    <Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0030002">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0010183"/>
+        <obo:IAO_0000115>A platform for high-throughput single-cell RNA-sequencing. An agarose plate with microwells is used to trap 5-10K individual cells. Barcoded magnetic beads are loaded and trapped into each well. Each single bead is conjugated with 107–108 oligonucleotides, which share the same cellular barcode. Each oligonucleotide consists of a primer sequence, a cell barcode, a unique molecular identifier (UMI), and a poly T tail. After incubation of beads and cells in a soft flow of lysis buffer, beads with captured mRNA are retrieved with a magnet. Beads are collected in a tube in which reverse transcription and template switch steps are performed using the Smart-seq2 protocol (Picelli et al., 2013). Amplified cDNA is fragmented by a customized transposase that carries two identical insertion sequences. The 3′ ends of the transcripts are then enriched during library generation using PCR and sequenced using an Illumina Sequencing Platform.</obo:IAO_0000115>
+        <dc:creator>paola</dc:creator>
+        <oboInOwl:hasExactSynonym>Microwell-Seq</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://www.ebi.ac.uk/efo/added_for_HCA"/>
+        <rdfs:label>microwell-seq</rdfs:label>
+    </Class>
+    <Axiom>
+        <annotatedSource rdf:resource="http://www.ebi.ac.uk/efo/EFO_0030002"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <annotatedTarget>A platform for high-throughput single-cell RNA-sequencing. An agarose plate with microwells is used to trap 5-10K individual cells. Barcoded magnetic beads are loaded and trapped into each well. Each single bead is conjugated with 107–108 oligonucleotides, which share the same cellular barcode. Each oligonucleotide consists of a primer sequence, a cell barcode, a unique molecular identifier (UMI), and a poly T tail. After incubation of beads and cells in a soft flow of lysis buffer, beads with captured mRNA are retrieved with a magnet. Beads are collected in a tube in which reverse transcription and template switch steps are performed using the Smart-seq2 protocol (Picelli et al., 2013). Amplified cDNA is fragmented by a customized transposase that carries two identical insertion sequences. The 3′ ends of the transcripts are then enriched during library generation using PCR and sequenced using an Illumina Sequencing Platform.</annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:29474909</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://orcid.org/0000-0002-2443-7325</oboInOwl:hasDbXref>
+    </Axiom>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0030003 -->
+
+    <Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0030003">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0030080"/>
+        <obo:IAO_0000115>10x 3&apos; transcription profiling is the 10x-based single-cell technology that sequences mRNA molecules from their 3&apos; end.</obo:IAO_0000115>
+        <dc:creator>paola</dc:creator>
+        <rdfs:label>10x 3&apos; transcription profiling</rdfs:label>
+    </Class>
+    <Axiom>
+        <annotatedSource rdf:resource="http://www.ebi.ac.uk/efo/EFO_0030003"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <annotatedTarget>10x 3&apos; transcription profiling is the 10x-based single-cell technology that sequences mRNA molecules from their 3&apos; end.</annotatedTarget>
+        <oboInOwl:hasDbXref>https://orcid.org/0000-0002-8674-0039</oboInOwl:hasDbXref>
+    </Axiom>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0030004 -->
+
+    <Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0030004">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0030080"/>
+        <obo:IAO_0000115>10x 5&apos; transcription profiling is the 10x-based single-cell technology that sequences mRNA molecules from their 5&apos; end.</obo:IAO_0000115>
+        <dc:creator>paola</dc:creator>
+        <rdfs:label>10x 5&apos; transcription profiling</rdfs:label>
+    </Class>
+    <Axiom>
+        <annotatedSource rdf:resource="http://www.ebi.ac.uk/efo/EFO_0030004"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <annotatedTarget>10x 5&apos; transcription profiling is the 10x-based single-cell technology that sequences mRNA molecules from their 5&apos; end.</annotatedTarget>
+        <oboInOwl:hasDbXref>https://orcid.org/0000-0002-8674-0039</oboInOwl:hasDbXref>
+    </Axiom>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0030007 -->
+
+    <Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0030007">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008995"/>
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0010891"/>
+        <obo:IAO_0000115>A single cell ATAC-seq method for profiling of chromatin accessibility. For library construction, single cells or single nuclei are isolated into droplets using 10x Chromium technnolgy.</obo:IAO_0000115>
+        <dc:creator>paolaroncaglia</dc:creator>
+        <rdfs:label>10x scATAC-seq</rdfs:label>
+    </Class>
+    <Axiom>
+        <annotatedSource rdf:resource="http://www.ebi.ac.uk/efo/EFO_0030007"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <annotatedTarget>A single cell ATAC-seq method for profiling of chromatin accessibility. For library construction, single cells or single nuclei are isolated into droplets using 10x Chromium technnolgy.</annotatedTarget>
+        <oboInOwl:hasDbXref>http://orcid.org/0000-0002-8674-0039</oboInOwl:hasDbXref>
+    </Axiom>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0030008 -->
+
+    <Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0030008">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0009294"/>
+        <obo:IAO_0000115>The use of CITE-seq technology with the purpose of quantifying cell surface protein expression in addition to transcriptomic readout in single cells.</obo:IAO_0000115>
+        <dc:creator>paolaroncaglia</dc:creator>
+        <rdfs:label>CITE-seq (cell surface protein profiling)</rdfs:label>
+    </Class>
+    <Axiom>
+        <annotatedSource rdf:resource="http://www.ebi.ac.uk/efo/EFO_0030008"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <annotatedTarget>The use of CITE-seq technology with the purpose of quantifying cell surface protein expression in addition to transcriptomic readout in single cells.</annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:30567574</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>http://orcid.org/0000-0002-8674-0039</oboInOwl:hasDbXref>
+    </Axiom>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0030009 -->
+
+    <Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0030009">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0009294"/>
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0030077"/>
+        <obo:IAO_0000115>The use of CITE-seq technology with the purpose of multiplexing single-cell samples from different sources.</obo:IAO_0000115>
+        <dc:creator>paolaroncaglia</dc:creator>
+        <rdfs:label>CITE-seq (sample multiplexing)</rdfs:label>
+    </Class>
+    <Axiom>
+        <annotatedSource rdf:resource="http://www.ebi.ac.uk/efo/EFO_0030009"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <annotatedTarget>The use of CITE-seq technology with the purpose of multiplexing single-cell samples from different sources.</annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:30567574</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>http://orcid.org/0000-0002-8674-0039</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://orcid.org/0000-0002-3564-4813</oboInOwl:hasDbXref>
+    </Axiom>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0030010 -->
+
+    <Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0030010">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008995"/>
+        <obo:IAO_0000115>10x feature barcode technology is a method for adding extra channels of information to cells by running single-cell gene expression in parallel with other assays. This is done by generating additional sequencing libraries within the same droplet containing a single cell. The readout of these libraries are known oligonucleotides that are coupled to cell surface proteins antibodies or sgRNAs.</obo:IAO_0000115>
+        <dc:creator>paolaroncaglia</dc:creator>
+        <rdfs:label>10x feature profiling</rdfs:label>
+    </Class>
+    <Axiom>
+        <annotatedSource rdf:resource="http://www.ebi.ac.uk/efo/EFO_0030010"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <annotatedTarget>10x feature barcode technology is a method for adding extra channels of information to cells by running single-cell gene expression in parallel with other assays. This is done by generating additional sequencing libraries within the same droplet containing a single cell. The readout of these libraries are known oligonucleotides that are coupled to cell surface proteins antibodies or sgRNAs.</annotatedTarget>
+        <oboInOwl:hasDbXref>http://orcid.org/0000-0002-8674-0039</oboInOwl:hasDbXref>
+    </Axiom>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0030011 -->
+
+    <Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0030011">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0030010"/>
+        <obo:IAO_0000115>The use of 10x Genomics feature barcode technology with the purpose of quantifying cell surface protein expression in addition to transcriptomic readout in single cells.</obo:IAO_0000115>
+        <dc:creator>paolaroncaglia</dc:creator>
+        <rdfs:label>10x feature barcode (cell surface protein profiling)</rdfs:label>
+    </Class>
+    <Axiom>
+        <annotatedSource rdf:resource="http://www.ebi.ac.uk/efo/EFO_0030011"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <annotatedTarget>The use of 10x Genomics feature barcode technology with the purpose of quantifying cell surface protein expression in addition to transcriptomic readout in single cells.</annotatedTarget>
+        <oboInOwl:hasDbXref>http://orcid.org/0000-0002-8674-0039</oboInOwl:hasDbXref>
+    </Axiom>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0030012 -->
+
+    <Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0030012">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0030010"/>
+        <obo:IAO_0000115>The use of 10x Genomics feature barcode technology with the purpose of multiplexing single-cell samples from different sources.</obo:IAO_0000115>
+        <dc:creator>paolaroncaglia</dc:creator>
+        <rdfs:label>10x feature barcode (sample multiplexing)</rdfs:label>
+    </Class>
+    <Axiom>
+        <annotatedSource rdf:resource="http://www.ebi.ac.uk/efo/EFO_0030012"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <annotatedTarget>The use of 10x Genomics feature barcode technology with the purpose of multiplexing single-cell samples from different sources.</annotatedTarget>
+        <oboInOwl:hasDbXref>http://orcid.org/0000-0002-8674-0039</oboInOwl:hasDbXref>
+    </Axiom>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0030013 -->
+
+    <Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0030013">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0030010"/>
+        <obo:IAO_0000115>The use of 10x Genomics feature barcode technology with the purpose of performing a CRISPR screening.</obo:IAO_0000115>
+        <dc:creator>paolaroncaglia</dc:creator>
+        <rdfs:label>10x feature barcode (CRISPR screening)</rdfs:label>
+    </Class>
+    <Axiom>
+        <annotatedSource rdf:resource="http://www.ebi.ac.uk/efo/EFO_0030013"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <annotatedTarget>The use of 10x Genomics feature barcode technology with the purpose of performing a CRISPR screening.</annotatedTarget>
+        <oboInOwl:hasDbXref>http://orcid.org/0000-0002-8674-0039</oboInOwl:hasDbXref>
+    </Axiom>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0030019 -->
+
+    <Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0030019">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008919"/>
+        <obo:IAO_0000115>Seq-Well with second strand synthesis.</obo:IAO_0000115>
+        <dc:creator>paola</dc:creator>
+        <oboInOwl:hasExactSynonym>Seq-Well S^3</oboInOwl:hasExactSynonym>
+        <rdfs:label>Seq-Well S3</rdfs:label>
+    </Class>
+    <Axiom>
+        <annotatedSource rdf:resource="http://www.ebi.ac.uk/efo/EFO_0030019"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <annotatedTarget>Seq-Well with second strand synthesis.</annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:33053333</oboInOwl:hasDbXref>
+    </Axiom>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0030021 -->
+
+    <Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0030021">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0010183"/>
+        <obo:IAO_0000115>Next generation one-cell sequencing (Nx1-seq) is a single cell transcriptomic library preparation method which conjugates polystyrene beads to barcode nucleotides by means of emulsion PCR using oligo-dTs. The beads are mixed on a chamber slide containing PDMS microwells which fit one cell per well. The slide is then washed with a cell suspension to capture and barcode individual cells.</obo:IAO_0000115>
+        <dc:creator>paola</dc:creator>
+        <oboInOwl:hasExactSynonym>next generation one-cell sequencing</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://www.ebi.ac.uk/efo/added_for_HCA"/>
+        <rdfs:label>Nx1-seq</rdfs:label>
+    </Class>
+    <Axiom>
+        <annotatedSource rdf:resource="http://www.ebi.ac.uk/efo/EFO_0030021"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <annotatedTarget>Next generation one-cell sequencing (Nx1-seq) is a single cell transcriptomic library preparation method which conjugates polystyrene beads to barcode nucleotides by means of emulsion PCR using oligo-dTs. The beads are mixed on a chamber slide containing PDMS microwells which fit one cell per well. The slide is then washed with a cell suspension to capture and barcode individual cells.</annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:30968360</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://orcid.org/0000-0002-7431-4139</oboInOwl:hasDbXref>
+    </Axiom>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0030026 -->
+
+    <Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0030026">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0010550"/>
+        <obo:IAO_0000115>The combination of nuclear hashing and sci-RNA-seq into a single workflow for multiplex transcriptomics, enabling the capture of gene expression profiles from thousands of experimental conditions in a single experiment.</obo:IAO_0000115>
+        <dc:creator>paola</dc:creator>
+        <rdfs:label>sci-Plex</rdfs:label>
+    </Class>
+    <Axiom>
+        <annotatedSource rdf:resource="http://www.ebi.ac.uk/efo/EFO_0030026"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <annotatedTarget>The combination of nuclear hashing and sci-RNA-seq into a single workflow for multiplex transcriptomics, enabling the capture of gene expression profiles from thousands of experimental conditions in a single experiment.</annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:31806696</oboInOwl:hasDbXref>
+    </Axiom>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0030027 -->
+
+    <Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0030027">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0010183"/>
+        <obo:IAO_0000115>A protocol for single nucleus methylcytosine sequencing. snmC-seq2 provides improved read mapping, reduced artifactual reads, enhanced throughput, as well as increased library complexity and coverage uniformity compared to snmC-seq.</obo:IAO_0000115>
+        <dc:creator>paola</dc:creator>
+        <oboInOwl:hasExactSynonym>single nucleus methylcytosine sequencing v2</oboInOwl:hasExactSynonym>
+        <rdfs:label>snmC-Seq2</rdfs:label>
+    </Class>
+    <Axiom>
+        <annotatedSource rdf:resource="http://www.ebi.ac.uk/efo/EFO_0030027"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <annotatedTarget>A protocol for single nucleus methylcytosine sequencing. snmC-seq2 provides improved read mapping, reduced artifactual reads, enhanced throughput, as well as increased library complexity and coverage uniformity compared to snmC-seq.</annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:30237449</oboInOwl:hasDbXref>
+    </Axiom>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0030028 -->
+
+    <Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0030028">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0010550"/>
+        <obo:IAO_0000115>Single-cell combinatorial indexing (‘sci-’) is a methodological framework that employs split-pool barcoding to uniquely label the nucleic acid contents of large numbers of single cells or nuclei. The sci-RNA-seq3 is an updated version of sci-RNA-seq. The major improvements are: (1) nuclei are extracted directly from fresh tissues without enzymatic treatment; (2) hairpin ligation for the third level indexing (barcoded Tn5 tagmentation was used in the previous version); (3) individually optimised enzymatic reactions; (4) FACS was replaced by dilution, and sonication and filtration steps were added to minimize aggregation.</obo:IAO_0000115>
+        <dc:creator>paola</dc:creator>
+        <oboInOwl:hasExactSynonym>Sci-RNA-Seq3</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>sci-RNA-Seq3</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://www.ebi.ac.uk/efo/added_for_HCA"/>
+        <rdfs:label>sci-RNA-seq3</rdfs:label>
+    </Class>
+    <Axiom>
+        <annotatedSource rdf:resource="http://www.ebi.ac.uk/efo/EFO_0030028"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <annotatedTarget>Single-cell combinatorial indexing (‘sci-’) is a methodological framework that employs split-pool barcoding to uniquely label the nucleic acid contents of large numbers of single cells or nuclei. The sci-RNA-seq3 is an updated version of sci-RNA-seq. The major improvements are: (1) nuclei are extracted directly from fresh tissues without enzymatic treatment; (2) hairpin ligation for the third level indexing (barcoded Tn5 tagmentation was used in the previous version); (3) individually optimised enzymatic reactions; (4) FACS was replaced by dilution, and sonication and filtration steps were added to minimize aggregation.</annotatedTarget>
+        <oboInOwl:hasDbXref>DOI:10.17504/protocols.io.9yih7ue</oboInOwl:hasDbXref>
+    </Axiom>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0030031 -->
+
+    <Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0030031">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0010183"/>
+        <obo:IAO_0000115>The SCOPE-chip captures single cells by partitioning them into hundreds of thousands of microwells on the chip following the Poisson distribution. Afterwards, an excess of Barcoding Beads is added to the microwells of the chip; the diameter of the beads versus that of the microwells ensuring that only one Barcoding Bead falls into each microwell. After cell lysis, Barcoding Beads, each with a unique cell label (Barcode), capture mRNA by binding to the poly (A) tail. Barcoding Beads are subsequently collected from the microwell chip, followed by reverse transcription of the mRNA captured by the Barcoding Beads into cDNA, and subsequent PCR amplification. The amplified cDNA is then fragmented and ligated with sequencing adapters. The end result is an NGS library that is compatible with Illumina sequencing instruments, that can also be run on Pacbio and MGI sequencing platforms with minor modifications.</obo:IAO_0000115>
+        <dc:creator>paola</dc:creator>
+        <oboInOwl:hasExactSynonym>GEXSCOPE</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://www.ebi.ac.uk/efo/added_for_HCA"/>
+        <rdfs:label>SCOPE-chip</rdfs:label>
+    </Class>
+    <Axiom>
+        <annotatedSource rdf:resource="http://www.ebi.ac.uk/efo/EFO_0030031"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <annotatedTarget>The SCOPE-chip captures single cells by partitioning them into hundreds of thousands of microwells on the chip following the Poisson distribution. Afterwards, an excess of Barcoding Beads is added to the microwells of the chip; the diameter of the beads versus that of the microwells ensuring that only one Barcoding Bead falls into each microwell. After cell lysis, Barcoding Beads, each with a unique cell label (Barcode), capture mRNA by binding to the poly (A) tail. Barcoding Beads are subsequently collected from the microwell chip, followed by reverse transcription of the mRNA captured by the Barcoding Beads into cDNA, and subsequent PCR amplification. The amplified cDNA is then fragmented and ligated with sequencing adapters. The end result is an NGS library that is compatible with Illumina sequencing instruments, that can also be run on Pacbio and MGI sequencing platforms with minor modifications.</annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:34326696</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>http://orcid.org/0000-0002-3163-0115</oboInOwl:hasDbXref>
+    </Axiom>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0030059 -->
+
+    <Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0030059">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008995"/>
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0010891"/>
+        <obo:IAO_0000115>Simultaneous profiling of gene expression and open chromatin from the same cell.</obo:IAO_0000115>
+        <dc:creator>paola</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-12-13T15:33:28Z</dc:date>
+        <oboInOwl:hasExactSynonym>Chromium Single Cell Multiome ATAC + Gene Expression</oboInOwl:hasExactSynonym>
+        <rdfs:label>10x multiome</rdfs:label>
+    </Class>
+    <Axiom>
+        <annotatedSource rdf:resource="http://www.ebi.ac.uk/efo/EFO_0030059"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <annotatedTarget>Simultaneous profiling of gene expression and open chromatin from the same cell.</annotatedTarget>
+        <oboInOwl:hasDbXref>http://orcid.org/0000-0002-1196-4871</oboInOwl:hasDbXref>
+    </Axiom>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0030060 -->
+
+    <Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0030060">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0010183"/>
+        <obo:IAO_0000115>A method that can jointly capture cytosine DNA methylome (5mC) and transcriptome profiles from single cells/nuclei by partitioning RNA and DNA molecules through the incorporation of 5’-methyl-dCTP instead of dCTP during reverse transcription of RNA.</obo:IAO_0000115>
+        <dc:creator>paola</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-12-13T15:37:28Z</dc:date>
+        <oboInOwl:hasExactSynonym>methylcytosine and transcriptome sequencing</oboInOwl:hasExactSynonym>
+        <rdfs:label>mCT-seq</rdfs:label>
+    </Class>
+    <Axiom>
+        <annotatedSource rdf:resource="http://www.ebi.ac.uk/efo/EFO_0030060"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <annotatedTarget>A method that can jointly capture cytosine DNA methylome (5mC) and transcriptome profiles from single cells/nuclei by partitioning RNA and DNA molecules through the incorporation of 5’-methyl-dCTP instead of dCTP during reverse transcription of RNA.</annotatedTarget>
+        <oboInOwl:hasDbXref>http://orcid.org/0000-0002-1196-4871</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://www.biorxiv.org/content/10.1101/434845v1</oboInOwl:hasDbXref>
+    </Axiom>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0030061 -->
+
+    <Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0030061">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0010004"/>
+        <obo:IAO_0000115>A single-cell RNA barcoding and sequencing protocol with increased sensitivity through the addition of polyethylene glycol (PEG 8000). PEG 8000 increases the cDNA yield by reducing the effective reaction volume.</obo:IAO_0000115>
+        <dc:creator>paola</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-12-13T15:39:50Z</dc:date>
+        <oboInOwl:hasExactSynonym>molecular crowding single-cell RNA barcoding and sequencing</oboInOwl:hasExactSynonym>
+        <rdfs:label>mcSCRB-seq</rdfs:label>
+    </Class>
+    <Axiom>
+        <annotatedSource rdf:resource="http://www.ebi.ac.uk/efo/EFO_0030061"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <annotatedTarget>A single-cell RNA barcoding and sequencing protocol with increased sensitivity through the addition of polyethylene glycol (PEG 8000). PEG 8000 increases the cDNA yield by reducing the effective reaction volume.</annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:30050112</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>http://orcid.org/0000-0002-1196-4871</oboInOwl:hasDbXref>
+    </Axiom>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0030062 -->
+
+    <Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0030062">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0010183"/>
+        <obo:IAO_0000115>More sensitive version of the Slide-seq method for transferring RNA from tissue sections onto a surface covered in DNA-barcoded beads with known positions, which differs from Slide-seq in the use of a monobase encoding scheme with sequencing by ligation using sequential interrogation by offset primer, and improved parameters for split-pool synthesis of barcoded beads.</obo:IAO_0000115>
+        <dc:creator>paola</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-12-16T08:53:05Z</dc:date>
+        <rdfs:label>Slide-seqV2</rdfs:label>
+    </Class>
+    <Axiom>
+        <annotatedSource rdf:resource="http://www.ebi.ac.uk/efo/EFO_0030062"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <annotatedTarget>More sensitive version of the Slide-seq method for transferring RNA from tissue sections onto a surface covered in DNA-barcoded beads with known positions, which differs from Slide-seq in the use of a monobase encoding scheme with sequencing by ligation using sequential interrogation by offset primer, and improved parameters for split-pool synthesis of barcoded beads.</annotatedTarget>
+        <oboInOwl:hasDbXref>http://orcid.org/0000-0001-8134-3037</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://www.biorxiv.org/content/10.1101/2020.03.12.989806v1</oboInOwl:hasDbXref>
+    </Axiom>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0030074 -->
+
+    <Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0030074">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0010010"/>
+        <obo:IAO_0000115>A partially robotized version of the CEL-seq2 protocol that uses FACS to sort single cells into the wells of a 384-well cell-capture plate. Each well in the plate contains barcoded primers and other reagents. This sorting step makes it possible to analyze live single cells, or any other particular population of interest.</obo:IAO_0000115>
+        <dc:creator>paola</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-02-10T10:54:11Z</dc:date>
+        <oboInOwl:hasExactSynonym>Sort-seq</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>sorting and robot-assisted transcriptome sequencing</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://www.ebi.ac.uk/efo/added_for_HCA"/>
+        <rdfs:label>SORT-seq</rdfs:label>
+    </Class>
+    <Axiom>
+        <annotatedSource rdf:resource="http://www.ebi.ac.uk/efo/EFO_0030074"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <annotatedTarget>A partially robotized version of the CEL-seq2 protocol that uses FACS to sort single cells into the wells of a 384-well cell-capture plate. Each well in the plate contains barcoded primers and other reagents. This sorting step makes it possible to analyze live single cells, or any other particular population of interest.</annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:27693023</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>http://orcid.org/0000-0003-4554-9040</oboInOwl:hasDbXref>
+    </Axiom>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0030077 -->
+
+    <Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0030077">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0010183"/>
+        <obo:IAO_0000115>A single cell library construction process that involves labelling cells with sample-specific oligonucleotides, typically through antibody- or lipid-based reagents, such that cells from distinct samples can be pooled together for single-cell sequencing. This multiplexed approach increases throughput, eliminates batch effects, and enables detection of multiplets.</obo:IAO_0000115>
+        <dc:creator>paolaroncaglia</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-03-08T13:47:11Z</dc:date>
+        <oboInOwl:hasNarrowSynonym>CellPlex</oboInOwl:hasNarrowSynonym>
+        <rdfs:label xml:lang="en">cell hashing</rdfs:label>
+    </Class>
+    <Axiom>
+        <annotatedSource rdf:resource="http://www.ebi.ac.uk/efo/EFO_0030077"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <annotatedTarget>A single cell library construction process that involves labelling cells with sample-specific oligonucleotides, typically through antibody- or lipid-based reagents, such that cells from distinct samples can be pooled together for single-cell sequencing. This multiplexed approach increases throughput, eliminates batch effects, and enables detection of multiplets.</annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:30567574</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://orcid.org/0000-0002-3564-4813</oboInOwl:hasDbXref>
+    </Axiom>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0030078 -->
+
+    <Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0030078">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0010183"/>
+        <obo:IAO_0000115>A single-cell RNA library construction method that is droplet-based.</obo:IAO_0000115>
+        <dc:creator>paola</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-04-07T09:17:15Z</dc:date>
+        <oboInOwl:inSubset rdf:resource="http://www.ebi.ac.uk/efo/added_for_HCA"/>
+        <rdfs:label>droplet-based single-cell RNA library preparation</rdfs:label>
+    </Class>
+    <Axiom>
+        <annotatedSource rdf:resource="http://www.ebi.ac.uk/efo/EFO_0030078"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <annotatedTarget>A single-cell RNA library construction method that is droplet-based.</annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:32518403</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>http://orcid.org/0000-0002-2443-7325</oboInOwl:hasDbXref>
+    </Axiom>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0030080 -->
+
+    <Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0030080">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008995"/>
+        <obo:IAO_0000115>The 10x-based single-cell technology that sequences mRNA molecules.</obo:IAO_0000115>
+        <dc:creator>paola</dc:creator>
+        <rdfs:comment>This term should only be used when a single-cell RNA-seq dataset is known to be generated using 10x, but the specific protocol (5&apos; vs. 3&apos;) isn&apos;t specified. Whenever that information is available, please use EFO:0030003 &apos;10x 3&apos; transcription profiling&apos; or EFO:0030004 &apos;10x 5&apos; transcription profiling&apos;.</rdfs:comment>
+        <rdfs:label>10x transcription profiling</rdfs:label>
+        <rdfs:seeAlso>https://github.com/EBISPOT/efo/issues/1558</rdfs:seeAlso>
+    </Class>
+    <Axiom>
+        <annotatedSource rdf:resource="http://www.ebi.ac.uk/efo/EFO_0030080"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <annotatedTarget>The 10x-based single-cell technology that sequences mRNA molecules.</annotatedTarget>
+        <oboInOwl:hasDbXref>http://orcid.org/0000-0002-3564-4813</oboInOwl:hasDbXref>
+    </Axiom>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0700003 -->
+
+    <Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0700003">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0010183"/>
+        <obo:IAO_0000115>A BD Biosciences-based technology that sequences mRNA from the 3&apos; end in an unbiased manner.</obo:IAO_0000115>
+        <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-08-16T11:55:08Z</terms:date>
+        <oboInOwl:hasExactSynonym>BD Rhapsody WTA</oboInOwl:hasExactSynonym>
+        <rdfs:label>BD Rhapsody Whole Transcriptome Analysis</rdfs:label>
+    </Class>
+    <Axiom>
+        <annotatedSource rdf:resource="http://www.ebi.ac.uk/efo/EFO_0700003"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <annotatedTarget>A BD Biosciences-based technology that sequences mRNA from the 3&apos; end in an unbiased manner.</annotatedTarget>
+        <oboInOwl:hasDbXref rdf:resource="https://orcid.org/0000-0002-1196-4871"/>
+        <oboInOwl:hasDbXref>https://www.bdbiosciences.com/content/dam/bdb/marketing-documents/BD-Rhapsody-WTA-Amplification-Kit.pdf</oboInOwl:hasDbXref>
+    </Axiom>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0700004 -->
+
+    <Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0700004">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0010183"/>
+        <obo:IAO_0000115>A BD Biosciences-based technology that utilizes multiplex PCR to sequence mRNA from the 3&apos; end of specific genes from a predetermined panel.</obo:IAO_0000115>
+        <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-08-16T12:05:20Z</terms:date>
+        <rdfs:label>BD Rhapsody Targeted mRNA</rdfs:label>
+    </Class>
+    <Axiom>
+        <annotatedSource rdf:resource="http://www.ebi.ac.uk/efo/EFO_0700004"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <annotatedTarget>A BD Biosciences-based technology that utilizes multiplex PCR to sequence mRNA from the 3&apos; end of specific genes from a predetermined panel.</annotatedTarget>
+        <oboInOwl:hasDbXref rdf:resource="https://orcid.org/0000-0002-1196-4871"/>
+        <oboInOwl:hasDbXref>https://scomix.bd.com/hc/en-us/articles/360023293851-Targeted-mRNA-Protocols</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://www.bdbiosciences.com/en-us/products/reagents/single-cell-multiomics/targeted-kits</oboInOwl:hasDbXref>
+    </Axiom>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0700005 -->
+
+    <Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0700005">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0010183"/>
+        <obo:IAO_0000115>A method that uses DNA-tagged antibodies to quantify proteins in single cells.</obo:IAO_0000115>
+        <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-08-17T11:52:48Z</terms:date>
+        <rdfs:label>Abseq</rdfs:label>
+    </Class>
+    <Axiom>
+        <annotatedSource rdf:resource="http://www.ebi.ac.uk/efo/EFO_0700005"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <annotatedTarget>A method that uses DNA-tagged antibodies to quantify proteins in single cells.</annotatedTarget>
+        <oboInOwl:hasDbXref rdf:resource="https://orcid.org/0000-0002-1196-4871"/>
+        <oboInOwl:hasDbXref>PMID:28290550</oboInOwl:hasDbXref>
+    </Axiom>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0700010 -->
+
+    <Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0700010">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0010183"/>
+        <obo:IAO_0000115>A droplet-based microfluidic library construction platform based on inDrop that incorporates dual-indexing to detect index-hopping and standard Illumina sequencing primers for high-throughput sequencing.</obo:IAO_0000115>
+        <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-09-22T07:58:24Z</terms:date>
+        <oboInOwl:hasExactSynonym>TruSeq-inDrop</oboInOwl:hasExactSynonym>
+        <rdfs:label>TruDrop</rdfs:label>
+    </Class>
+    <Axiom>
+        <annotatedSource rdf:resource="http://www.ebi.ac.uk/efo/EFO_0700010"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <annotatedTarget>A droplet-based microfluidic library construction platform based on inDrop that incorporates dual-indexing to detect index-hopping and standard Illumina sequencing primers for high-throughput sequencing.</annotatedTarget>
+        <oboInOwl:hasDbXref>https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-020-06843-0</oboInOwl:hasDbXref>
+    </Axiom>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0700011 -->
+
+    <Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0700011">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0010183"/>
+        <obo:IAO_0000115>A microwell-based technology developed by Singleron to prepare mRNA from single cells or single nuclei and generate a next generation sequencing (NGS) library for high-throughput sequencing.</obo:IAO_0000115>
+        <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-09-23T11:13:19Z</terms:date>
+        <rdfs:label>GEXSCOPE technology</rdfs:label>
+    </Class>
+    <Axiom>
+        <annotatedSource rdf:resource="http://www.ebi.ac.uk/efo/EFO_0700011"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <annotatedTarget>A microwell-based technology developed by Singleron to prepare mRNA from single cells or single nuclei and generate a next generation sequencing (NGS) library for high-throughput sequencing.</annotatedTarget>
+        <oboInOwl:hasDbXref rdf:resource="https://orcid.org/0000-0002-1196-4871"/>
+        <oboInOwl:hasDbXref>https://singleron.bio/product/detail-3.html</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://singleron.bio/product/detail-4.html</oboInOwl:hasDbXref>
+    </Axiom>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0700014 -->
+
+    <Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0700014">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0009294"/>
+        <obo:IAO_0000115>The collective capabilities of CITE-seq and Cell Hashing adapted for compatibility with the 5P / V(D)J single cell kit from 10x Genomics, to allow researchers to perform sample multiplexing, doublet detection and protein detection together with 5’ gene expression and V(D)J reconstruction.</obo:IAO_0000115>
+        <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-01-12T08:31:22Z</terms:date>
+        <oboInOwl:hasExactSynonym>expanded CRISPR-compatible CITE-seq</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>expanded CRISPR-compatible cellular indexing of transcriptomes and epitopes by sequencing</oboInOwl:hasExactSynonym>
+        <rdfs:comment>Through the addition of a custom RT primer and additional PCR reactions on the low molecular weight cDNA fraction, sgRNA capture and single cell CRISPR screens with multimodal readout are made possible.</rdfs:comment>
+        <rdfs:label>ECCITE-seq</rdfs:label>
+    </Class>
+    <Axiom>
+        <annotatedSource rdf:resource="http://www.ebi.ac.uk/efo/EFO_0700014"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <annotatedTarget>The collective capabilities of CITE-seq and Cell Hashing adapted for compatibility with the 5P / V(D)J single cell kit from 10x Genomics, to allow researchers to perform sample multiplexing, doublet detection and protein detection together with 5’ gene expression and V(D)J reconstruction.</annotatedTarget>
+        <efo:definition_citation rdf:resource="https://orcid.org/0000-0002-7431-4139"/>
+        <oboInOwl:hasDbXref>https://cite-seq.com/eccite-seq/</oboInOwl:hasDbXref>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="http://www.ebi.ac.uk/efo/EFO_0700014"/>
+        <annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <annotatedTarget>expanded CRISPR-compatible CITE-seq</annotatedTarget>
+        <oboInOwl:hasDbXref>https://cite-seq.com/eccite-seq/</oboInOwl:hasDbXref>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="http://www.ebi.ac.uk/efo/EFO_0700014"/>
+        <annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+        <annotatedTarget>Through the addition of a custom RT primer and additional PCR reactions on the low molecular weight cDNA fraction, sgRNA capture and single cell CRISPR screens with multimodal readout are made possible.</annotatedTarget>
+        <oboInOwl:hasDbXref>https://cite-seq.com/eccite-seq/</oboInOwl:hasDbXref>
+    </Axiom>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0700016 -->
+
+    <Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0700016">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0010184"/>
+        <obo:IAO_0000115>Library construction method using SMART (Switching Mechanism at the 5&apos; end of the RNA Template) to generate high-quality cDNA from ultra-low amounts of total RNA or directly from multiple intact cells (&lt;1,000 cells). Smart-seq v4 improves upon the Smart-seq2 method by incorporating both the novel use of locked nucleic acid (LNA) technology and an optimized template switching oligo.</obo:IAO_0000115>
+        <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-10T09:25:19Z</terms:date>
+        <oboInOwl:hasExactSynonym>SMART-Seq v4</oboInOwl:hasExactSynonym>
+        <rdfs:label>Smart-seq v4</rdfs:label>
+    </Class>
+    <Axiom>
+        <annotatedSource rdf:resource="http://www.ebi.ac.uk/efo/EFO_0700016"/>
+        <annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <annotatedTarget>Library construction method using SMART (Switching Mechanism at the 5&apos; end of the RNA Template) to generate high-quality cDNA from ultra-low amounts of total RNA or directly from multiple intact cells (&lt;1,000 cells). Smart-seq v4 improves upon the Smart-seq2 method by incorporating both the novel use of locked nucleic acid (LNA) technology and an optimized template switching oligo.</annotatedTarget>
+        <efo:definition_citation rdf:resource="https://orcid.org/0000-0002-7423-6054"/>
+        <oboInOwl:hasDbXref rdf:resource="https://www.takarabio.com/a/114896#:~:text=The%20SMART%2DSeq%20v4%20Ultra,volume%20of%201%E2%80%9310%20%C2%B5l"/>
+    </Axiom>
+    <Axiom>
+        <annotatedSource rdf:resource="http://www.ebi.ac.uk/efo/EFO_0700016"/>
+        <annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <annotatedTarget>SMART-Seq v4</annotatedTarget>
+        <oboInOwl:hasDbXref rdf:resource="https://www.takarabio.com/a/114896#:~:text=The%20SMART%2DSeq%20v4%20Ultra,volume%20of%201%E2%80%9310%20%C2%B5l"/>
+    </Axiom>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26) https://github.com/owlcs/owlapi -->
+
