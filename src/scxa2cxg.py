@@ -119,6 +119,7 @@ def convert(study: str):
 
     new_uns = ann_data.uns.copy()
     new_uns["title"] = metadata.loc[["Investigation Title"]]["1.1"].values[0]
+    new_uns["default_embedding"] = "X_umap_neighbors_n_neighbors_20"
 
     ann_data.obs = new_obs
     ann_data.var = new_var
