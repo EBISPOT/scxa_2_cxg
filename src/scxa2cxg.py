@@ -170,33 +170,3 @@ def check_modified(study: str):
     )
     if ann_data:
         print("good")
-
-
-def main(chunk: int = 25):
-    """
-    Main function to process studies and convert them into CxG schema
-    """
-    # studies = get_studies("E-HCAD")
-
-    cols_by_experiment = {}
-    # for study in studies[:chunk]:
-    for study in get_studies_downloaded("downloads", "E-GEOD-103771"):
-        experiment = {}
-        print(f"Downloading files for {study}")
-        download_files(study)
-        print("Download completed")
-        conv_anndata = convert(study)
-        # print(obs_columns)
-        # check_modified(study)
-        experiment["obs_columns"] = conv_anndata.obs_keys()
-        experiment["uns_columns"] = conv_anndata.uns_keys()
-        experiment["var_columns"] = conv_anndata.var_keys()
-        experiment["obsm_columns"] = conv_anndata.obsm_keys()
-        cols_by_experiment[study] = experiment
-
-    with open("obs_columns_by_experiment.json", 'w', encoding='utf-8') as f:
-        json.dump(cols_by_experiment, f, ensure_ascii=False, indent=4)
-
-
-if __name__ == '__main__':
-    main()
