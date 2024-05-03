@@ -11,6 +11,7 @@ import numpy as np
 
 BASE_URL = "https://ftp.ebi.ac.uk/pub/databases/microarray/data/atlas/sc_experiments/{study}/"
 H5AD_EXT_FILE = ".project.h5ad"
+MODIFIED_H5AD_EXT_FILE = "_modified.project.h5ad"
 METADATA_EXT_FILE = ".idf.txt"
 SDRF_EXT_FILE = ".sdrf.txt"
 ASSAY_MAPPING = {
@@ -91,7 +92,7 @@ def compress_url(url: str):
     return curie
 
 
-def convert(study: str):
+def convert_and_save(study: str):
     """
     Change column names to be conform to CxG schema v4.0.0
     """
