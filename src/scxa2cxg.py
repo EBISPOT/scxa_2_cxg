@@ -6,31 +6,34 @@ from ftplib import FTP
 import anndata as ad
 import httpx
 import pandas as pd
+import curies
+import numpy as np
 
 BASE_URL = "https://ftp.ebi.ac.uk/pub/databases/microarray/data/atlas/sc_experiments/{study}/"
 H5AD_EXT_FILE = ".project.h5ad"
 METADATA_EXT_FILE = ".idf.txt"
 SDRF_EXT_FILE = ".sdrf.txt"
 ASSAY_MAPPING = {
-    "smart-like": "http://www.ebi.ac.uk/efo/EFO_0010184",
-    "smart-seq": "http://www.ebi.ac.uk/efo/EFO_0008930",
-    "smart-seq2": "http://www.ebi.ac.uk/efo/EFO_0008931",
-    "10xV1": "http://www.ebi.ac.uk/efo/EFO_0010183",
-    "10xV1a": "http://www.ebi.ac.uk/efo/EFO_0010183",
-    "10xV1i": "http://www.ebi.ac.uk/efo/EFO_0010183",
-    "10xV2": "http://www.ebi.ac.uk/efo/EFO_0009899",
-    "10x 5' v1": "http://www.ebi.ac.uk/efo/EFO_0011025",
-    "10xV3": "http://www.ebi.ac.uk/efo/EFO_0009922",
-    "10x Ig enrichment": "http://www.ebi.ac.uk/efo/EFO_0010715",
-    "10x feature barcode (cell surface protein profiling)": "http://www.ebi.ac.uk/efo/EFO_0030011",
-    "drop-seq": "http://www.ebi.ac.uk/efo/EFO_0008722",
-    "seq-well": "http://www.ebi.ac.uk/efo/EFO_0008919",
-    "SCRB-seq": "http://www.ebi.ac.uk/efo/EFO_0010004",
-    "MARS-seq": "http://www.ebi.ac.uk/efo/EFO_0008796",
-    "CEL-seq": "http://www.ebi.ac.uk/efo/EFO_0008679",
-    "CEL-seq2": "http://www.ebi.ac.uk/efo/EFO_0010010",
-    "STRT-seq": "http://www.ebi.ac.uk/efo/EFO_0008953"
+    "smart-like": "EFO:0010184",
+    "smart-seq": "EFO:0008930",
+    "smart-seq2": "EFO:0008931",
+    "10xV1": "EFO:0010183",
+    "10xV1a": "EFO:0010183",
+    "10xV1i": "EFO:0010183",
+    "10xV2": "EFO:0009899",
+    "10x 5' v1": "EFO:0011025",
+    "10xV3": "EFO:0009922",
+    "10x Ig enrichment": "EFO:0010715",
+    "10x feature barcode (cell surface protein profiling)": "EFO:0030011",
+    "drop-seq": "EFO:0008722",
+    "seq-well": "EFO:0008919",
+    "SCRB-seq": "EFO:0010004",
+    "MARS-seq": "EFO:0008796",
+    "CEL-seq": "EFO:0008679",
+    "CEL-seq2": "EFO:0010010",
+    "STRT-seq": "EFO:0008953"
 }
+CURIE_CONVERTER = curies.get_obo_converter()
 
 
 def download_files(study: str):
@@ -71,6 +74,23 @@ def download_files(study: str):
             f.write(res.content)
 
 
+def compress_url(url: str):
+    """
+    Compress URL using OBO Converter
+    """
+    if str(url) == str(np.nan):
+        return np.nan
+
+    # EFO namespace is not in OBO Foundry context
+    if "EFO_" in str(url):
+        return url.replace("http://www.ebi.ac.uk/efo/EFO_", "EFO:")
+
+    curie = CURIE_CONVERTER.compress(url)
+    if not curie:
+        return np.nan
+    return curie
+
+
 def convert(study: str):
     """
     Change column names to be conform to CxG schema v4.0.0
@@ -102,6 +122,10 @@ def convert(study: str):
         col for col in new_obs.columns if re.search(r"[a-z]\.[1-9]", col)
     ]
     new_obs.drop(labels=duplicated_cols, axis="columns", inplace=True)
+
+    cols_terms = [col for col in new_obs.columns if col.endswith("term_id")]
+    for ont_term_col in cols_terms:
+        new_obs[ont_term_col] = new_obs[ont_term_col].apply(compress_url)
 
     meta_sdrf = pd.read_csv(
         f"downloads/{study}/{study}{SDRF_EXT_FILE}", sep="\t"
