@@ -11,6 +11,7 @@ import numpy as np
 
 BASE_URL = "https://ftp.ebi.ac.uk/pub/databases/microarray/data/atlas/sc_experiments/{study}/"
 H5AD_EXT_FILE = ".project.h5ad"
+MODIFIED_H5AD_EXT_FILE = "_modified.project.h5ad"
 METADATA_EXT_FILE = ".idf.txt"
 SDRF_EXT_FILE = ".sdrf.txt"
 ASSAY_MAPPING = {
@@ -91,7 +92,7 @@ def compress_url(url: str):
     return curie
 
 
-def convert(study: str):
+def convert_and_save(study: str):
     """
     Change column names to be conform to CxG schema v4.0.0
     """
@@ -126,6 +127,10 @@ def convert(study: str):
     cols_terms = [col for col in new_obs.columns if col.endswith("term_id")]
     for ont_term_col in cols_terms:
         new_obs[ont_term_col] = new_obs[ont_term_col].apply(compress_url)
+    # TODO: Temporary fix for missing cell type ontology term; Pandasaurus_cxg needs to filter it out
+    # PR fixing it https://github.com/INCATools/pandasaurus_cxg/pull/71
+    new_obs["cell_type_ontology_term_id"] = new_obs["cell_type_ontology_term_id"].cat.add_categories(["CL:0000000"])
+    new_obs.fillna({"cell_type_ontology_term_id": "CL:0000000"}, inplace=True)
 
     meta_sdrf = pd.read_csv(
         f"downloads/{study}/{study}{SDRF_EXT_FILE}", sep="\t"
@@ -194,33 +199,3 @@ def check_modified(study: str):
     )
     if ann_data:
         print("good")
-
-
-def main(chunk: int = 25):
-    """
-    Main function to process studies and convert them into CxG schema
-    """
-    # studies = get_studies("E-HCAD")
-
-    cols_by_experiment = {}
-    # for study in studies[:chunk]:
-    for study in get_studies_downloaded("downloads", "E-CURD-134"):
-        experiment = {}
-        print(f"Downloading files for {study}")
-        download_files(study)
-        print("Download completed")
-        conv_anndata = convert(study)
-        # print(obs_columns)
-        # check_modified(study)
-        experiment["obs_columns"] = conv_anndata.obs_keys()
-        experiment["uns_columns"] = conv_anndata.uns_keys()
-        experiment["var_columns"] = conv_anndata.var_keys()
-        experiment["obsm_columns"] = conv_anndata.obsm_keys()
-        cols_by_experiment[study] = experiment
-
-    with open("obs_columns_by_experiment.json", 'w', encoding='utf-8') as f:
-        json.dump(cols_by_experiment, f, ensure_ascii=False, indent=4)
-
-
-if __name__ == '__main__':
-    main()
