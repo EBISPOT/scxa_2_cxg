@@ -133,6 +133,11 @@ def convert_and_save(study: str):
     meta_sdrf.set_index(meta_sdrf["Source Name"], inplace=True)
     new_obs["assay_ontology_term_id"] = ASSAY_MAPPING[meta_sdrf["Comment[library construction]"].iloc[0].lower()]
 
+    if "cell_type" not in new_obs.columns:
+        new_obs["cell_type"] = "cell"
+        new_obs["cell_type_ontology_term_id"] = "CL:0000000"
+
+
     new_var = ann_data.var.copy()
     new_var["feature_is_filtered"] = False
 
