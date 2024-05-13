@@ -1,13 +1,12 @@
-import json
 import os
 import re
 from ftplib import FTP
 
 import anndata as ad
-import httpx
-import pandas as pd
 import curies
+import httpx
 import numpy as np
+import pandas as pd
 
 BASE_URL = "https://ftp.ebi.ac.uk/pub/databases/microarray/data/atlas/sc_experiments/{study}/"
 H5AD_EXT_FILE = ".project.h5ad"
@@ -18,21 +17,21 @@ ASSAY_MAPPING = {
     "smart-like": "EFO:0010184",
     "smart-seq": "EFO:0008930",
     "smart-seq2": "EFO:0008931",
-    "10xV1": "EFO:0010183",
-    "10xV1a": "EFO:0010183",
-    "10xV1i": "EFO:0010183",
-    "10xV2": "EFO:0009899",
+    "10xv1": "EFO:0010183",
+    "10xv1a": "EFO:0010183",
+    "10xv1i": "EFO:0010183",
+    "10xv2": "EFO:0009899",
     "10x 5' v1": "EFO:0011025",
-    "10xV3": "EFO:0009922",
-    "10x Ig enrichment": "EFO:0010715",
+    "10xv3": "EFO:0009922",
+    "10x ig enrichment": "EFO:0010715",
     "10x feature barcode (cell surface protein profiling)": "EFO:0030011",
     "drop-seq": "EFO:0008722",
     "seq-well": "EFO:0008919",
-    "SCRB-seq": "EFO:0010004",
-    "MARS-seq": "EFO:0008796",
-    "CEL-seq": "EFO:0008679",
-    "CEL-seq2": "EFO:0010010",
-    "STRT-seq": "EFO:0008953"
+    "scrb-seq": "EFO:0010004",
+    "mars-seq": "EFO:0008796",
+    "cel-seq": "EFO:0008679",
+    "cel-seq2": "EFO:0010010",
+    "strt-seq": "EFO:0008953"
 }
 CURIE_CONVERTER = curies.get_obo_converter()
 
@@ -127,16 +126,17 @@ def convert_and_save(study: str):
     cols_terms = [col for col in new_obs.columns if col.endswith("term_id")]
     for ont_term_col in cols_terms:
         new_obs[ont_term_col] = new_obs[ont_term_col].apply(compress_url)
-    # TODO: Temporary fix for missing cell type ontology term; Pandasaurus_cxg needs to filter it out
-    # PR fixing it https://github.com/INCATools/pandasaurus_cxg/pull/71
-    new_obs["cell_type_ontology_term_id"] = new_obs["cell_type_ontology_term_id"].cat.add_categories(["CL:0000000"])
-    new_obs.fillna({"cell_type_ontology_term_id": "CL:0000000"}, inplace=True)
 
     meta_sdrf = pd.read_csv(
         f"downloads/{study}/{study}{SDRF_EXT_FILE}", sep="\t"
     )
     meta_sdrf.set_index(meta_sdrf["Source Name"], inplace=True)
-    new_obs["assay_ontology_term_id"] = ASSAY_MAPPING[meta_sdrf["Comment[library construction]"].iloc[0]]
+    new_obs["assay_ontology_term_id"] = ASSAY_MAPPING[meta_sdrf["Comment[library construction]"].iloc[0].lower()]
+
+    if "cell_type" not in new_obs.columns:
+        new_obs["cell_type"] = "cell"
+        new_obs["cell_type_ontology_term_id"] = "CL:0000000"
+
 
     new_var = ann_data.var.copy()
     new_var["feature_is_filtered"] = False

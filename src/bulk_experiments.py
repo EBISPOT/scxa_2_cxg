@@ -35,7 +35,7 @@ def generate_rdf(anndata_file_path: str, author_cell_type_list: List[str], outpu
     gg.save_rdf_graph(file_name=output_rdf_path)
 
 
-def bulk_process(study_filter: str, chunk: int, download: bool):
+def bulk_process(study_filter: str, chunk: int, download: bool, modified: bool):
     """
     Process bulk experiments.
 
@@ -68,10 +68,11 @@ def bulk_process(study_filter: str, chunk: int, download: bool):
                 logging.info("Downloading files...")
                 download_files(study)
                 logging.info("Files downloaded")
-            logging.info("Converting and saving...")
-            convert_and_save(study)
+            if not modified:
+                logging.info("Converting and saving...")
+                convert_and_save(study)
             logging.info("Generating RDF...")
-            generate_rdf(study_path, ["authors_cell_type_ontology"], output_path)
+            generate_rdf(study_path, ["cell_type"], output_path)
 
 
 if __name__ == "__main__":
@@ -83,6 +84,7 @@ if __name__ == "__main__":
     parser.add_argument(
         "--download", action="store_true", help="Flag to indicate whether to download files or not"
     )
+    parser.add_argument("--modified", action="store_true", help="Flag to indicate whether to use modified files")
     args = parser.parse_args()
 
-    bulk_process(args.study_filter, args.chunk_size, args.download)
+    bulk_process(args.study_filter, args.chunk_size, args.download, args.modified)
