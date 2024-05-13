@@ -1,13 +1,12 @@
-import json
 import os
 import re
 from ftplib import FTP
 
 import anndata as ad
-import httpx
-import pandas as pd
 import curies
+import httpx
 import numpy as np
+import pandas as pd
 
 BASE_URL = "https://ftp.ebi.ac.uk/pub/databases/microarray/data/atlas/sc_experiments/{study}/"
 H5AD_EXT_FILE = ".project.h5ad"
@@ -28,11 +27,11 @@ ASSAY_MAPPING = {
     "10x feature barcode (cell surface protein profiling)": "EFO:0030011",
     "drop-seq": "EFO:0008722",
     "seq-well": "EFO:0008919",
-    "SCRB-seq": "EFO:0010004",
-    "MARS-seq": "EFO:0008796",
-    "CEL-seq": "EFO:0008679",
-    "CEL-seq2": "EFO:0010010",
-    "STRT-seq": "EFO:0008953"
+    "scrb-seq": "EFO:0010004",
+    "mars-seq": "EFO:0008796",
+    "cel-seq": "EFO:0008679",
+    "cel-seq2": "EFO:0010010",
+    "strt-seq": "EFO:0008953"
 }
 CURIE_CONVERTER = curies.get_obo_converter()
 
@@ -132,7 +131,7 @@ def convert_and_save(study: str):
         f"downloads/{study}/{study}{SDRF_EXT_FILE}", sep="\t"
     )
     meta_sdrf.set_index(meta_sdrf["Source Name"], inplace=True)
-    new_obs["assay_ontology_term_id"] = ASSAY_MAPPING[meta_sdrf["Comment[library construction]"].iloc[0]]
+    new_obs["assay_ontology_term_id"] = ASSAY_MAPPING[meta_sdrf["Comment[library construction]"].iloc[0].lower()]
 
     new_var = ann_data.var.copy()
     new_var["feature_is_filtered"] = False
