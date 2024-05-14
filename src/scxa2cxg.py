@@ -126,6 +126,10 @@ def convert_and_save(study: str):
     cols_terms = [col for col in new_obs.columns if col.endswith("term_id")]
     for ont_term_col in cols_terms:
         new_obs[ont_term_col] = new_obs[ont_term_col].apply(compress_url)
+    # TODO: Temporary fix for missing cell type ontology term; Pandasaurus_cxg needs to filter it out
+    # PR fixing it https://github.com/INCATools/pandasaurus_cxg/pull/71
+    new_obs["cell_type_ontology_term_id"] = new_obs["cell_type_ontology_term_id"].cat.add_categories(["CL:0000000"])
+    new_obs.fillna({"cell_type_ontology_term_id": "CL:0000000"}, inplace=True)
 
     meta_sdrf = pd.read_csv(
         f"downloads/{study}/{study}{SDRF_EXT_FILE}", sep="\t"
