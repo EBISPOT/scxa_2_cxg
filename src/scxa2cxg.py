@@ -13,6 +13,7 @@ H5AD_EXT_FILE = ".project.h5ad"
 MODIFIED_H5AD_EXT_FILE = "_modified.project.h5ad"
 METADATA_EXT_FILE = ".idf.txt"
 SDRF_EXT_FILE = ".sdrf.txt"
+CLUSTER_EXT_FILE = ".clusters.tsv"
 ASSAY_MAPPING = {
     "smart-like": "EFO:0010184",
     "smart-seq": "EFO:0008930",
@@ -45,6 +46,7 @@ def download_files(study: str):
     h5ad_path = f"{study_dir}/{study}{H5AD_EXT_FILE}"
     metadata_path = f"{study_dir}/{study}{METADATA_EXT_FILE}"
     sdrf_path = f"{study_dir}/{study}{SDRF_EXT_FILE}"
+    cluster_path = f"{study_dir}/{study}{CLUSTER_EXT_FILE}"
 
     if not os.path.isdir(download_dir):
         os.mkdir(download_dir)
@@ -73,6 +75,13 @@ def download_files(study: str):
         with open(sdrf_path, 'wb') as f:
             f.write(res.content)
 
+    if not os.path.exists(cluster_path):
+        res = httpx.get(
+            f"{BASE_URL.format(study=study)}{study}{CLUSTER_EXT_FILE}"
+        )
+        with open(sdrf_path, 'wb') as f:
+            f.write(res.content)
+
 
 def compress_url(url: str):
     """
@@ -89,6 +98,16 @@ def compress_url(url: str):
     if not curie:
         return np.nan
     return curie
+
+
+def get_cluster(cell_id: str, cluster_df: pd.DataFrame):
+    """
+    Find cluster for a cell
+    """
+    sel = cluster_df[cell_id]
+    if sel.any():
+        return f"Cluster {sel.values[0]}"
+    return ""
 
 
 def convert_and_save(study: str):
@@ -132,6 +151,12 @@ def convert_and_save(study: str):
     )
     meta_sdrf.set_index(meta_sdrf["Source Name"], inplace=True)
     new_obs["assay_ontology_term_id"] = ASSAY_MAPPING[meta_sdrf["Comment[library construction]"].iloc[0].lower()]
+
+    cluster_df = pd.read_csv(
+        f"downloads/{study}/{study}{CLUSTER_EXT_FILE}", sep="\t"
+    )
+    default_clusters = cluster_df[cluster_df["sel.K"] == True]
+    new_obs["cluster_nb"] = new_obs.index.map(lambda x: get_cluster(x, default_clusters))
 
     if "cell_type" not in new_obs.columns:
         new_obs["cell_type"] = "cell"
