@@ -72,7 +72,7 @@ def bulk_process(study_filter: str, chunk: int, download: bool, modified: bool):
                 logging.info("Converting and saving...")
                 convert_and_save(study)
             logging.info("Generating RDF...")
-            generate_rdf(study_path, ["cell_type"], output_path)
+            generate_rdf(study_path, ["disease", "sex"], output_path)
 
 
 if __name__ == "__main__":
