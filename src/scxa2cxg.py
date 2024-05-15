@@ -133,7 +133,8 @@ def convert_and_save(study: str):
         "organism_ontology": "organism_ontology_term_id",
         "organism_part": "tissue",
         "organism_part_ontology": "tissue_ontology_term_id",
-        "disease_ontology": "disease_ontology_term_id"
+        "disease_ontology": "disease_ontology_term_id",
+        "individual": "donor_id"
         },
         inplace=True
     )
@@ -151,6 +152,7 @@ def convert_and_save(study: str):
     )
     meta_sdrf.set_index(meta_sdrf["Source Name"], inplace=True)
     new_obs["assay_ontology_term_id"] = ASSAY_MAPPING[meta_sdrf["Comment[library construction]"].iloc[0].lower()]
+    new_obs["suspension_type"] = meta_sdrf["Material type"].iloc[0].lower()
 
     cluster_df = pd.read_csv(
         f"downloads/{study}/{study}{CLUSTER_EXT_FILE}", sep="\t"
@@ -224,4 +226,5 @@ def check_modified(study: str):
         backed="r+"
     )
     if ann_data:
-        print("good")
+        return ann_data
+    return None
