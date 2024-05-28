@@ -54,6 +54,12 @@ def bulk_process(study_filter: str, chunk: int, download: bool, modified: bool):
         # Get the studies located in the downloads folder
         studies = get_studies_downloaded("downloads", study_filter)
 
+    author_cell_type_list = [
+        "cluster_nb",
+        "inferred_cell_type",
+        "authors_cell_type",
+        "authors_cell_type_ontology_label"
+    ]
     studies_iter = iter(studies)
     while True:
         chunk_of_studies = list(itertools.islice(studies_iter, chunk))
@@ -72,7 +78,7 @@ def bulk_process(study_filter: str, chunk: int, download: bool, modified: bool):
                 logging.info("Converting and saving...")
                 convert_and_save(study)
             logging.info("Generating RDF...")
-            generate_rdf(study_path, ["cluster_nb"], output_path)
+            generate_rdf(study_path, author_cell_type_list, output_path)
 
 
 if __name__ == "__main__":
