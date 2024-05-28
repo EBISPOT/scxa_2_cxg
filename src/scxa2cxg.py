@@ -152,7 +152,7 @@ def convert_and_save(study: str):
     )
     meta_sdrf.set_index(meta_sdrf["Source Name"], inplace=True)
     new_obs["assay_ontology_term_id"] = ASSAY_MAPPING[meta_sdrf["Comment[library construction]"].iloc[0].lower()]
-    new_obs["suspension_type"] = meta_sdrf["Material type"].iloc[0].lower()
+    new_obs["suspension_type"] = meta_sdrf["Material Type"].iloc[0].lower()
 
     cluster_df = pd.read_csv(
         f"downloads/{study}/{study}{CLUSTER_EXT_FILE}", sep="\t"
