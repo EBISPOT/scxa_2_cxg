@@ -126,10 +126,6 @@ def convert_and_save(study: str):
         "inferred_sex_ontology": "sex_ontology_term_id",
         "sex_ontology": "sex_ontology_term_id",
         "cell_type_ontology": "cell_type_ontology_term_id",
-        "inferred_cell_type_-_ontology_labels": "cell_type",
-        "inferred_cell_type_-_ontology_labels_ontology": "cell_type_ontology_term_id",
-        "authors_cell_type_-_ontology_labels": "cell_type",
-        "authors_cell_type_-_ontology_labels_ontology": "cell_type_ontology_term_id",
         "organism_ontology": "organism_ontology_term_id",
         "organism_part": "tissue",
         "organism_part_ontology": "tissue_ontology_term_id",
@@ -142,7 +138,44 @@ def convert_and_save(study: str):
         col for col in new_obs.columns if re.search(r"[a-z]\.[1-9]", col)
     ]
     new_obs.drop(labels=duplicated_cols, axis="columns", inplace=True)
-
+    if (
+        "inferred_cell_type_-_ontology_labels" in new_obs.columns and
+        "cell_type" not in new_obs.columns
+    ):
+        new_obs.rename(columns={
+            "inferred_cell_type_-_ontology_labels": "cell_type",
+            "inferred_cell_type_-_ontology_labels_ontology":
+                "cell_type_ontology_term_id",
+            },
+            inplace=True
+        )
+    else:
+        new_obs.rename(columns={
+            "inferred_cell_type_-_ontology_labels": "inferred_cell_type",
+            "inferred_cell_type_-_ontology_labels_ontology":
+                "inferred_cell_type_ontology_term_id",
+            },
+            inplace=True
+        )
+    if (
+        "authors_cell_type_-_ontology_labels" in new_obs.columns and
+        "cell_type" not in new_obs.columns and
+        "inferred_cell_type_-_ontology_labels" not in new_obs.columns
+    ):
+        new_obs.rename(columns={
+            "authors_cell_type_-_ontology_labels": "cell_type",
+            "authors_cell_type_-_ontology_labels_ontology":
+                "cell_type_ontology_term_id",
+            },
+            inplace=True
+        )
+    else:
+        new_obs.rename(columns={
+            "authors_cell_type_-_ontology_labels":
+                "authors_cell_type_ontology_label"
+            },
+            inplace=True
+        )
     cols_terms = [col for col in new_obs.columns if col.endswith("term_id")]
     for ont_term_col in cols_terms:
         new_obs[ont_term_col] = new_obs[ont_term_col].apply(compress_url)
