@@ -201,14 +201,12 @@ def convert_and_save(study: str):
     new_var["feature_is_filtered"] = False
 
     metadata = pd.read_csv(
-        f"downloads/{study}/{study}{METADATA_EXT_FILE}", sep="\t"
+        f"downloads/{study}/{study}{METADATA_EXT_FILE}", sep="\t", header=None
     )
-    metadata.set_index(metadata["MAGE-TAB Version"], inplace=True)
-
     new_uns = ann_data.uns.copy()
-    new_uns["title"] = metadata.loc[["Investigation Title"]]["1.1"].values[0]
+    new_uns["title"] = metadata[metadata[0].fillna('').str.startswith("Investigation Title")].values[0][0]
     new_uns["default_embedding"] = "X_umap_neighbors_n_neighbors_20"
-    new_uns["citation"] = f"Publication: https://doi.org/{metadata.loc[['Publication DOI']]['1.1'].values[0]}"
+    new_uns["citation"] = f"Publication: https://doi.org/{metadata[metadata[0].fillna('').str.startswith('Publication DOI')].values[0][0]}"
     new_uns["dataset_curie"] = f"SCXA:{study}"
     new_uns["schema_reference"] = "https://github.com/chanzuckerberg/single-cell-curation/blob/main/schema/4.0.0/schema.md"
 
