@@ -22,6 +22,7 @@ ASSAY_MAPPING = {
     "10xv1a": "EFO:0010183",
     "10xv1i": "EFO:0010183",
     "10xv2": "EFO:0009899",
+    "10x5prime": "EFO:0030004",
     "10x 5' v1": "EFO:0011025",
     "10xv3": "EFO:0009922",
     "10x ig enrichment": "EFO:0010715",
@@ -183,8 +184,21 @@ def convert_and_save(study: str):
     meta_sdrf = pd.read_csv(
         f"downloads/{study}/{study}{SDRF_EXT_FILE}", sep="\t"
     )
-    meta_sdrf.set_index(meta_sdrf["Source Name"], inplace=True)
-    new_obs["assay_ontology_term_id"] = ASSAY_MAPPING[meta_sdrf["Comment[library construction]"].iloc[0].lower()]
+    meta_sdrf.columns = meta_sdrf.columns.str.replace(' [', '[')
+    if "donor_id" in new_obs.columns:
+        # This code changes the values in assay_ontology_term of new_obs to the
+        # corresponding values in Comment[library construction] of meta_sdrf
+        # where Characteristics[individual] of meta_sdrf matches donor of new_obs.
+        new_obs["assay_ontology_term_id"] = new_obs["donor_id"].map(
+            meta_sdrf.drop_duplicates(subset="Characteristics[individual]")
+            .set_index("Characteristics[individual]")["Comment[library construction]"].map(
+                lambda x: ASSAY_MAPPING[x.lower()]
+            )
+        )
+    else:
+        new_obs["assay_ontology_term_id"] = ASSAY_MAPPING[
+            meta_sdrf["Comment[library construction]"].iloc[0].lower()
+        ]
     new_obs["suspension_type"] = meta_sdrf["Material Type"].iloc[0].lower()
 
     cluster_df = pd.read_csv(
@@ -206,7 +220,8 @@ def convert_and_save(study: str):
     new_uns = ann_data.uns.copy()
     new_uns["title"] = metadata[metadata[0].fillna('').str.startswith("Investigation Title")].values[0][0]
     new_uns["default_embedding"] = "X_umap_neighbors_n_neighbors_20"
-    new_uns["citation"] = f"Publication: https://doi.org/{metadata[metadata[0].fillna('').str.startswith('Publication DOI')].values[0][0]}"
+    if not metadata[metadata[0].fillna('').str.startswith('Publication DOI')].empty:
+        new_uns["citation"] = f"Publication: https://doi.org/{metadata[metadata[0].fillna('').str.startswith('Publication DOI')].values[0][0]}"
     new_uns["dataset_curie"] = f"SCXA:{study}"
     new_uns["schema_reference"] = "https://github.com/chanzuckerberg/single-cell-curation/blob/main/schema/4.0.0/schema.md"
 
