@@ -184,6 +184,7 @@ def convert_and_save(study: str):
     meta_sdrf = pd.read_csv(
         f"downloads/{study}/{study}{SDRF_EXT_FILE}", sep="\t"
     )
+    meta_sdrf.columns = meta_sdrf.columns.str.replace(' [', '[')
     if "donor_id" in new_obs.columns:
         # This code changes the values in assay_ontology_term of new_obs to the
         # corresponding values in Comment[library construction] of meta_sdrf
@@ -203,7 +204,7 @@ def convert_and_save(study: str):
     cluster_df = pd.read_csv(
         f"downloads/{study}/{study}{CLUSTER_EXT_FILE}", sep="\t"
     )
-    default_clusters = cluster_df[cluster_df["sel.K"] is True]
+    default_clusters = cluster_df[cluster_df["sel.K"] == True]
     new_obs["cluster_nb"] = new_obs.index.map(lambda x: get_cluster(x, default_clusters))
 
     if "cell_type" not in new_obs.columns:
