@@ -185,7 +185,7 @@ def convert_and_save(study: str):
         f"downloads/{study}/{study}{SDRF_EXT_FILE}", sep="\t"
     )
     meta_sdrf.columns = meta_sdrf.columns.str.replace(' [', '[')
-    if "donor_id" in new_obs.columns:
+    if "donor_id" in new_obs.columns and "Characteristics[individual]" in meta_sdrf.columns:
         # This code changes the values in assay_ontology_term of new_obs to the
         # corresponding values in Comment[library construction] of meta_sdrf
         # where Characteristics[individual] of meta_sdrf matches donor of new_obs.
@@ -204,13 +204,14 @@ def convert_and_save(study: str):
     cluster_df = pd.read_csv(
         f"downloads/{study}/{study}{CLUSTER_EXT_FILE}", sep="\t"
     )
-    default_clusters = cluster_df[cluster_df["sel.K"] == True]
+    default_clusters = cluster_df[cluster_df["sel.K"]]
     new_obs["cluster_nb"] = new_obs.index.map(lambda x: get_cluster(x, default_clusters))
 
     if "cell_type" not in new_obs.columns:
         new_obs["cell_type"] = "cell"
         new_obs["cell_type_ontology_term_id"] = "CL:0000000"
 
+    print(new_obs.columns)
     new_var = ann_data.var.copy()
     new_var["feature_is_filtered"] = False
 
