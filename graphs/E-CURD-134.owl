@@ -1,0 +1,1583 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:ns="http://example.org/"
+   xmlns:obo="http://purl.obolibrary.org/obo/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="http://example.org/1fb2bdce-6fa0-47be-b255-3b3873bb320b">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>lobula columnar neuron LC10a</ns:authors_cell_type>
+    <ns:cell_type>lobula columnar neuron LC10a</ns:cell_type>
+    <rdfs:label>lobula columnar neuron LC10a</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/cadd5f66-7115-42a7-b5b6-4b2c3fccc13d">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>unknown 13</ns:authors_cell_type>
+    <rdfs:label>unknown 13</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/6d82af73-d5f6-4bfb-9542-62f3fa26bdc5">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>unknown 170</ns:authors_cell_type>
+    <rdfs:label>unknown 170</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/c105ae7a-4c2a-44b9-adeb-96e6c6b561d3">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>unknown 167</ns:authors_cell_type>
+    <rdfs:label>unknown 167</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/b4d6f95e-ab4a-4cdc-b292-bcbdcb1cd085">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>lamina monopolar neuron L2</ns:authors_cell_type>
+    <ns:cell_type>lamina monopolar neuron L2</ns:cell_type>
+    <rdfs:label>lamina monopolar neuron L2</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/a3eb4c73-f7b5-47fc-870f-b779ebafa396">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>unknown 183</ns:authors_cell_type>
+    <rdfs:label>unknown 183</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/97d61568-8aa4-4a7c-aa87-c95975959e80">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>unknown 162</ns:authors_cell_type>
+    <rdfs:label>unknown 162</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/64486203-b03b-49ff-9ed1-200c19c01059">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>lobula columnar neuron LC9</ns:authors_cell_type>
+    <ns:cell_type>lobula columnar neuron LC9</ns:cell_type>
+    <rdfs:label>lobula columnar neuron LC9</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/0b888d6c-a128-4c4a-920c-0278726a4d20">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>unknown 52</ns:authors_cell_type>
+    <rdfs:label>unknown 52</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/d5444149-2b58-4163-8c2f-e17aeed3cb7b">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>unknown 153</ns:authors_cell_type>
+    <rdfs:label>unknown 153</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/aa68a3f6-2fc9-4bb4-a71c-ac2804b77345">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>transmedullary neuron Tm9v</ns:authors_cell_type>
+    <obo:RO_0015003 rdf:resource="http://example.org/8d6a6eab-aaf5-4980-8826-b78feb9124b2"/>
+    <rdfs:label>transmedullary neuron Tm9v</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/1cfca219-7577-4f8d-b50e-81f481329500">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:cluster_nb>Cluster 10</ns:cluster_nb>
+    <rdfs:label>Cluster 10</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/95c54a68-4415-4abf-afcd-f639a88c7dce">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>unknown 44</ns:authors_cell_type>
+    <rdfs:label>unknown 44</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/63f0a990-2c2e-488e-b3cf-214961af0fca">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>distal medullary amacrine neuron Dm15</ns:authors_cell_type>
+    <ns:cell_type>distal medullary amacrine neuron Dm15</ns:cell_type>
+    <rdfs:label>distal medullary amacrine neuron Dm15</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/077019dc-6fdc-44b1-acf4-0bb51fadde1a">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>lobula plate-lobula columnar neuron LPLC2</ns:authors_cell_type>
+    <ns:cell_type>lobula plate-lobula columnar neuron LPLC2</ns:cell_type>
+    <rdfs:label>lobula plate-lobula columnar neuron LPLC2</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/a5efec47-755e-44be-aa5c-c598aec13393">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>unknown 74</ns:authors_cell_type>
+    <rdfs:label>unknown 74</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/04829b9a-e786-426c-a777-60f8832b570e">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>unknown 106</ns:authors_cell_type>
+    <rdfs:label>unknown 106</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/66cb1b8f-e69e-4cf8-8a71-a30032d82f2b">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>glial cell/low quality cell 1</ns:authors_cell_type>
+    <obo:RO_0015003 rdf:resource="http://example.org/9853f3be-00dd-4469-a561-541bd4d73f4c"/>
+    <rdfs:label>glial cell/low quality cell 1</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/c635fbfc-4084-4164-81ab-37d8660ddd99">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>distal medullary amacrine neuron Dm12</ns:authors_cell_type>
+    <ns:cell_type>distal medullary amacrine neuron Dm12</ns:cell_type>
+    <rdfs:label>distal medullary amacrine neuron Dm12</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/b89b3013-9dc2-453a-9e78-6deeea10ae0c">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>unknown 46</ns:authors_cell_type>
+    <rdfs:label>unknown 46</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/6c2226ec-c8a7-4ef8-a206-6fd492eec34e">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>unknown 80</ns:authors_cell_type>
+    <rdfs:label>unknown 80</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/9969833c-3033-434d-bacd-b9599e4c0da4">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>unknown 24</ns:authors_cell_type>
+    <rdfs:label>unknown 24</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/1c22abf9-c3b1-4e9d-a600-6fd157569141">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>distal medullary amacrine neuron Dm1</ns:authors_cell_type>
+    <ns:cell_type>distal medullary amacrine neuron Dm1</ns:cell_type>
+    <obo:RO_0015003 rdf:resource="http://example.org/5f1bf9be-4db4-4419-9ea5-3c2560fe2ae1"/>
+    <rdfs:label>distal medullary amacrine neuron Dm1</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/c663af8d-fa21-4c76-9a28-817595e5faab">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>unknown 40</ns:authors_cell_type>
+    <rdfs:label>unknown 40</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/3a35b6cb-7dff-4fc4-959f-bd38985c3702">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>lamina monopolar neuron L1</ns:authors_cell_type>
+    <ns:cell_type>lamina monopolar neuron L1</ns:cell_type>
+    <rdfs:label>lamina monopolar neuron L1</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/24bc7390-f217-49be-905a-e72db148c70f">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>unknown 177</ns:authors_cell_type>
+    <rdfs:label>unknown 177</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/acca910c-0482-43ee-a6fb-b830b86cbd1a">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>lamina monopolar neuron L3</ns:authors_cell_type>
+    <ns:cell_type>lamina monopolar neuron L3</ns:cell_type>
+    <rdfs:label>lamina monopolar neuron L3</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/2dc3792f-209c-438e-82ff-3e498b9f39f4">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>unknown 49</ns:authors_cell_type>
+    <rdfs:label>unknown 49</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/71ae76c0-2ce1-4e54-b84a-4a2e8b35317b">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>unknown 39</ns:authors_cell_type>
+    <rdfs:label>unknown 39</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/b417cc08-6431-4c00-bd1b-5e0bb30ef984">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>unknown 157</ns:authors_cell_type>
+    <rdfs:label>unknown 157</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ec6f10ae-127c-4032-94a8-5faec5ea10d4">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>distal medullary amacrine neuron Dm10</ns:authors_cell_type>
+    <ns:cell_type>distal medullary amacrine neuron Dm10</ns:cell_type>
+    <rdfs:label>distal medullary amacrine neuron Dm10</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/309a9857-a47e-4b25-9aca-560ca5077721">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>transmedullary neuron Tm3a</ns:authors_cell_type>
+    <ns:cell_type>transmedullary neuron Tm3a</ns:cell_type>
+    <rdfs:label>transmedullary neuron Tm3a</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/67986135-72fe-4c48-ae55-ec2cac0d9dde">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>unknown 21</ns:authors_cell_type>
+    <rdfs:label>unknown 21</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/66cd6eb6-2db0-4578-a2c9-559917e7ec6f">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:cluster_nb>Cluster 25</ns:cluster_nb>
+    <rdfs:label>Cluster 25</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/114c7257-c685-4163-a35a-6f8bf1f2fc94">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>unknown 54</ns:authors_cell_type>
+    <rdfs:label>unknown 54</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/12298f62-bc18-446d-88a5-3fbc44be3537">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>transmedullary neuron Tm29</ns:authors_cell_type>
+    <ns:cell_type>transmedullary neuron Tm29</ns:cell_type>
+    <rdfs:label>transmedullary neuron Tm29</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/5209fcf6-0670-4e33-86e0-a339a82fecb6">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>glial cell 6</ns:authors_cell_type>
+    <obo:RO_0015003 rdf:resource="http://example.org/a75807e7-1104-4cf9-bcaf-e562d1f82091"/>
+    <obo:RO_0015003 rdf:resource="http://example.org/9853f3be-00dd-4469-a561-541bd4d73f4c"/>
+    <rdfs:label>glial cell 6</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/3590a584-4e94-40ab-a697-f4dc5e6efe2d">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>unknown 168</ns:authors_cell_type>
+    <rdfs:label>unknown 168</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/4017c441-5f10-4b09-b3a6-8bb79fef571d">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>glial cell 9</ns:authors_cell_type>
+    <obo:RO_0015003 rdf:resource="http://example.org/eaaf9ff0-e3b0-4d6f-be29-04b8c12668bc"/>
+    <obo:RO_0015003 rdf:resource="http://example.org/9853f3be-00dd-4469-a561-541bd4d73f4c"/>
+    <rdfs:label>glial cell 9</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/a75807e7-1104-4cf9-bcaf-e562d1f82091">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:cluster_nb>Cluster 5</ns:cluster_nb>
+    <rdfs:label>Cluster 5</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/0396a331-0f9f-435b-87a5-3ee66d9aaf78">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>unknown 50</ns:authors_cell_type>
+    <rdfs:label>unknown 50</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/b5afdfca-c3f4-49c8-8cba-1ebc579f9405">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>glial cell 5</ns:authors_cell_type>
+    <obo:RO_0015003 rdf:resource="http://example.org/a75807e7-1104-4cf9-bcaf-e562d1f82091"/>
+    <obo:RO_0015003 rdf:resource="http://example.org/9853f3be-00dd-4469-a561-541bd4d73f4c"/>
+    <rdfs:label>glial cell 5</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/c04aceca-ad6b-49dd-96b5-b85bb8451466">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>unknown 37</ns:authors_cell_type>
+    <rdfs:label>unknown 37</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/450da82f-d605-4920-8000-bc4098d9f325">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:cell_type>distal medullary amacrine neuron Dm3</ns:cell_type>
+    <rdfs:label>distal medullary amacrine neuron Dm3</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/1a305266-3a01-4a54-a414-a6cb03755bc8">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:cluster_nb>Cluster 7</ns:cluster_nb>
+    <rdfs:label>Cluster 7</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/1357e5bb-06ce-4b6c-be05-6e005a5f770b">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>medullary tangential neuron Mt8</ns:authors_cell_type>
+    <ns:cell_type>medullary tangential neuron Mt8</ns:cell_type>
+    <rdfs:label>medullary tangential neuron Mt8</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/854b0ec8-f6e4-49ea-ac4e-1962cbb75bbf">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>glial cell 13</ns:authors_cell_type>
+    <obo:RO_0015003 rdf:resource="http://example.org/9853f3be-00dd-4469-a561-541bd4d73f4c"/>
+    <rdfs:label>glial cell 13</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/fc7d9786-71dd-4908-80a9-3bd19a4e1c1f">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>unknown 43</ns:authors_cell_type>
+    <rdfs:label>unknown 43</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/d8caf9f7-9b8a-49db-96bd-f8a2c038b416">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>glial cell 11</ns:authors_cell_type>
+    <obo:RO_0015003 rdf:resource="http://example.org/9853f3be-00dd-4469-a561-541bd4d73f4c"/>
+    <rdfs:label>glial cell 11</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/fae022ad-a1ec-4349-84d1-5fc4798f4e2e">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>transmedullary neuron Tm4</ns:authors_cell_type>
+    <ns:cell_type>transmedullary neuron Tm4</ns:cell_type>
+    <rdfs:label>transmedullary neuron Tm4</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/c10dd433-81aa-41aa-a471-f89b2b8e8f4c">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>low quality cell</ns:authors_cell_type>
+    <rdfs:label>low quality cell</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/b6a9e329-f0f6-4519-82ba-c25295eece66">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>unknown 171</ns:authors_cell_type>
+    <rdfs:label>unknown 171</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/e6ad5438-50f1-4659-a0d4-b98ac6e96cfd">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:cluster_nb>Cluster 14</ns:cluster_nb>
+    <rdfs:label>Cluster 14</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f">
+    <rdf:type rdf:resource="https://schema.org/Dataset"/>
+    <rdfs:label>dataset</rdfs:label>
+    <ns:citation>Publication: https://doi.org/10.1038/s41586-020-2879-3 Dataset Version: https://ftp.ebi.ac.uk/pub/databases/spot/scxa/E-CURD-134_modified.project.h5ad</ns:citation>
+    <ns:dataset_curie>SCXA:E-CURD-134</ns:dataset_curie>
+    <ns:default_embedding>X_umap_neighbors_n_neighbors_20</ns:default_embedding>
+    <ns:schema_reference>https://github.com/chanzuckerberg/single-cell-curation/blob/main/schema/4.0.0/schema.md</ns:schema_reference>
+    <ns:title>Neuronal diversity and convergence in a visual system developmental atlas part 2</ns:title>
+    <ns:obs_meta>[[{"field_name": "cluster_nb", "field_type": "author_cell_type_label"}], [{"field_name": "inferred_cell_type", "field_type": "author_cell_type_label"}], [{"field_name": "authors_cell_type", "field_type": "author_cell_type_label"}], [{"field_name": "authors_cell_type_ontology_label", "field_type": "author_cell_type_label"}], [{"field_name": "cell_type", "field_type": "author_cell_type_label"}]]</ns:obs_meta>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/9e6512e3-b62b-4994-8107-ddda2aa3495c">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>transmedullary Y neuron TmY3</ns:authors_cell_type>
+    <ns:cell_type>transmedullary Y neuron TmY3</ns:cell_type>
+    <rdfs:label>transmedullary Y neuron TmY3</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/b7c7b28c-1fe5-424a-a63d-5a000ab5ac03">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:cluster_nb>Cluster 39</ns:cluster_nb>
+    <rdfs:label>Cluster 39</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/8044e44e-3474-45f7-8edd-c05aabe77121">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>T neuron T4-5a/b</ns:authors_cell_type>
+    <obo:RO_0015003 rdf:resource="http://example.org/72f6ecfc-ca8b-4b7b-86a4-1d22b5262253"/>
+    <rdfs:label>T neuron T4-5a/b</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/fca51e0d-2e51-4c9b-a090-1e6842239254">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:cluster_nb>Cluster 22</ns:cluster_nb>
+    <rdfs:label>Cluster 22</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/5ee1f51f-418a-464f-909e-3cc24499f4ff">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>unknown 81</ns:authors_cell_type>
+    <rdfs:label>unknown 81</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/4c1c36a6-22b2-48d2-b9b5-971cfb29604a">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>unknown 32</ns:authors_cell_type>
+    <rdfs:label>unknown 32</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/2504c148-c12f-4552-beb7-77a11b2d645b">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>centrifugal neuron C2</ns:authors_cell_type>
+    <ns:cell_type>centrifugal neuron C2</ns:cell_type>
+    <rdfs:label>centrifugal neuron C2</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/91031eed-6ab8-4026-a200-00bc4da79950">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>unknown 129</ns:authors_cell_type>
+    <rdfs:label>unknown 129</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/b7b8fda3-1f8b-4853-a96d-cb87f6c74015">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>unknown 102</ns:authors_cell_type>
+    <rdfs:label>unknown 102</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/4e07b996-3402-46e5-8370-cb1eef6f026c">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:cluster_nb>Cluster 16</ns:cluster_nb>
+    <rdfs:label>Cluster 16</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/9befe21c-0e15-411b-9a28-2b55c5971f8d">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>medullary intrinsic neuron Mi9</ns:authors_cell_type>
+    <ns:cell_type>medullary intrinsic neuron Mi9</ns:cell_type>
+    <rdfs:label>medullary intrinsic neuron Mi9</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/dc7bd015-1e34-4a6c-b437-b6d6b760b361">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>glial cell/low quality cell 2</ns:authors_cell_type>
+    <obo:RO_0015003 rdf:resource="http://example.org/9853f3be-00dd-4469-a561-541bd4d73f4c"/>
+    <rdfs:label>glial cell/low quality cell 2</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/5876d1f2-2d09-451c-82c8-188a9feb4af4">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>unknown 114</ns:authors_cell_type>
+    <rdfs:label>unknown 114</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/64111233-138e-4f42-a188-2f8913b32a4c">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>unknown 83</ns:authors_cell_type>
+    <rdfs:label>unknown 83</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/c55cdaa8-0c63-4c38-b799-8909ba704213">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:cluster_nb>Cluster 37</ns:cluster_nb>
+    <rdfs:label>Cluster 37</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/c7acdafe-cbac-4f6d-b0ce-234b2d088815">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>unknown 146</ns:authors_cell_type>
+    <rdfs:label>unknown 146</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/4c0be594-a463-4b36-add5-23884618f4c3">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>unknown 181</ns:authors_cell_type>
+    <rdfs:label>unknown 181</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/47bed574-4869-4b33-b7b8-edd6f2712b67">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>unknown 96</ns:authors_cell_type>
+    <rdfs:label>unknown 96</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/8d6a6eab-aaf5-4980-8826-b78feb9124b2">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:cell_type>transmedullary neuron Tm9</ns:cell_type>
+    <rdfs:label>transmedullary neuron Tm9</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/75dc4ead-05cd-4e9e-90b0-a719724ea971">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:cluster_nb>Cluster 18</ns:cluster_nb>
+    <rdfs:label>Cluster 18</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/7bfc3ad5-94b2-48fd-8b89-78a705e0b0e2">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>transmedullary neuron Tm5a/b</ns:authors_cell_type>
+    <ns:cell_type>transmedullary neuron Tm5</ns:cell_type>
+    <rdfs:label>transmedullary neuron Tm5a/b</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/af602820-dab6-4f90-8007-7036da5c2834">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:cluster_nb>Cluster 2</ns:cluster_nb>
+    <rdfs:label>Cluster 2</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/d8b2ad15-41b2-4852-8b19-e4a1756c15dd">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>unknown 174</ns:authors_cell_type>
+    <rdfs:label>unknown 174</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/2dacbb80-8220-493f-ae65-1e261d6f86b7">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:cluster_nb>Cluster 17</ns:cluster_nb>
+    <rdfs:label>Cluster 17</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/49f8978a-d266-4938-bb89-4a081312cb68">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>unknown 45</ns:authors_cell_type>
+    <rdfs:label>unknown 45</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/f7ca9db2-4a4a-4118-bc80-6598c2447bc9">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>proximal medullary amacrine neuron Pm2</ns:authors_cell_type>
+    <ns:cell_type>proximal medullary amacrine neuron Pm2</ns:cell_type>
+    <rdfs:label>proximal medullary amacrine neuron Pm2</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/4c5b9e31-35dd-4be8-81b7-ece430f76c05">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>medullary intrinsic neuron Mi4</ns:authors_cell_type>
+    <ns:cell_type>medullary intrinsic neuron Mi4</ns:cell_type>
+    <rdfs:label>medullary intrinsic neuron Mi4</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/306e8038-ec87-4ba2-9d1d-d0c9d8cc131e">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>unknown 63</ns:authors_cell_type>
+    <rdfs:label>unknown 63</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/727dd7ab-f1eb-4214-bfdd-6fcafefdf16e">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:cluster_nb>Cluster 11</ns:cluster_nb>
+    <rdfs:label>Cluster 11</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/cfb98a02-23f1-45d7-b241-ca4bf98a5c9f">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>unknown 103</ns:authors_cell_type>
+    <rdfs:label>unknown 103</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/31cf60ab-4017-47e9-9bad-e001f68123f2">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:cluster_nb>Cluster 19</ns:cluster_nb>
+    <rdfs:label>Cluster 19</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/b120d7d1-def4-4024-8136-70fad1e796da">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>proximal medullary amacrine neuron Pm1</ns:authors_cell_type>
+    <ns:cell_type>proximal medullary amacrine neuron Pm1</ns:cell_type>
+    <rdfs:label>proximal medullary amacrine neuron Pm1</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/64c540f4-719c-432a-8c57-4dfba7b17cfe">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>glial cell 12</ns:authors_cell_type>
+    <obo:RO_0015003 rdf:resource="http://example.org/a18913d2-e4d8-4ed5-9501-c688aa3c1b39"/>
+    <obo:RO_0015003 rdf:resource="http://example.org/9853f3be-00dd-4469-a561-541bd4d73f4c"/>
+    <rdfs:label>glial cell 12</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/7d1e0279-ee42-474c-83ec-92a60a9766fe">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>unknown 230</ns:authors_cell_type>
+    <rdfs:label>unknown 230</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/1140164c-3676-4eb7-82de-aa9086542aaf">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>unknown 120</ns:authors_cell_type>
+    <rdfs:label>unknown 120</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PCL_0010001">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>cell cluster</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/d1d5f50a-f71f-498d-9791-4f89719f330f">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>unknown 71</ns:authors_cell_type>
+    <rdfs:label>unknown 71</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/e1fb0e66-2bfd-4d0c-a66f-3f41b6d1a117">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>glial cell 8</ns:authors_cell_type>
+    <obo:RO_0015003 rdf:resource="http://example.org/9853f3be-00dd-4469-a561-541bd4d73f4c"/>
+    <rdfs:label>glial cell 8</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ecaf833a-6668-4f23-9410-7596e78002b4">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>lobula columnar neuron LC17</ns:authors_cell_type>
+    <ns:cell_type>lobula columnar neuron LC17</ns:cell_type>
+    <rdfs:label>lobula columnar neuron LC17</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/d78bdd98-5f53-432b-924c-c3cc32ed5f9c">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>unknown 28</ns:authors_cell_type>
+    <rdfs:label>unknown 28</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/b49d2c72-8aaf-47bb-ac7d-bd400e5aca8c">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>lamina monopolar neuron L4</ns:authors_cell_type>
+    <ns:cell_type>lamina monopolar neuron L4</ns:cell_type>
+    <rdfs:label>lamina monopolar neuron L4</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/0e852e46-fff7-4d4c-abf1-48cbb3eef581">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>medullary intrinsic neuron Mi1</ns:authors_cell_type>
+    <ns:cell_type>medullary intrinsic neuron Mi1</ns:cell_type>
+    <rdfs:label>medullary intrinsic neuron Mi1</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ff8630ce-dbd8-4010-ae0f-2f6118a7170c">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>unknown 232</ns:authors_cell_type>
+    <rdfs:label>unknown 232</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/7606510f-0a01-4766-ae93-a40eb7a0ae7a">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:cluster_nb>Cluster 30</ns:cluster_nb>
+    <rdfs:label>Cluster 30</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/a24543c8-5ebc-445f-bfb4-4dac8587ede0">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:cluster_nb>Cluster 29</ns:cluster_nb>
+    <rdfs:label>Cluster 29</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/14e7cd68-bfae-46d5-b2c7-ed1ed0867942">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>glial cell 1</ns:authors_cell_type>
+    <obo:RO_0015003 rdf:resource="http://example.org/9853f3be-00dd-4469-a561-541bd4d73f4c"/>
+    <rdfs:label>glial cell 1</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/9853f3be-00dd-4469-a561-541bd4d73f4c">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:cell_type>glial cell</ns:cell_type>
+    <rdfs:label>glial cell</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/42722eb6-b0c9-40f8-9289-07dd3ca994da">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>unknown 90</ns:authors_cell_type>
+    <rdfs:label>unknown 90</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/72adba41-beb3-4e03-8923-9d917a22ab7f">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>unknown 116</ns:authors_cell_type>
+    <rdfs:label>unknown 116</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/693767b1-5551-4670-8979-96e110006956">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:cluster_nb>Cluster 26</ns:cluster_nb>
+    <rdfs:label>Cluster 26</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/a806d5e8-c926-40ee-8b28-83a75d45d189">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>lamina wide-field 1 neuron</ns:authors_cell_type>
+    <ns:cell_type>lamina wide-field 1 neuron</ns:cell_type>
+    <rdfs:label>lamina wide-field 1 neuron</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/99c87ca8-0a4c-4355-b9fb-800fee92aaf3">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>unknown 62</ns:authors_cell_type>
+    <rdfs:label>unknown 62</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/93f5b086-75af-4348-a495-404a61efb0f5">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>distal medullary amacrine neuron Dm2</ns:authors_cell_type>
+    <ns:cell_type>distal medullary amacrine neuron Dm2</ns:cell_type>
+    <rdfs:label>distal medullary amacrine neuron Dm2</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/44b381de-ec33-4fb3-bee4-4d9b9bc9fe11">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>glial cell/low quality cell 4</ns:authors_cell_type>
+    <obo:RO_0015003 rdf:resource="http://example.org/9853f3be-00dd-4469-a561-541bd4d73f4c"/>
+    <rdfs:label>glial cell/low quality cell 4</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/112a8898-c4b6-4cf8-9109-69fdd2b44af1">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>glial cell/low quality cell 3</ns:authors_cell_type>
+    <obo:RO_0015003 rdf:resource="http://example.org/9853f3be-00dd-4469-a561-541bd4d73f4c"/>
+    <rdfs:label>glial cell/low quality cell 3</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/72f6ecfc-ca8b-4b7b-86a4-1d22b5262253">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:cell_type>T neuron</ns:cell_type>
+    <rdfs:label>T neuron</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/2159fef5-4ef0-4b7d-88ff-3824646738c4">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>columnar neuron T1</ns:authors_cell_type>
+    <ns:cell_type>columnar neuron T1</ns:cell_type>
+    <rdfs:label>columnar neuron T1</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/2adb9aaa-0713-4f63-902b-58bcba8d60a1">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>unknown 26</ns:authors_cell_type>
+    <rdfs:label>unknown 26</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ea6161ee-2032-4552-92b4-660067c0b5a0">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>unknown 59</ns:authors_cell_type>
+    <rdfs:label>unknown 59</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/1baf2a4b-bade-4ce6-8d1f-362dfdb135fd">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>unknown 158</ns:authors_cell_type>
+    <rdfs:label>unknown 158</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/998724d8-a616-42c6-918a-fb4dc386e2a9">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>unknown 67</ns:authors_cell_type>
+    <rdfs:label>unknown 67</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/55d922c6-9f90-414d-92f3-97d62f983e24">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>unknown 76</ns:authors_cell_type>
+    <rdfs:label>unknown 76</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ddaa7c6d-f60e-4700-b4b4-169a79de4489">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>unknown 23</ns:authors_cell_type>
+    <obo:RO_0015003 rdf:resource="http://example.org/5f1bf9be-4db4-4419-9ea5-3c2560fe2ae1"/>
+    <rdfs:label>unknown 23</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/3cdb187a-7101-4aca-a337-16e5a1c244de">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>unknown 10</ns:authors_cell_type>
+    <rdfs:label>unknown 10</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/b30c04b6-0e10-46e5-8f6d-61dfc4ba99c6">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:cluster_nb>Cluster 35</ns:cluster_nb>
+    <rdfs:label>Cluster 35</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/a41acb79-705a-4f30-9179-b1766d4fd5e8">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>lobula-lobula plate columnar neuron LLPC1</ns:authors_cell_type>
+    <ns:cell_type>lobula-lobula plate columnar neuron LLPC1</ns:cell_type>
+    <rdfs:label>lobula-lobula plate columnar neuron LLPC1</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/024cc482-64c9-4cee-8ed3-f1c18c65a39d">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>lobula columnar neuron LC10d</ns:authors_cell_type>
+    <ns:cell_type>lobula columnar neuron LC10d</ns:cell_type>
+    <rdfs:label>lobula columnar neuron LC10d</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/29f0a5c0-aac7-4d37-a06d-d929c2576339">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>transmedullary neuron Tm2</ns:authors_cell_type>
+    <ns:cell_type>transmedullary neuron Tm2</ns:cell_type>
+    <rdfs:label>transmedullary neuron Tm2</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/fbb78500-8180-4a1d-ae71-587e76d9b2a6">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>unknown 156</ns:authors_cell_type>
+    <rdfs:label>unknown 156</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/d99ec002-e46a-42da-906a-a188a55dc747">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>transmedullary neuron Tm5c</ns:authors_cell_type>
+    <ns:cell_type>transmedullary neuron Tm5c</ns:cell_type>
+    <rdfs:label>transmedullary neuron Tm5c</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/8ee3efae-d804-4924-be3f-ac3c2f80235b">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>lobula columnar neuron LC12</ns:authors_cell_type>
+    <ns:cell_type>lobula columnar neuron LC12</ns:cell_type>
+    <rdfs:label>lobula columnar neuron LC12</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/fc306d65-720e-4c4d-9b4f-e22ba294dcc4">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>unknown 65</ns:authors_cell_type>
+    <rdfs:label>unknown 65</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/28d8ce60-4d77-48c5-aeb4-8f4f35229cc8">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:cluster_nb>Cluster 38</ns:cluster_nb>
+    <rdfs:label>Cluster 38</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/abf07d6e-d515-4dde-b356-74ed1be315d7">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>lamina monopolar neuron L5</ns:authors_cell_type>
+    <ns:cell_type>lamina monopolar neuron L5</ns:cell_type>
+    <rdfs:label>lamina monopolar neuron L5</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/6067b003-7281-452d-aa81-5ba43c3eebdc">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>lobula plate-lobula columnar neuron LPLC1</ns:authors_cell_type>
+    <ns:cell_type>lobula plate-lobula columnar neuron LPLC1</ns:cell_type>
+    <rdfs:label>lobula plate-lobula columnar neuron LPLC1</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/8ea8a0f8-3785-4b0e-9b02-829c1f0955d1">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>unknown 160</ns:authors_cell_type>
+    <obo:RO_0015003 rdf:resource="http://example.org/cca58607-25e2-4396-9ef3-c8ba26b21449"/>
+    <rdfs:label>unknown 160</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/313f17b2-31bb-43ad-bdef-2c4411e8c5ab">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>unknown 179</ns:authors_cell_type>
+    <obo:RO_0015003 rdf:resource="http://example.org/cca58607-25e2-4396-9ef3-c8ba26b21449"/>
+    <rdfs:label>unknown 179</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/8b7efdb7-3990-4087-a9bc-1c26dfc85e41">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>lobula columnar neuron LC10b</ns:authors_cell_type>
+    <ns:cell_type>lobula columnar neuron LC10b</ns:cell_type>
+    <rdfs:label>lobula columnar neuron LC10b</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/c4a757bc-065e-4088-a06c-f67bbda744b4">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>unknown 229</ns:authors_cell_type>
+    <rdfs:label>unknown 229</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/081eb229-cc71-40b7-9672-930b28a20ef6">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:cluster_nb>Cluster 1</ns:cluster_nb>
+    <rdfs:label>Cluster 1</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/399d0085-64aa-4853-a19c-9cb8feb3eacf">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>unknown 69</ns:authors_cell_type>
+    <rdfs:label>unknown 69</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/9fb90fdc-ae01-490b-9c83-a2aba834fcdc">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>unknown 4</ns:authors_cell_type>
+    <rdfs:label>unknown 4</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/fef03f83-364e-47c2-856c-ec1e2c184d2b">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>unknown 22</ns:authors_cell_type>
+    <rdfs:label>unknown 22</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/88985629-2c4b-4e8d-9285-58a456f30922">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>unknown 95</ns:authors_cell_type>
+    <rdfs:label>unknown 95</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/c8db1d91-01d2-4076-8704-7313555df8d8">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>unknown 38</ns:authors_cell_type>
+    <rdfs:label>unknown 38</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/6eab71c5-c4ae-48c3-99ec-0e4629f808d6">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:cluster_nb>Cluster 33</ns:cluster_nb>
+    <rdfs:label>Cluster 33</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/d3a3138d-5060-4706-b989-09e7c9ae6adf">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>distal medullary amacrine neuron Dm3a</ns:authors_cell_type>
+    <obo:RO_0015003 rdf:resource="http://example.org/450da82f-d605-4920-8000-bc4098d9f325"/>
+    <rdfs:label>distal medullary amacrine neuron Dm3a</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/a57879be-07c1-461f-bf34-607c8604e894">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>centrifugal neuron C3</ns:authors_cell_type>
+    <ns:cell_type>centrifugal neuron C3</ns:cell_type>
+    <rdfs:label>centrifugal neuron C3</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/d0bb7167-9afb-461b-8b91-cf30a27d4774">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>glial cell 7</ns:authors_cell_type>
+    <obo:RO_0015003 rdf:resource="http://example.org/9853f3be-00dd-4469-a561-541bd4d73f4c"/>
+    <rdfs:label>glial cell 7</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/73252a3a-6b2a-43fa-bff6-46202678080f">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>unknown 184</ns:authors_cell_type>
+    <rdfs:label>unknown 184</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/46988d51-bbc1-4ecf-adf0-857c27d6e975">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>lobula plate columnar neuron LPC1</ns:authors_cell_type>
+    <ns:cell_type>lobula plate columnar neuron LPC1</ns:cell_type>
+    <rdfs:label>lobula plate columnar neuron LPC1</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/76663de8-7f74-4267-bc2f-5305ef1d887a">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>T neuron T2a</ns:authors_cell_type>
+    <ns:cell_type>T neuron T2a</ns:cell_type>
+    <rdfs:label>T neuron T2a</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/0f6594d6-4337-45ec-8e66-5436fa1224cb">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>lobula columnar neuron LC6</ns:authors_cell_type>
+    <ns:cell_type>lobula columnar neuron LC6</ns:cell_type>
+    <rdfs:label>lobula columnar neuron LC6</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/121d1fae-3d66-4271-badb-c32a9029bfd8">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>distal medullary amacrine neuron Dm3b</ns:authors_cell_type>
+    <obo:RO_0015003 rdf:resource="http://example.org/450da82f-d605-4920-8000-bc4098d9f325"/>
+    <rdfs:label>distal medullary amacrine neuron Dm3b</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/f6622971-56f3-430b-87d0-54beb68f99f5">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>unknown 5</ns:authors_cell_type>
+    <rdfs:label>unknown 5</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/db67ab58-8fc8-4c1d-8ad8-70e2d8187d75">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>transmedullary neuron Tm20</ns:authors_cell_type>
+    <ns:cell_type>transmedullary neuron Tm20</ns:cell_type>
+    <rdfs:label>transmedullary neuron Tm20</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/6d9b5c34-fabf-40e8-a904-f8dd6ed0af03">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>unknown 86</ns:authors_cell_type>
+    <rdfs:label>unknown 86</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ec939a1d-4353-45ec-99c7-1dd603ee9910">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>glial cell 14</ns:authors_cell_type>
+    <obo:RO_0015003 rdf:resource="http://example.org/9853f3be-00dd-4469-a561-541bd4d73f4c"/>
+    <rdfs:label>glial cell 14</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/f3de64bd-152e-4dd0-9e82-840bdb7de3df">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>unknown 94</ns:authors_cell_type>
+    <rdfs:label>unknown 94</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/06d17675-1b27-414a-b42a-af1940c0508a">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>unknown 138</ns:authors_cell_type>
+    <rdfs:label>unknown 138</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/c76c53cb-7f3d-4db6-b966-04a5239c96c8">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>unknown 48</ns:authors_cell_type>
+    <rdfs:label>unknown 48</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ab2f8735-1261-4582-a9f0-1fc63295cf7d">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>glial cell 3</ns:authors_cell_type>
+    <obo:RO_0015003 rdf:resource="http://example.org/9853f3be-00dd-4469-a561-541bd4d73f4c"/>
+    <rdfs:label>glial cell 3</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/1893c7ba-247f-4810-88e9-7c2864feeca6">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>unknown 123</ns:authors_cell_type>
+    <rdfs:label>unknown 123</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ef282c0e-cf5f-493b-b29d-539b02793247">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>unknown 73</ns:authors_cell_type>
+    <rdfs:label>unknown 73</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/85c7c3c5-9ffa-4475-829c-c11a54657843">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>T neuron T3</ns:authors_cell_type>
+    <ns:cell_type>T neuron T3</ns:cell_type>
+    <rdfs:label>T neuron T3</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/722ee16b-ef03-4904-9ff4-d6d659067057">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>unknown 180</ns:authors_cell_type>
+    <rdfs:label>unknown 180</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/84fe3011-feef-49b0-b4dd-6a0a7186cd28">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>unknown 166</ns:authors_cell_type>
+    <rdfs:label>unknown 166</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/fe7fb9d4-4ae0-47a8-af5f-cafbed4161fc">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>distal medullary amacrine neuron Dm9</ns:authors_cell_type>
+    <ns:cell_type>distal medullary amacrine neuron Dm9</ns:cell_type>
+    <rdfs:label>distal medullary amacrine neuron Dm9</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ec0251cc-f1e8-4089-94e6-503e1530339d">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>unknown 155</ns:authors_cell_type>
+    <rdfs:label>unknown 155</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/e1d45416-71cb-4135-be8a-6c7bc934d6fd">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:cluster_nb>Cluster 8</ns:cluster_nb>
+    <rdfs:label>Cluster 8</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/cca58607-25e2-4396-9ef3-c8ba26b21449">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:cluster_nb>Cluster 4</ns:cluster_nb>
+    <rdfs:label>Cluster 4</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/1ef019ab-4561-474f-b7f2-2cee4ccedee0">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:cluster_nb>Cluster 31</ns:cluster_nb>
+    <rdfs:label>Cluster 31</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/eb7b26f1-e348-477c-82ee-2d7ea94ad394">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>unknown 149</ns:authors_cell_type>
+    <rdfs:label>unknown 149</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/059fa029-1284-4374-b8eb-2c5194f731a6">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>unknown 85</ns:authors_cell_type>
+    <rdfs:label>unknown 85</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/f39ac8ef-16ce-4e6f-ae39-c68e4c6004b7">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>unknown 99</ns:authors_cell_type>
+    <rdfs:label>unknown 99</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/60efc9d5-fdfa-49ee-a616-e01757a13f72">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>unknown 176</ns:authors_cell_type>
+    <rdfs:label>unknown 176</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/39f3bc9a-dbd1-4ed0-b6b4-6720001fb000">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>glial cell 16/low quality cell</ns:authors_cell_type>
+    <obo:RO_0015003 rdf:resource="http://example.org/9853f3be-00dd-4469-a561-541bd4d73f4c"/>
+    <rdfs:label>glial cell 16/low quality cell</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/80b5c02e-b9a1-4fe8-92a6-cf1e95654846">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>unknown 56</ns:authors_cell_type>
+    <rdfs:label>unknown 56</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/4edf59f3-f09f-4411-a39d-f657e7a50b8d">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>distal medullary amacrine neuron Dm8</ns:authors_cell_type>
+    <ns:cell_type>distal medullary amacrine neuron Dm8</ns:cell_type>
+    <rdfs:label>distal medullary amacrine neuron Dm8</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/9d21b490-d609-4319-a54c-44d51eeff4cf">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>photoreceptor cell</ns:authors_cell_type>
+    <ns:cell_type>photoreceptor cell</ns:cell_type>
+    <obo:RO_0015003 rdf:resource="http://example.org/b30c04b6-0e10-46e5-8f6d-61dfc4ba99c6"/>
+    <rdfs:label>photoreceptor cell</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/8e666ddc-1484-4f4d-86ab-335c064edad2">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>transmedullary neuron Tm9d</ns:authors_cell_type>
+    <obo:RO_0015003 rdf:resource="http://example.org/8d6a6eab-aaf5-4980-8826-b78feb9124b2"/>
+    <rdfs:label>transmedullary neuron Tm9d</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/e5df8963-33d6-4b3b-9564-008cba15f19e">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>lobula columnar neuron LC4</ns:authors_cell_type>
+    <ns:cell_type>lobula columnar neuron LC4</ns:cell_type>
+    <rdfs:label>lobula columnar neuron LC4</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/d6fc5d5a-2cea-4244-af57-cdfd9371baa3">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>lobula plate intrinsic neuron LPi3-4</ns:authors_cell_type>
+    <ns:cell_type>lobula plate intrinsic neuron LPi3-4</ns:cell_type>
+    <rdfs:label>lobula plate intrinsic neuron LPi3-4</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/d14a42f0-018a-4f48-92ce-be34ebd1c0fe">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>medullary intrinsic neuron Mi15</ns:authors_cell_type>
+    <ns:cell_type>medullary intrinsic neuron Mi15</ns:cell_type>
+    <rdfs:label>medullary intrinsic neuron Mi15</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/aea452de-5260-4a25-aa9e-989a64fabab9">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>distal medullary amacrine neuron Dm4</ns:authors_cell_type>
+    <ns:cell_type>distal medullary amacrine neuron Dm4</ns:cell_type>
+    <rdfs:label>distal medullary amacrine neuron Dm4</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/e78ac132-8393-45ce-8feb-655b2586ea0d">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:cluster_nb>Cluster 12</ns:cluster_nb>
+    <rdfs:label>Cluster 12</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/08dbc9b2-7ba4-46e1-b972-69884ab778e0">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>lobula columnar neuron LC15/16+</ns:authors_cell_type>
+    <ns:cell_type>lobula columnar neuron</ns:cell_type>
+    <rdfs:label>lobula columnar neuron LC15/16+</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/7c897a2f-a607-415e-915d-b38361b2a9cf">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>lobula columnar neuron LC14</ns:authors_cell_type>
+    <ns:cell_type>lobula columnar neuron LC14</ns:cell_type>
+    <rdfs:label>lobula columnar neuron LC14</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/638d45fe-482d-43e1-b8cb-d658eaf70234">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>unknown 98</ns:authors_cell_type>
+    <rdfs:label>unknown 98</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/eb8909da-3956-4028-b7a9-6b19c009e6eb">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>lobula columnar neuron LC10c</ns:authors_cell_type>
+    <ns:cell_type>lobula columnar neuron LC10c</ns:cell_type>
+    <rdfs:label>lobula columnar neuron LC10c</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/751e6b04-1523-469c-8942-8a77795400dc">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>unknown 178</ns:authors_cell_type>
+    <rdfs:label>unknown 178</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/53534b4b-536c-4744-93b6-6968c00b32c0">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>unknown 16</ns:authors_cell_type>
+    <obo:RO_0015003 rdf:resource="http://example.org/5f1bf9be-4db4-4419-9ea5-3c2560fe2ae1"/>
+    <rdfs:label>unknown 16</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/0410afd6-af33-4ff2-b88a-936c3f71c6db">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>proximal medullary amacrine neuron Pm3</ns:authors_cell_type>
+    <ns:cell_type>proximal medullary amacrine neuron Pm3</ns:cell_type>
+    <rdfs:label>proximal medullary amacrine neuron Pm3</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/8afe08a3-fe57-446e-8a31-cc0fb39343c8">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>unknown 92</ns:authors_cell_type>
+    <rdfs:label>unknown 92</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/6f47f9d5-5630-4250-a412-2d43d3ab54cd">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:cluster_nb>Cluster 23</ns:cluster_nb>
+    <rdfs:label>Cluster 23</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/0aaf00aa-05aa-4d4b-b1f1-c9e628e6f75e">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>unknown 231</ns:authors_cell_type>
+    <rdfs:label>unknown 231</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/cc9e2f1e-1cfe-4a19-9fcf-5fd70ed63234">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>distal medullary amacrine neuron Dm11</ns:authors_cell_type>
+    <ns:cell_type>distal medullary amacrine neuron Dm11</ns:cell_type>
+    <rdfs:label>distal medullary amacrine neuron Dm11</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/b3a9988d-0413-4bc9-9dac-24026bc042c3">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>transmedullary Y neuron TmY8</ns:authors_cell_type>
+    <ns:cell_type>transmedullary Y neuron TmY8</ns:cell_type>
+    <rdfs:label>transmedullary Y neuron TmY8</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/8261c5b3-59f0-4cc6-9e5a-0604e64c02a5">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>transmedullary Y neuron TmY14</ns:authors_cell_type>
+    <ns:cell_type>transmedullary Y neuron TmY14</ns:cell_type>
+    <rdfs:label>transmedullary Y neuron TmY14</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/88905f4a-4689-4059-a751-48602c340af3">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:cluster_nb>Cluster 21</ns:cluster_nb>
+    <rdfs:label>Cluster 21</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/2ceb186d-f692-495c-9d6a-5fd90ffe18db">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>transmedullary Y neuron TmY5a</ns:authors_cell_type>
+    <ns:cell_type>transmedullary Y neuron TmY5a</ns:cell_type>
+    <rdfs:label>transmedullary Y neuron TmY5a</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/1f3412fa-ec36-4e10-a29d-1d4ebc85ebfa">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>unknown 47</ns:authors_cell_type>
+    <rdfs:label>unknown 47</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/7c74eced-1f5e-4515-9303-a88645acba32">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>unknown 51</ns:authors_cell_type>
+    <rdfs:label>unknown 51</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/410a6a7f-b9df-4420-babf-5f4b453a9006">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>lamina intrinsic neuron</ns:authors_cell_type>
+    <ns:cell_type>lamina intrinsic neuron</ns:cell_type>
+    <rdfs:label>lamina intrinsic neuron</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/0772e48b-2f21-4f22-ae09-08914233c16c">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:cluster_nb>Cluster 9</ns:cluster_nb>
+    <rdfs:label>Cluster 9</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/1cc7ee6e-c63d-4db1-a7d4-1a7f5c2665fb">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>unknown 115</ns:authors_cell_type>
+    <rdfs:label>unknown 115</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/d653f858-c693-4d36-ad34-1616c549cae1">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>transmedullary neuron Tm1</ns:authors_cell_type>
+    <ns:cell_type>transmedullary neuron Tm1</ns:cell_type>
+    <rdfs:label>transmedullary neuron Tm1</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/56e93c25-9d7a-47c0-a941-a46e9534f783">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>unknown 101</ns:authors_cell_type>
+    <rdfs:label>unknown 101</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/4b05e1ed-267f-43ef-8736-48f38a4eb417">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:cluster_nb>Cluster 32</ns:cluster_nb>
+    <rdfs:label>Cluster 32</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/85c131ce-f44c-4782-acce-fd6be3d29e3b">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>unknown 29</ns:authors_cell_type>
+    <rdfs:label>unknown 29</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/28affc1c-fcc8-441c-a94c-6fcdf49973c6">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:cluster_nb>Cluster 6</ns:cluster_nb>
+    <rdfs:label>Cluster 6</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/eb944d59-8fa7-44a8-8c08-b09f8dad7f3a">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>glial cell 4</ns:authors_cell_type>
+    <obo:RO_0015003 rdf:resource="http://example.org/a75807e7-1104-4cf9-bcaf-e562d1f82091"/>
+    <obo:RO_0015003 rdf:resource="http://example.org/9853f3be-00dd-4469-a561-541bd4d73f4c"/>
+    <rdfs:label>glial cell 4</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/d6063e65-6594-43f6-bc5f-1e03250120f5">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:cluster_nb>Cluster 28</ns:cluster_nb>
+    <rdfs:label>Cluster 28</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/c2ae7b53-c000-4f6d-ae2f-bf226ed4f3a5">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>unknown 105</ns:authors_cell_type>
+    <rdfs:label>unknown 105</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/0db4ceee-470b-4a6b-904e-a2afc4db4169">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:cluster_nb>Cluster 15</ns:cluster_nb>
+    <rdfs:label>Cluster 15</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ec86f5bb-dc0f-4742-a509-194deef58530">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:cluster_nb>Cluster 3</ns:cluster_nb>
+    <rdfs:label>Cluster 3</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/9f232f6f-0db9-4a60-8b89-19bc57e75cea">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>glial cell 2</ns:authors_cell_type>
+    <obo:RO_0015003 rdf:resource="http://example.org/9853f3be-00dd-4469-a561-541bd4d73f4c"/>
+    <rdfs:label>glial cell 2</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/50eb2c17-f5ea-4734-a8fe-e4f6da2a6697">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>unknown 41</ns:authors_cell_type>
+    <rdfs:label>unknown 41</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/e162771a-01f3-4a14-91e9-92a0ef90dc28">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>unknown 11</ns:authors_cell_type>
+    <rdfs:label>unknown 11</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/d7c06c75-1069-4b7b-82ad-221a10c325a1">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>T neuron T4-5c/d</ns:authors_cell_type>
+    <obo:RO_0015003 rdf:resource="http://example.org/72f6ecfc-ca8b-4b7b-86a4-1d22b5262253"/>
+    <rdfs:label>T neuron T4-5c/d</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/e7d86ac3-53ed-4cc0-8214-d2471b66a0a5">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>unknown 53</ns:authors_cell_type>
+    <rdfs:label>unknown 53</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/46be4a37-e7ae-43e3-8ea1-a8ebba095b51">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>transmedullary Y neuron TmY4</ns:authors_cell_type>
+    <ns:cell_type>transmedullary Y neuron TmY4</ns:cell_type>
+    <rdfs:label>transmedullary Y neuron TmY4</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/81282d37-b1a6-4184-9026-af6562df8ff8">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>unknown 84</ns:authors_cell_type>
+    <rdfs:label>unknown 84</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/3101e854-c087-425d-9401-87979f088002">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>unknown 57</ns:authors_cell_type>
+    <rdfs:label>unknown 57</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/c9f74b72-85df-4134-9156-afa2a070f71d">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>unknown 17</ns:authors_cell_type>
+    <rdfs:label>unknown 17</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/be265715-6527-4466-bf81-cdc9a6cb059a">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>glial cell 10</ns:authors_cell_type>
+    <obo:RO_0015003 rdf:resource="http://example.org/9853f3be-00dd-4469-a561-541bd4d73f4c"/>
+    <rdfs:label>glial cell 10</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/50f87e2e-ef97-4190-a8dd-beaf6bdca1e8">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>unknown 139</ns:authors_cell_type>
+    <rdfs:label>unknown 139</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/1c7e9a03-7128-4b14-95f2-51e7b2ebe1fb">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>T neuron T2</ns:authors_cell_type>
+    <ns:cell_type>T neuron T2</ns:cell_type>
+    <rdfs:label>T neuron T2</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/d6cb5128-597c-47ed-9c52-2bb34c863eca">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>proximal medullary amacrine neuron Pm4</ns:authors_cell_type>
+    <ns:cell_type>proximal medullary amacrine neuron Pm4</ns:cell_type>
+    <rdfs:label>proximal medullary amacrine neuron Pm4</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/e00b19d1-d361-424e-8961-a25a093ea96f">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>unknown 20</ns:authors_cell_type>
+    <rdfs:label>unknown 20</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/16c23158-2d63-45d6-b87e-ce91a48f1e24">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>unknown 87</ns:authors_cell_type>
+    <rdfs:label>unknown 87</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/5f1bf9be-4db4-4419-9ea5-3c2560fe2ae1">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:cluster_nb>Cluster 20</ns:cluster_nb>
+    <rdfs:label>Cluster 20</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ae1de804-8352-4031-8595-b260154cd737">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:cluster_nb>Cluster 13</ns:cluster_nb>
+    <rdfs:label>Cluster 13</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/9fa4c77f-ec8a-4c8c-950d-9e37beb7ed16">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>lamina wide-field 2 neuron</ns:authors_cell_type>
+    <ns:cell_type>lamina wide-field 2 neuron</ns:cell_type>
+    <rdfs:label>lamina wide-field 2 neuron</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/8c314a68-fd8c-4239-a778-850b84a20f51">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>unknown 36</ns:authors_cell_type>
+    <rdfs:label>unknown 36</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/5b3efcbf-f044-436d-a78c-a59da3494ae6">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>unknown 58</ns:authors_cell_type>
+    <rdfs:label>unknown 58</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/a18913d2-e4d8-4ed5-9501-c688aa3c1b39">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:cluster_nb>Cluster 27</ns:cluster_nb>
+    <rdfs:label>Cluster 27</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/94cb2bdf-2a5a-439b-8870-97d633790ddc">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>unknown 159</ns:authors_cell_type>
+    <rdfs:label>unknown 159</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/7258da63-b2de-4704-82b9-895459bb3df8">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>unknown 191</ns:authors_cell_type>
+    <rdfs:label>unknown 191</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/263f41e7-b3d6-48ab-99af-ecce7682b1ce">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>unknown 18</ns:authors_cell_type>
+    <rdfs:label>unknown 18</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/74cb259a-3760-481f-ad5b-27cf9ef2355d">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>unknown 154</ns:authors_cell_type>
+    <rdfs:label>unknown 154</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/02a4948c-3aef-4092-93d3-715acfe06fdd">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>unknown 173</ns:authors_cell_type>
+    <rdfs:label>unknown 173</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/be207a9c-41a1-42bd-885f-011e0f5647af">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:cluster_nb>Cluster 36</ns:cluster_nb>
+    <rdfs:label>Cluster 36</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/1ce59531-c85e-42ec-ac94-496b99f1c6ef">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>unknown 82</ns:authors_cell_type>
+    <rdfs:label>unknown 82</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/e81b82c0-cfaa-4c54-a960-e4825fa8ef9d">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>unknown 172</ns:authors_cell_type>
+    <rdfs:label>unknown 172</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/a3baadc2-bc99-4b94-9a11-d71c7a0aec38">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>unknown 112</ns:authors_cell_type>
+    <rdfs:label>unknown 112</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0002473">
+    <rdfs:label>composed primarily of</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/71f291bd-389f-4946-bcb0-d09d727478a6">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>unknown 68</ns:authors_cell_type>
+    <rdfs:label>unknown 68</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/1011cfd7-774b-4b88-b402-42d071fb9ec0">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:cluster_nb>Cluster 24</ns:cluster_nb>
+    <rdfs:label>Cluster 24</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/eaaf9ff0-e3b0-4d6f-be29-04b8c12668bc">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:cluster_nb>Cluster 34</ns:cluster_nb>
+    <rdfs:label>Cluster 34</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0015003">
+    <rdfs:label>subcluster of</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/e3cebeec-2a50-4225-8c92-c8e0ea82e1ab">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/d3767a1a-2fa2-4ef0-9742-202b187ef70f"/>
+    <ns:authors_cell_type>unknown 161</ns:authors_cell_type>
+    <rdfs:label>unknown 161</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/source">
+    <rdfs:label>has_source</rdfs:label>
+  </rdf:Description>
+</rdf:RDF>

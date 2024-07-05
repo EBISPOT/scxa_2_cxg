@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:ns="http://example.org/"
+   xmlns:obo="http://purl.obolibrary.org/obo/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="http://example.org/39b1f17c-9d71-48cf-9826-9a428d26840d">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/1438d4be-4803-4ad9-bef6-cc60c5b618c0"/>
+    <ns:cluster_nb>Cluster 1</ns:cluster_nb>
+    <obo:RO_0015003 rdf:resource="http://example.org/c6021713-17d9-43d8-985c-ab6dec071ba9"/>
+    <rdfs:label>Cluster 1</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/91394880-1038-4665-8545-e1dbae1bc265">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/1438d4be-4803-4ad9-bef6-cc60c5b618c0"/>
+    <ns:authors_cell_type>non-hemocyte</ns:authors_cell_type>
+    <ns:authors_cell_type_ontology_label>non-hemocyte</ns:authors_cell_type_ontology_label>
+    <obo:RO_0015003 rdf:resource="http://example.org/ddd39f93-4bc6-48fb-88f8-fc74c78b425c"/>
+    <rdfs:label>non-hemocyte</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/c5343f31-cd8c-4ce2-8c65-ea4815d18428">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/1438d4be-4803-4ad9-bef6-cc60c5b618c0"/>
+    <ns:authors_cell_type>plasmatocyte 8</ns:authors_cell_type>
+    <obo:RO_0015003 rdf:resource="http://example.org/a1412fec-12b3-4932-bbd7-7b0ba04dc48c"/>
+    <rdfs:label>plasmatocyte 8</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/abcb2099-4d57-4ce7-b6a1-674e8b67ca04">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/1438d4be-4803-4ad9-bef6-cc60c5b618c0"/>
+    <ns:cluster_nb>Cluster 13</ns:cluster_nb>
+    <obo:RO_0015003 rdf:resource="http://example.org/c6021713-17d9-43d8-985c-ab6dec071ba9"/>
+    <rdfs:label>Cluster 13</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/95d2a7b8-be7f-4fb7-ad0d-f1963ff7dc29">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/1438d4be-4803-4ad9-bef6-cc60c5b618c0"/>
+    <ns:cluster_nb>Cluster 7</ns:cluster_nb>
+    <obo:RO_0015003 rdf:resource="http://example.org/c6021713-17d9-43d8-985c-ab6dec071ba9"/>
+    <rdfs:label>Cluster 7</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/a4c247dc-bccb-4856-adc0-49feafa18df3">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/1438d4be-4803-4ad9-bef6-cc60c5b618c0"/>
+    <ns:authors_cell_type>plasmatocyte 3</ns:authors_cell_type>
+    <obo:RO_0015003 rdf:resource="http://example.org/a1412fec-12b3-4932-bbd7-7b0ba04dc48c"/>
+    <rdfs:label>plasmatocyte 3</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/e8506738-c8aa-44b1-83f5-ac0f0e668f71">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/1438d4be-4803-4ad9-bef6-cc60c5b618c0"/>
+    <ns:authors_cell_type>plasmatocyte 2</ns:authors_cell_type>
+    <obo:RO_0015003 rdf:resource="http://example.org/a1412fec-12b3-4932-bbd7-7b0ba04dc48c"/>
+    <rdfs:label>plasmatocyte 2</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/c6021713-17d9-43d8-985c-ab6dec071ba9">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/1438d4be-4803-4ad9-bef6-cc60c5b618c0"/>
+    <ns:cell_type>hemocyte</ns:cell_type>
+    <rdfs:label>hemocyte</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0015003">
+    <rdfs:label>subcluster of</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/1438d4be-4803-4ad9-bef6-cc60c5b618c0">
+    <rdf:type rdf:resource="https://schema.org/Dataset"/>
+    <rdfs:label>dataset</rdfs:label>
+    <ns:citation>Publication: https://doi.org/10.7554/eLife.54818 Dataset Version: https://ftp.ebi.ac.uk/pub/databases/spot/scxa/E-CURD-56_modified.project.h5ad</ns:citation>
+    <ns:dataset_curie>SCXA:E-CURD-56</ns:dataset_curie>
+    <ns:default_embedding>X_umap_neighbors_n_neighbors_20</ns:default_embedding>
+    <ns:schema_reference>https://github.com/chanzuckerberg/single-cell-curation/blob/main/schema/4.0.0/schema.md</ns:schema_reference>
+    <ns:title>Drop-seq single-cell sequencing of hemocytes from Drosophila larvae after wasp infestation</ns:title>
+    <ns:obs_meta>[[{"field_name": "cluster_nb", "field_type": "author_cell_type_label"}], [{"field_name": "inferred_cell_type", "field_type": "author_cell_type_label"}], [{"field_name": "authors_cell_type", "field_type": "author_cell_type_label"}], [{"field_name": "authors_cell_type_ontology_label", "field_type": "author_cell_type_label"}], [{"field_name": "cell_type", "field_type": "author_cell_type_label"}]]</ns:obs_meta>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/255d186c-5706-40c3-b2bd-0a4a321b9e11">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/1438d4be-4803-4ad9-bef6-cc60c5b618c0"/>
+    <ns:authors_cell_type>plasmatocyte 4</ns:authors_cell_type>
+    <obo:RO_0015003 rdf:resource="http://example.org/a1412fec-12b3-4932-bbd7-7b0ba04dc48c"/>
+    <rdfs:label>plasmatocyte 4</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/cf5a0125-f8b1-4a69-a806-92fc8c5233f6">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/1438d4be-4803-4ad9-bef6-cc60c5b618c0"/>
+    <ns:authors_cell_type>plasmatocyte 10</ns:authors_cell_type>
+    <obo:RO_0015003 rdf:resource="http://example.org/a1412fec-12b3-4932-bbd7-7b0ba04dc48c"/>
+    <rdfs:label>plasmatocyte 10</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/d4a6e387-9fa3-4966-b191-e67b3a54736b">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/1438d4be-4803-4ad9-bef6-cc60c5b618c0"/>
+    <ns:authors_cell_type>plasmatocyte 1</ns:authors_cell_type>
+    <obo:RO_0015003 rdf:resource="http://example.org/a1412fec-12b3-4932-bbd7-7b0ba04dc48c"/>
+    <rdfs:label>plasmatocyte 1</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/27100c8f-c9db-4766-b0d5-5b39f079bdd8">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/1438d4be-4803-4ad9-bef6-cc60c5b618c0"/>
+    <ns:cluster_nb>Cluster 17</ns:cluster_nb>
+    <obo:RO_0015003 rdf:resource="http://example.org/c6021713-17d9-43d8-985c-ab6dec071ba9"/>
+    <rdfs:label>Cluster 17</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/101dac39-79da-404f-a720-6bf2e93d6ac3">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/1438d4be-4803-4ad9-bef6-cc60c5b618c0"/>
+    <ns:authors_cell_type>plasmatocyte 11</ns:authors_cell_type>
+    <obo:RO_0015003 rdf:resource="http://example.org/a1412fec-12b3-4932-bbd7-7b0ba04dc48c"/>
+    <rdfs:label>plasmatocyte 11</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/e43261d8-81e8-44cb-8593-0130a303139c">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/1438d4be-4803-4ad9-bef6-cc60c5b618c0"/>
+    <ns:cluster_nb>Cluster 14</ns:cluster_nb>
+    <obo:RO_0015003 rdf:resource="http://example.org/c6021713-17d9-43d8-985c-ab6dec071ba9"/>
+    <rdfs:label>Cluster 14</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/6d24fbda-aaa8-40ec-866d-563ed3fb002a">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/1438d4be-4803-4ad9-bef6-cc60c5b618c0"/>
+    <ns:cluster_nb>Cluster 4</ns:cluster_nb>
+    <obo:RO_0015003 rdf:resource="http://example.org/c6021713-17d9-43d8-985c-ab6dec071ba9"/>
+    <rdfs:label>Cluster 4</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/d99e17fe-39b6-4d5e-ad87-fbb4ab8a832a">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/1438d4be-4803-4ad9-bef6-cc60c5b618c0"/>
+    <ns:cluster_nb>Cluster 12</ns:cluster_nb>
+    <obo:RO_0015003 rdf:resource="http://example.org/c6021713-17d9-43d8-985c-ab6dec071ba9"/>
+    <rdfs:label>Cluster 12</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/669734a4-9620-425c-b377-f13ecf599bba">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/1438d4be-4803-4ad9-bef6-cc60c5b618c0"/>
+    <ns:cluster_nb>Cluster 3</ns:cluster_nb>
+    <obo:RO_0015003 rdf:resource="http://example.org/c6021713-17d9-43d8-985c-ab6dec071ba9"/>
+    <rdfs:label>Cluster 3</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/2dd98076-ef8a-455f-9b25-d4363bad1398">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/1438d4be-4803-4ad9-bef6-cc60c5b618c0"/>
+    <ns:cluster_nb>Cluster 9</ns:cluster_nb>
+    <obo:RO_0015003 rdf:resource="http://example.org/c6021713-17d9-43d8-985c-ab6dec071ba9"/>
+    <rdfs:label>Cluster 9</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/3a29742d-6259-4cbf-9f16-99d4b87fa7ba">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/1438d4be-4803-4ad9-bef6-cc60c5b618c0"/>
+    <ns:cluster_nb>Cluster 8</ns:cluster_nb>
+    <obo:RO_0015003 rdf:resource="http://example.org/c6021713-17d9-43d8-985c-ab6dec071ba9"/>
+    <rdfs:label>Cluster 8</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/a1412fec-12b3-4932-bbd7-7b0ba04dc48c">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/1438d4be-4803-4ad9-bef6-cc60c5b618c0"/>
+    <ns:authors_cell_type_ontology_label>plasmatocyte</ns:authors_cell_type_ontology_label>
+    <obo:RO_0015003 rdf:resource="http://example.org/c6021713-17d9-43d8-985c-ab6dec071ba9"/>
+    <rdfs:label>plasmatocyte</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/c6ee1f95-2e99-4f3c-84be-4d9460448aa3">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/1438d4be-4803-4ad9-bef6-cc60c5b618c0"/>
+    <ns:authors_cell_type>plasmatocyte 5</ns:authors_cell_type>
+    <obo:RO_0015003 rdf:resource="http://example.org/a1412fec-12b3-4932-bbd7-7b0ba04dc48c"/>
+    <rdfs:label>plasmatocyte 5</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/224ab563-57a0-4642-8d89-8b341975ab1f">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/1438d4be-4803-4ad9-bef6-cc60c5b618c0"/>
+    <ns:authors_cell_type>lamellocyte 2</ns:authors_cell_type>
+    <obo:RO_0015003 rdf:resource="http://example.org/0ff54fc9-7cf1-46e3-9fb7-13503ea459c9"/>
+    <rdfs:label>lamellocyte 2</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/f86bd958-a5a3-4105-8f85-d9983cad5641">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/1438d4be-4803-4ad9-bef6-cc60c5b618c0"/>
+    <ns:authors_cell_type>crystal cell 2</ns:authors_cell_type>
+    <obo:RO_0015003 rdf:resource="http://example.org/8c58caed-e340-4213-aa01-a894a84bc908"/>
+    <rdfs:label>crystal cell 2</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/e99a5cc4-9b79-4b62-a11b-9229e06e7f5d">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/1438d4be-4803-4ad9-bef6-cc60c5b618c0"/>
+    <ns:cluster_nb>Cluster 11</ns:cluster_nb>
+    <obo:RO_0015003 rdf:resource="http://example.org/c6021713-17d9-43d8-985c-ab6dec071ba9"/>
+    <rdfs:label>Cluster 11</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/a92fa780-2408-4b7b-a894-3b2634ce6d6a">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/1438d4be-4803-4ad9-bef6-cc60c5b618c0"/>
+    <ns:authors_cell_type>lamellocyte 1</ns:authors_cell_type>
+    <obo:RO_0015003 rdf:resource="http://example.org/0ff54fc9-7cf1-46e3-9fb7-13503ea459c9"/>
+    <rdfs:label>lamellocyte 1</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/c1c3bdc5-9961-4e5d-bc4a-5f2ea3a10249">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/1438d4be-4803-4ad9-bef6-cc60c5b618c0"/>
+    <ns:authors_cell_type>plasmatocyte 6</ns:authors_cell_type>
+    <obo:RO_0015003 rdf:resource="http://example.org/a1412fec-12b3-4932-bbd7-7b0ba04dc48c"/>
+    <rdfs:label>plasmatocyte 6</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ddd39f93-4bc6-48fb-88f8-fc74c78b425c">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/1438d4be-4803-4ad9-bef6-cc60c5b618c0"/>
+    <ns:cluster_nb>Cluster 15</ns:cluster_nb>
+    <obo:RO_0015003 rdf:resource="http://example.org/c6021713-17d9-43d8-985c-ab6dec071ba9"/>
+    <rdfs:label>Cluster 15</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/96b9cf18-6ead-46dc-ac3b-b6ea8759cc6c">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/1438d4be-4803-4ad9-bef6-cc60c5b618c0"/>
+    <ns:cluster_nb>Cluster 5</ns:cluster_nb>
+    <obo:RO_0015003 rdf:resource="http://example.org/c6021713-17d9-43d8-985c-ab6dec071ba9"/>
+    <rdfs:label>Cluster 5</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/8c58caed-e340-4213-aa01-a894a84bc908">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/1438d4be-4803-4ad9-bef6-cc60c5b618c0"/>
+    <ns:authors_cell_type_ontology_label>crystal cell</ns:authors_cell_type_ontology_label>
+    <obo:RO_0015003 rdf:resource="http://example.org/c6021713-17d9-43d8-985c-ab6dec071ba9"/>
+    <rdfs:label>crystal cell</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/52ea80d7-66cb-4dd6-97b4-4608bf293f25">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/1438d4be-4803-4ad9-bef6-cc60c5b618c0"/>
+    <ns:authors_cell_type>crystal cell 1</ns:authors_cell_type>
+    <obo:RO_0015003 rdf:resource="http://example.org/8c58caed-e340-4213-aa01-a894a84bc908"/>
+    <rdfs:label>crystal cell 1</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/0ff54fc9-7cf1-46e3-9fb7-13503ea459c9">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/1438d4be-4803-4ad9-bef6-cc60c5b618c0"/>
+    <ns:authors_cell_type_ontology_label>lamellocyte</ns:authors_cell_type_ontology_label>
+    <obo:RO_0015003 rdf:resource="http://example.org/c6021713-17d9-43d8-985c-ab6dec071ba9"/>
+    <rdfs:label>lamellocyte</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/743ac696-9713-48a5-9c0e-e9dcb04b250a">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/1438d4be-4803-4ad9-bef6-cc60c5b618c0"/>
+    <ns:cluster_nb>Cluster 2</ns:cluster_nb>
+    <obo:RO_0015003 rdf:resource="http://example.org/c6021713-17d9-43d8-985c-ab6dec071ba9"/>
+    <rdfs:label>Cluster 2</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/efed154f-ab51-43c3-9d64-096259e8cbb9">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/1438d4be-4803-4ad9-bef6-cc60c5b618c0"/>
+    <ns:authors_cell_type>plasmatocyte 7</ns:authors_cell_type>
+    <obo:RO_0015003 rdf:resource="http://example.org/a1412fec-12b3-4932-bbd7-7b0ba04dc48c"/>
+    <rdfs:label>plasmatocyte 7</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/bd082c2c-117e-4c84-83c6-66a7a150076a">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/1438d4be-4803-4ad9-bef6-cc60c5b618c0"/>
+    <ns:cluster_nb>Cluster 10</ns:cluster_nb>
+    <obo:RO_0015003 rdf:resource="http://example.org/c6021713-17d9-43d8-985c-ab6dec071ba9"/>
+    <rdfs:label>Cluster 10</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/2e6bc95f-0426-41fa-a151-d474415917b1">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/1438d4be-4803-4ad9-bef6-cc60c5b618c0"/>
+    <ns:authors_cell_type>plasmatocyte 9</ns:authors_cell_type>
+    <obo:RO_0015003 rdf:resource="http://example.org/a1412fec-12b3-4932-bbd7-7b0ba04dc48c"/>
+    <rdfs:label>plasmatocyte 9</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0002473">
+    <rdfs:label>composed primarily of</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/a21210a4-12f5-445f-b4cd-c5398acceec5">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/1438d4be-4803-4ad9-bef6-cc60c5b618c0"/>
+    <ns:cluster_nb>Cluster 6</ns:cluster_nb>
+    <obo:RO_0015003 rdf:resource="http://example.org/c6021713-17d9-43d8-985c-ab6dec071ba9"/>
+    <rdfs:label>Cluster 6</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/2dd21f02-a296-430a-a0e2-eeda28f3e892">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/1438d4be-4803-4ad9-bef6-cc60c5b618c0"/>
+    <ns:cluster_nb>Cluster 16</ns:cluster_nb>
+    <obo:RO_0015003 rdf:resource="http://example.org/c6021713-17d9-43d8-985c-ab6dec071ba9"/>
+    <rdfs:label>Cluster 16</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/source">
+    <rdfs:label>has_source</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PCL_0010001">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>cell cluster</rdfs:label>
+  </rdf:Description>
+</rdf:RDF>
