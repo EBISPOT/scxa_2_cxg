@@ -118,7 +118,7 @@ def convert_and_save(study: str):
     """
     ann_data = ad.read_h5ad(
         f"downloads/{study}/{study}{H5AD_EXT_FILE}",
-        backed="r+"
+        backed="r"
     )
     new_obs = ann_data.obs.copy()
     new_obs.rename(columns={
@@ -236,6 +236,7 @@ def convert_and_save(study: str):
         f"downloads/{study}/{study}_modified{H5AD_EXT_FILE}",
         compression="gzip"
     )
+    ann_data.file.close()
 
     return ann_data
 
