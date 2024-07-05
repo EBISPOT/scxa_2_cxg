@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:ns="http://example.org/"
+   xmlns:obo="http://purl.obolibrary.org/obo/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="http://example.org/43a0091f-9c2c-4f9c-a4a0-4318cfe91fe2">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/2f521476-ed1f-4f15-ba3a-a6e08808af27"/>
+    <ns:cluster_nb>Cluster 11</ns:cluster_nb>
+    <obo:RO_0015003 rdf:resource="http://example.org/9f1ac0ea-8f22-4b0d-b993-11a45816805b"/>
+    <rdfs:label>Cluster 11</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0015003">
+    <rdfs:label>subcluster of</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/2f521476-ed1f-4f15-ba3a-a6e08808af27">
+    <rdf:type rdf:resource="https://schema.org/Dataset"/>
+    <rdfs:label>dataset</rdfs:label>
+    <ns:citation>Publication: https://doi.org/10.1016/j.cell.2017.10.019 Dataset Version: https://ftp.ebi.ac.uk/pub/databases/spot/scxa/E-GEOD-100058_modified.project.h5ad</ns:citation>
+    <ns:dataset_curie>SCXA:E-GEOD-100058</ns:dataset_curie>
+    <ns:default_embedding>X_umap_neighbors_n_neighbors_20</ns:default_embedding>
+    <ns:schema_reference>https://github.com/chanzuckerberg/single-cell-curation/blob/main/schema/4.0.0/schema.md</ns:schema_reference>
+    <ns:title>Single-cell RNA-seq analysis of Drosophila olfactory projection neurons</ns:title>
+    <ns:obs_meta>[[{"field_name": "cluster_nb", "field_type": "author_cell_type_label"}], [{"field_name": "inferred_cell_type", "field_type": "author_cell_type_label"}], [{"field_name": "authors_cell_type", "field_type": "author_cell_type_label"}], [{"field_name": "authors_cell_type_ontology_label", "field_type": "author_cell_type_label"}], [{"field_name": "cell_type", "field_type": "author_cell_type_label"}]]</ns:obs_meta>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/dbc9743b-5574-4a5c-9933-2cc8fa379b1d">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/2f521476-ed1f-4f15-ba3a-a6e08808af27"/>
+    <ns:cluster_nb>Cluster 16</ns:cluster_nb>
+    <obo:RO_0015003 rdf:resource="http://example.org/9f1ac0ea-8f22-4b0d-b993-11a45816805b"/>
+    <rdfs:label>Cluster 16</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/9f1ac0ea-8f22-4b0d-b993-11a45816805b">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/2f521476-ed1f-4f15-ba3a-a6e08808af27"/>
+    <ns:cell_type>olfactory projection neuron</ns:cell_type>
+    <rdfs:label>olfactory projection neuron</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/54e523a7-a419-4045-8319-8e7db5049bca">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/2f521476-ed1f-4f15-ba3a-a6e08808af27"/>
+    <ns:cluster_nb>Cluster 6</ns:cluster_nb>
+    <rdfs:label>Cluster 6</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/2d891193-70eb-49d6-97f8-a64148b7cce8">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/2f521476-ed1f-4f15-ba3a-a6e08808af27"/>
+    <ns:cluster_nb>Cluster 9</ns:cluster_nb>
+    <obo:RO_0015003 rdf:resource="http://example.org/d73a94f8-40fa-4dbb-9863-32f8519fc8df"/>
+    <rdfs:label>Cluster 9</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/c3d08c79-9c75-4ec4-8a6b-59d6d0cab5ba">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/2f521476-ed1f-4f15-ba3a-a6e08808af27"/>
+    <ns:cell_type>olfactory projection neuron innvervating DC2 glomerulus</ns:cell_type>
+    <rdfs:label>olfactory projection neuron innvervating DC2 glomerulus</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/c4df809b-bc71-4f87-90a8-dec68dad82ec">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/2f521476-ed1f-4f15-ba3a-a6e08808af27"/>
+    <ns:cluster_nb>Cluster 14</ns:cluster_nb>
+    <obo:RO_0015003 rdf:resource="http://example.org/23022e8d-9382-41c3-b7b8-09cbd4df2a65"/>
+    <rdfs:label>Cluster 14</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/bf996369-01a4-40d7-844c-2f3ca6177fa1">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/2f521476-ed1f-4f15-ba3a-a6e08808af27"/>
+    <ns:cluster_nb>Cluster 2</ns:cluster_nb>
+    <rdfs:label>Cluster 2</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/f490106a-1178-4c04-9cd2-b75f36dd278f">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/2f521476-ed1f-4f15-ba3a-a6e08808af27"/>
+    <ns:cluster_nb>Cluster 12</ns:cluster_nb>
+    <obo:RO_0015003 rdf:resource="http://example.org/d73a94f8-40fa-4dbb-9863-32f8519fc8df"/>
+    <rdfs:label>Cluster 12</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/871b9817-eabb-4ce2-9363-9404d42ce601">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/2f521476-ed1f-4f15-ba3a-a6e08808af27"/>
+    <ns:cluster_nb>Cluster 5</ns:cluster_nb>
+    <rdfs:label>Cluster 5</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/655bcfce-42a7-4147-98ec-2cb01852a99f">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/2f521476-ed1f-4f15-ba3a-a6e08808af27"/>
+    <ns:cluster_nb>Cluster 13</ns:cluster_nb>
+    <obo:RO_0015003 rdf:resource="http://example.org/d73a94f8-40fa-4dbb-9863-32f8519fc8df"/>
+    <rdfs:label>Cluster 13</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/130fbdd1-7735-4948-8ddb-34e6db6360cc">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/2f521476-ed1f-4f15-ba3a-a6e08808af27"/>
+    <ns:cell_type>olfactory projection neuron innervating VM2 glomerulus</ns:cell_type>
+    <rdfs:label>olfactory projection neuron innervating VM2 glomerulus</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/7dd26716-73d3-4a01-a143-b83e9bff02af">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/2f521476-ed1f-4f15-ba3a-a6e08808af27"/>
+    <ns:cluster_nb>Cluster 1</ns:cluster_nb>
+    <rdfs:label>Cluster 1</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/d73a94f8-40fa-4dbb-9863-32f8519fc8df">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/2f521476-ed1f-4f15-ba3a-a6e08808af27"/>
+    <ns:cell_type>olfactory projection neuron innervating DA1, VA1d or DC3 glomerulus</ns:cell_type>
+    <rdfs:label>olfactory projection neuron innervating DA1, VA1d or DC3 glomerulus</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/d848ed04-3367-46b9-a2ba-e2f0cbe4d96f">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/2f521476-ed1f-4f15-ba3a-a6e08808af27"/>
+    <ns:cell_type>neuron</ns:cell_type>
+    <obo:RO_0015003 rdf:resource="http://example.org/085a4ff2-6fb9-41bb-aac4-cd4534007990"/>
+    <rdfs:label>neuron</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/d2f886ad-d4ff-47e7-88aa-b92fbd73048e">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/2f521476-ed1f-4f15-ba3a-a6e08808af27"/>
+    <ns:cluster_nb>Cluster 10</ns:cluster_nb>
+    <obo:RO_0015003 rdf:resource="http://example.org/9f1ac0ea-8f22-4b0d-b993-11a45816805b"/>
+    <rdfs:label>Cluster 10</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/23022e8d-9382-41c3-b7b8-09cbd4df2a65">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/2f521476-ed1f-4f15-ba3a-a6e08808af27"/>
+    <ns:cell_type>astrocyte</ns:cell_type>
+    <rdfs:label>astrocyte</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/d211878b-a7bf-4632-8386-562e5de2aab3">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/2f521476-ed1f-4f15-ba3a-a6e08808af27"/>
+    <ns:cluster_nb>Cluster 3</ns:cluster_nb>
+    <rdfs:label>Cluster 3</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/76ddf148-3565-447a-a5e9-8bca1df143ef">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/2f521476-ed1f-4f15-ba3a-a6e08808af27"/>
+    <ns:cluster_nb>Cluster 15</ns:cluster_nb>
+    <obo:RO_0015003 rdf:resource="http://example.org/d73a94f8-40fa-4dbb-9863-32f8519fc8df"/>
+    <rdfs:label>Cluster 15</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/085a4ff2-6fb9-41bb-aac4-cd4534007990">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/2f521476-ed1f-4f15-ba3a-a6e08808af27"/>
+    <ns:cluster_nb>Cluster 4</ns:cluster_nb>
+    <rdfs:label>Cluster 4</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/54fdfd16-3958-40b3-9f68-265d95335ed4">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/2f521476-ed1f-4f15-ba3a-a6e08808af27"/>
+    <ns:cluster_nb>Cluster 17</ns:cluster_nb>
+    <rdfs:label>Cluster 17</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/source">
+    <rdfs:label>has_source</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PCL_0010001">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>cell cluster</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/97557484-2e22-477c-913b-9354f3404990">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/2f521476-ed1f-4f15-ba3a-a6e08808af27"/>
+    <ns:cluster_nb>Cluster 8</ns:cluster_nb>
+    <obo:RO_0015003 rdf:resource="http://example.org/9f1ac0ea-8f22-4b0d-b993-11a45816805b"/>
+    <rdfs:label>Cluster 8</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0002473">
+    <rdfs:label>composed primarily of</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/48b73af5-f0fa-49be-abb8-64549c21b468">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/2f521476-ed1f-4f15-ba3a-a6e08808af27"/>
+    <ns:cluster_nb>Cluster 7</ns:cluster_nb>
+    <obo:RO_0015003 rdf:resource="http://example.org/d73a94f8-40fa-4dbb-9863-32f8519fc8df"/>
+    <rdfs:label>Cluster 7</rdfs:label>
+  </rdf:Description>
+</rdf:RDF>

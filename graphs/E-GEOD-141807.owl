@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:ns="http://example.org/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="http://example.org/bd70a7d6-0a17-45eb-8472-83db426a9d55">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/5c351654-9317-4a02-849a-b048c771b639"/>
+    <ns:cell_type>hemilineage 1A secondary neuron</ns:cell_type>
+    <rdfs:label>hemilineage 1A secondary neuron</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/04664f55-b0f8-4f17-8ac2-7ee9a96f56f9">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/5c351654-9317-4a02-849a-b048c771b639"/>
+    <ns:cluster_nb>Cluster 11</ns:cluster_nb>
+    <rdfs:label>Cluster 11</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/4c79d3a2-d82f-4b2f-ba1b-b18c8575c7fe">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/5c351654-9317-4a02-849a-b048c771b639"/>
+    <ns:cell_type>lineage 10 secondary neuron</ns:cell_type>
+    <rdfs:label>lineage 10 secondary neuron</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/b56486cd-9dc3-412f-b9fa-00d953cce731">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/5c351654-9317-4a02-849a-b048c771b639"/>
+    <ns:cell_type>lineage 16 secondary neuron</ns:cell_type>
+    <rdfs:label>lineage 16 secondary neuron</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/9167413d-7319-4302-8a1a-9d644af738a3">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/5c351654-9317-4a02-849a-b048c771b639"/>
+    <ns:cluster_nb>Cluster 14</ns:cluster_nb>
+    <rdfs:label>Cluster 14</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/88bf7ef1-3cbe-4ad9-9721-cc7b9022cbc1">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/5c351654-9317-4a02-849a-b048c771b639"/>
+    <ns:cell_type>lineage 23 secondary neuron</ns:cell_type>
+    <rdfs:label>lineage 23 secondary neuron</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ff398a83-3406-4354-a9bb-e2eb587b1117">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/5c351654-9317-4a02-849a-b048c771b639"/>
+    <ns:cell_type>hemilineage 9B secondary neuron</ns:cell_type>
+    <rdfs:label>hemilineage 9B secondary neuron</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/f605e368-b74f-49d2-9e27-5a301f031b14">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/5c351654-9317-4a02-849a-b048c771b639"/>
+    <ns:cell_type>lineage 14 secondary neuron</ns:cell_type>
+    <rdfs:label>lineage 14 secondary neuron</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/c00dd12c-8738-4ac6-b3bf-1906118dd854">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/5c351654-9317-4a02-849a-b048c771b639"/>
+    <ns:cell_type>mixed lineage 5 and 6 secondary neuron</ns:cell_type>
+    <rdfs:label>mixed lineage 5 and 6 secondary neuron</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/5c351654-9317-4a02-849a-b048c771b639">
+    <rdf:type rdf:resource="https://schema.org/Dataset"/>
+    <rdfs:label>dataset</rdfs:label>
+    <ns:citation>Publication: https://doi.org/10.7554/eLife.54074 Dataset Version: https://ftp.ebi.ac.uk/pub/databases/spot/scxa/E-GEOD-141807_modified.project.h5ad</ns:citation>
+    <ns:dataset_curie>SCXA:E-GEOD-141807</ns:dataset_curie>
+    <ns:default_embedding>X_umap_neighbors_n_neighbors_20</ns:default_embedding>
+    <ns:schema_reference>https://github.com/chanzuckerberg/single-cell-curation/blob/main/schema/4.0.0/schema.md</ns:schema_reference>
+    <ns:title>A single-cell transcriptomic atlas of the adult Drosophila ventral nerve cord</ns:title>
+    <ns:obs_meta>[[{"field_name": "cluster_nb", "field_type": "author_cell_type_label"}], [{"field_name": "inferred_cell_type", "field_type": "author_cell_type_label"}], [{"field_name": "authors_cell_type", "field_type": "author_cell_type_label"}], [{"field_name": "authors_cell_type_ontology_label", "field_type": "author_cell_type_label"}]]</ns:obs_meta>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/f33c00b9-e2de-4057-80f6-9d7133a36462">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/5c351654-9317-4a02-849a-b048c771b639"/>
+    <ns:cell_type>adult glutamatergic neuron</ns:cell_type>
+    <rdfs:label>adult glutamatergic neuron</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/30c540f3-48fa-4f4f-9ae3-9694d4554793">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/5c351654-9317-4a02-849a-b048c771b639"/>
+    <ns:cell_type>mixed hemilineage 8A and 24B secondary neuron</ns:cell_type>
+    <rdfs:label>mixed hemilineage 8A and 24B secondary neuron</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/549d3ce3-1896-4767-aae2-620a15dfc615">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/5c351654-9317-4a02-849a-b048c771b639"/>
+    <ns:cluster_nb>Cluster 17</ns:cluster_nb>
+    <rdfs:label>Cluster 17</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/6bf92370-72fa-416d-a7df-db514098ccca">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/5c351654-9317-4a02-849a-b048c771b639"/>
+    <ns:cell_type>hemilineage 21A secondary neuron</ns:cell_type>
+    <rdfs:label>hemilineage 21A secondary neuron</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ef86df8c-0698-4e5f-9e49-87508925756f">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/5c351654-9317-4a02-849a-b048c771b639"/>
+    <ns:cluster_nb>Cluster 5</ns:cluster_nb>
+    <rdfs:label>Cluster 5</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/3c2b63a2-d5df-4aff-a190-ba32aa6df79c">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/5c351654-9317-4a02-849a-b048c771b639"/>
+    <ns:cluster_nb>Cluster 21</ns:cluster_nb>
+    <rdfs:label>Cluster 21</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/0795e869-ec72-4f65-96b0-2ff18758b54e">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/5c351654-9317-4a02-849a-b048c771b639"/>
+    <ns:cluster_nb>Cluster 7</ns:cluster_nb>
+    <rdfs:label>Cluster 7</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ee27f290-92c4-4783-bc51-d59fac82ccf9">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/5c351654-9317-4a02-849a-b048c771b639"/>
+    <ns:cell_type>hemilineage 12B secondary neuron</ns:cell_type>
+    <rdfs:label>hemilineage 12B secondary neuron</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/f70093ea-c26b-4afa-8bce-0d788e97aabb">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/5c351654-9317-4a02-849a-b048c771b639"/>
+    <ns:cluster_nb>Cluster 6</ns:cluster_nb>
+    <rdfs:label>Cluster 6</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/0fbcd9b5-919c-40f2-85c8-2fd77214e7fe">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/5c351654-9317-4a02-849a-b048c771b639"/>
+    <ns:cell_type>adult GABAergic neuron</ns:cell_type>
+    <rdfs:label>adult GABAergic neuron</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0015003">
+    <rdfs:label>subcluster of</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/8fc4f833-62e4-48fd-ad44-48f36349f7e9">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/5c351654-9317-4a02-849a-b048c771b639"/>
+    <ns:cluster_nb>Cluster 12</ns:cluster_nb>
+    <rdfs:label>Cluster 12</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/1635606d-dab2-4cb9-94e2-353a7dc1972b">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/5c351654-9317-4a02-849a-b048c771b639"/>
+    <ns:cluster_nb>Cluster 19</ns:cluster_nb>
+    <rdfs:label>Cluster 19</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PCL_0010001">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>cell cluster</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/339cf56d-de45-4fa9-9ce4-b710e02ecd53">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/5c351654-9317-4a02-849a-b048c771b639"/>
+    <ns:cluster_nb>Cluster 10</ns:cluster_nb>
+    <rdfs:label>Cluster 10</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0002473">
+    <rdfs:label>composed primarily of</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/089ad585-c2c2-42eb-86d2-e242da384588">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/5c351654-9317-4a02-849a-b048c771b639"/>
+    <ns:cluster_nb>Cluster 16</ns:cluster_nb>
+    <rdfs:label>Cluster 16</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/fb28b2e8-dc85-4cb7-a798-0e15685f8b39">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/5c351654-9317-4a02-849a-b048c771b639"/>
+    <ns:cell_type>hemilineage 8B secondary neuron</ns:cell_type>
+    <rdfs:label>hemilineage 8B secondary neuron</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ebbef5cf-97f7-48bf-8097-9b5ed7814cda">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/5c351654-9317-4a02-849a-b048c771b639"/>
+    <ns:cluster_nb>Cluster 8</ns:cluster_nb>
+    <rdfs:label>Cluster 8</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/107e538a-0ec6-4b5b-a491-3bbea7f94ab2">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/5c351654-9317-4a02-849a-b048c771b639"/>
+    <ns:cluster_nb>Cluster 18</ns:cluster_nb>
+    <rdfs:label>Cluster 18</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/17888f7a-ead3-4bf8-b02a-078293fe0b4a">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/5c351654-9317-4a02-849a-b048c771b639"/>
+    <ns:cell_type>adult neuron</ns:cell_type>
+    <rdfs:label>adult neuron</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/734c48b4-e221-4be1-8617-7389479113b0">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/5c351654-9317-4a02-849a-b048c771b639"/>
+    <ns:cell_type>mixed hemilineage 20A and 22A secondary neuron</ns:cell_type>
+    <rdfs:label>mixed hemilineage 20A and 22A secondary neuron</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/b01b1d77-8d24-45ef-8ce6-bb38eaa89f66">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/5c351654-9317-4a02-849a-b048c771b639"/>
+    <ns:cell_type>lineage 4 secondary neuron</ns:cell_type>
+    <rdfs:label>lineage 4 secondary neuron</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/6383cbfd-ac60-4ab6-834c-4dd74e75f55d">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/5c351654-9317-4a02-849a-b048c771b639"/>
+    <ns:cluster_nb>Cluster 4</ns:cluster_nb>
+    <rdfs:label>Cluster 4</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/21691ec5-61ad-48d9-830b-16fe24a2c21d">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/5c351654-9317-4a02-849a-b048c771b639"/>
+    <ns:cluster_nb>Cluster 2</ns:cluster_nb>
+    <rdfs:label>Cluster 2</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/9ec276a4-e2bc-49b4-8655-3b7f85f8f652">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/5c351654-9317-4a02-849a-b048c771b639"/>
+    <ns:cluster_nb>Cluster 13</ns:cluster_nb>
+    <rdfs:label>Cluster 13</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/9bb4ef75-7a45-4b33-a2af-fc74aa32239b">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/5c351654-9317-4a02-849a-b048c771b639"/>
+    <ns:cell_type>hemilineage 13B secondary neuron</ns:cell_type>
+    <rdfs:label>hemilineage 13B secondary neuron</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/42ee8072-9736-4bb7-bc4e-1ca2ad88dabf">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/5c351654-9317-4a02-849a-b048c771b639"/>
+    <ns:cell_type>mixed hemilineage 13 A and 19A secondary neuron</ns:cell_type>
+    <rdfs:label>mixed hemilineage 13 A and 19A secondary neuron</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/a54c9a3c-2dc6-4b04-92a6-c9328109d6c7">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/5c351654-9317-4a02-849a-b048c771b639"/>
+    <ns:cluster_nb>Cluster 20</ns:cluster_nb>
+    <rdfs:label>Cluster 20</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/b0f96a7f-2010-45e1-b052-12d21c63f093">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/5c351654-9317-4a02-849a-b048c771b639"/>
+    <ns:cell_type>hemilineage 9A secondary neuron</ns:cell_type>
+    <rdfs:label>hemilineage 9A secondary neuron</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/6d05dc8e-dee6-4e44-8916-40486b9b9422">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/5c351654-9317-4a02-849a-b048c771b639"/>
+    <ns:cluster_nb>Cluster 1</ns:cluster_nb>
+    <rdfs:label>Cluster 1</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/727de71e-ec1f-4dd2-8423-eb54fee65470">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/5c351654-9317-4a02-849a-b048c771b639"/>
+    <ns:cluster_nb>Cluster 15</ns:cluster_nb>
+    <rdfs:label>Cluster 15</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/bcde8088-fd33-450e-8d10-bd992f7235ae">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/5c351654-9317-4a02-849a-b048c771b639"/>
+    <ns:cluster_nb>Cluster 23</ns:cluster_nb>
+    <rdfs:label>Cluster 23</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/10e1c7a7-d715-424f-9908-689f248a7a98">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/5c351654-9317-4a02-849a-b048c771b639"/>
+    <ns:cell_type>hemilineage 11A secondary neuron</ns:cell_type>
+    <rdfs:label>hemilineage 11A secondary neuron</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/73969405-ffae-44d8-b866-2619979e7cd3">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/5c351654-9317-4a02-849a-b048c771b639"/>
+    <ns:cell_type>adult cholinergic neuron</ns:cell_type>
+    <rdfs:label>adult cholinergic neuron</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/8881a90a-b26b-44e6-bf9b-a30c82abf107">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/5c351654-9317-4a02-849a-b048c771b639"/>
+    <ns:cell_type>lineage 15 secondary neuron</ns:cell_type>
+    <rdfs:label>lineage 15 secondary neuron</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/97039aa1-e8d2-4c23-8125-bedd20e63c80">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/5c351654-9317-4a02-849a-b048c771b639"/>
+    <ns:cell_type>hemilineage 1B secondary neuron</ns:cell_type>
+    <rdfs:label>hemilineage 1B secondary neuron</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/e64f756a-5c20-4d4e-acb1-131784d1badc">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/5c351654-9317-4a02-849a-b048c771b639"/>
+    <ns:cluster_nb>Cluster 22</ns:cluster_nb>
+    <rdfs:label>Cluster 22</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/9daa9370-9349-4923-b82f-02446b2957bb">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/5c351654-9317-4a02-849a-b048c771b639"/>
+    <ns:cluster_nb>Cluster 3</ns:cluster_nb>
+    <rdfs:label>Cluster 3</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/source">
+    <rdfs:label>has_source</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/179452aa-231a-486b-a55c-25b0d1d8cd8e">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/5c351654-9317-4a02-849a-b048c771b639"/>
+    <ns:cell_type>hemilineage 6A secondary neuron</ns:cell_type>
+    <rdfs:label>hemilineage 6A secondary neuron</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/db188e6c-4169-4aa5-b742-5fc6bd0fe5e9">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/5c351654-9317-4a02-849a-b048c771b639"/>
+    <ns:cluster_nb>Cluster 9</ns:cluster_nb>
+    <rdfs:label>Cluster 9</rdfs:label>
+  </rdf:Description>
+</rdf:RDF>

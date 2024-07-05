@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:ns="http://example.org/"
+   xmlns:obo="http://purl.obolibrary.org/obo/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="http://example.org/243a3565-4b03-4d3d-bf1b-76a93e0e7cd0">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/1612e333-1f0d-4e34-902f-4c9fcabbe3fc"/>
+    <ns:cluster_nb>Cluster 13</ns:cluster_nb>
+    <obo:RO_0015003 rdf:resource="http://example.org/5d4e10fc-5437-4d0f-a3e5-c30e98961e4c"/>
+    <rdfs:label>Cluster 13</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/99499e2d-f247-467e-88a8-55e705a8e760">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/1612e333-1f0d-4e34-902f-4c9fcabbe3fc"/>
+    <ns:cluster_nb>Cluster 10</ns:cluster_nb>
+    <obo:RO_0015003 rdf:resource="http://example.org/5d4e10fc-5437-4d0f-a3e5-c30e98961e4c"/>
+    <rdfs:label>Cluster 10</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/5d4e10fc-5437-4d0f-a3e5-c30e98961e4c">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/1612e333-1f0d-4e34-902f-4c9fcabbe3fc"/>
+    <ns:cell_type>intestinal stem cell</ns:cell_type>
+    <rdfs:label>intestinal stem cell</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/1612e333-1f0d-4e34-902f-4c9fcabbe3fc">
+    <rdf:type rdf:resource="https://schema.org/Dataset"/>
+    <rdfs:label>dataset</rdfs:label>
+    <ns:citation>Publication: https://doi.org/10.7554/eLife.62250 Dataset Version: https://ftp.ebi.ac.uk/pub/databases/spot/scxa/E-GEOD-157775_modified.project.h5ad</ns:citation>
+    <ns:dataset_curie>SCXA:E-GEOD-157775</ns:dataset_curie>
+    <ns:default_embedding>X_umap_neighbors_n_neighbors_20</ns:default_embedding>
+    <ns:schema_reference>https://github.com/chanzuckerberg/single-cell-curation/blob/main/schema/4.0.0/schema.md</ns:schema_reference>
+    <ns:title>Age-related changes in polycomb gene regulation disrupt lineage fidelity in intestinal stem cells</ns:title>
+    <ns:obs_meta>[[{"field_name": "cluster_nb", "field_type": "author_cell_type_label"}], [{"field_name": "inferred_cell_type", "field_type": "author_cell_type_label"}], [{"field_name": "authors_cell_type", "field_type": "author_cell_type_label"}], [{"field_name": "authors_cell_type_ontology_label", "field_type": "author_cell_type_label"}], [{"field_name": "cell_type", "field_type": "author_cell_type_label"}]]</ns:obs_meta>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/55ece50c-5a19-4093-9148-8744887b6f36">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/1612e333-1f0d-4e34-902f-4c9fcabbe3fc"/>
+    <ns:inferred_cell_type>enteroblast</ns:inferred_cell_type>
+    <obo:RO_0015003 rdf:resource="http://example.org/5d4e10fc-5437-4d0f-a3e5-c30e98961e4c"/>
+    <rdfs:label>enteroblast</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/51d75479-5b17-41f1-9b32-70e740b5fb84">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/1612e333-1f0d-4e34-902f-4c9fcabbe3fc"/>
+    <ns:inferred_cell_type>adult midgut enterocyte</ns:inferred_cell_type>
+    <obo:RO_0015003 rdf:resource="http://example.org/5d4e10fc-5437-4d0f-a3e5-c30e98961e4c"/>
+    <rdfs:label>adult midgut enterocyte</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/4dcc8377-536c-4825-a844-4fef7bbb4039">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/1612e333-1f0d-4e34-902f-4c9fcabbe3fc"/>
+    <ns:cluster_nb>Cluster 6</ns:cluster_nb>
+    <obo:RO_0015003 rdf:resource="http://example.org/5d4e10fc-5437-4d0f-a3e5-c30e98961e4c"/>
+    <rdfs:label>Cluster 6</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/d50c1ac3-343f-4973-93f9-1b2152d7b849">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/1612e333-1f0d-4e34-902f-4c9fcabbe3fc"/>
+    <ns:cluster_nb>Cluster 16</ns:cluster_nb>
+    <obo:RO_0015003 rdf:resource="http://example.org/5d4e10fc-5437-4d0f-a3e5-c30e98961e4c"/>
+    <rdfs:label>Cluster 16</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/97fe6286-de93-4399-8899-85977a2eb19f">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/1612e333-1f0d-4e34-902f-4c9fcabbe3fc"/>
+    <ns:cluster_nb>Cluster 9</ns:cluster_nb>
+    <obo:RO_0015003 rdf:resource="http://example.org/5d4e10fc-5437-4d0f-a3e5-c30e98961e4c"/>
+    <rdfs:label>Cluster 9</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/6a05fc25-e9ae-472d-bc1b-df58630b59f1">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/1612e333-1f0d-4e34-902f-4c9fcabbe3fc"/>
+    <ns:inferred_cell_type>adult enteroendocrine precursor cell</ns:inferred_cell_type>
+    <obo:RO_0015003 rdf:resource="http://example.org/5d4e10fc-5437-4d0f-a3e5-c30e98961e4c"/>
+    <rdfs:label>adult enteroendocrine precursor cell</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/d91b9940-99c2-4711-a968-d8ccb60d7bda">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/1612e333-1f0d-4e34-902f-4c9fcabbe3fc"/>
+    <ns:cluster_nb>Cluster 3</ns:cluster_nb>
+    <obo:RO_0015003 rdf:resource="http://example.org/5d4e10fc-5437-4d0f-a3e5-c30e98961e4c"/>
+    <rdfs:label>Cluster 3</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/653d242f-2688-4af7-aed6-c7e7ba2166c3">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/1612e333-1f0d-4e34-902f-4c9fcabbe3fc"/>
+    <ns:cluster_nb>Cluster 17</ns:cluster_nb>
+    <obo:RO_0015003 rdf:resource="http://example.org/5d4e10fc-5437-4d0f-a3e5-c30e98961e4c"/>
+    <rdfs:label>Cluster 17</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/3fd7b05c-30e0-4810-882c-c808f6b16cd9">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/1612e333-1f0d-4e34-902f-4c9fcabbe3fc"/>
+    <ns:cluster_nb>Cluster 7</ns:cluster_nb>
+    <obo:RO_0015003 rdf:resource="http://example.org/5d4e10fc-5437-4d0f-a3e5-c30e98961e4c"/>
+    <rdfs:label>Cluster 7</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/280d7c6c-5ca8-4472-bf28-236dda641795">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/1612e333-1f0d-4e34-902f-4c9fcabbe3fc"/>
+    <ns:cluster_nb>Cluster 1</ns:cluster_nb>
+    <obo:RO_0015003 rdf:resource="http://example.org/5d4e10fc-5437-4d0f-a3e5-c30e98961e4c"/>
+    <rdfs:label>Cluster 1</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/c7e28335-f887-48d4-99b1-f57ef11d1ec8">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/1612e333-1f0d-4e34-902f-4c9fcabbe3fc"/>
+    <ns:cluster_nb>Cluster 2</ns:cluster_nb>
+    <obo:RO_0015003 rdf:resource="http://example.org/5d4e10fc-5437-4d0f-a3e5-c30e98961e4c"/>
+    <rdfs:label>Cluster 2</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/e3ec03cf-1118-48f3-95bc-4297d5699bb4">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/1612e333-1f0d-4e34-902f-4c9fcabbe3fc"/>
+    <ns:cluster_nb>Cluster 15</ns:cluster_nb>
+    <obo:RO_0015003 rdf:resource="http://example.org/5d4e10fc-5437-4d0f-a3e5-c30e98961e4c"/>
+    <rdfs:label>Cluster 15</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0015003">
+    <rdfs:label>subcluster of</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/d398a6e0-682d-438f-ab34-7dd1e99beafc">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/1612e333-1f0d-4e34-902f-4c9fcabbe3fc"/>
+    <ns:cluster_nb>Cluster 11</ns:cluster_nb>
+    <obo:RO_0015003 rdf:resource="http://example.org/5d4e10fc-5437-4d0f-a3e5-c30e98961e4c"/>
+    <rdfs:label>Cluster 11</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/85c3cb28-7b8f-4e44-b104-445787701f19">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/1612e333-1f0d-4e34-902f-4c9fcabbe3fc"/>
+    <ns:cluster_nb>Cluster 8</ns:cluster_nb>
+    <obo:RO_0015003 rdf:resource="http://example.org/5d4e10fc-5437-4d0f-a3e5-c30e98961e4c"/>
+    <rdfs:label>Cluster 8</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/868b36eb-654f-46d3-9af6-46992c351e9a">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/1612e333-1f0d-4e34-902f-4c9fcabbe3fc"/>
+    <ns:cluster_nb>Cluster 18</ns:cluster_nb>
+    <obo:RO_0015003 rdf:resource="http://example.org/5d4e10fc-5437-4d0f-a3e5-c30e98961e4c"/>
+    <rdfs:label>Cluster 18</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/8acce158-e3a7-4a58-af83-8350f7b69b87">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/1612e333-1f0d-4e34-902f-4c9fcabbe3fc"/>
+    <ns:cluster_nb>Cluster 22</ns:cluster_nb>
+    <obo:RO_0015003 rdf:resource="http://example.org/5d4e10fc-5437-4d0f-a3e5-c30e98961e4c"/>
+    <rdfs:label>Cluster 22</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/a35d616c-494e-4cb2-8e6b-c6f26bad6c85">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/1612e333-1f0d-4e34-902f-4c9fcabbe3fc"/>
+    <ns:cluster_nb>Cluster 12</ns:cluster_nb>
+    <obo:RO_0015003 rdf:resource="http://example.org/5d4e10fc-5437-4d0f-a3e5-c30e98961e4c"/>
+    <rdfs:label>Cluster 12</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PCL_0010001">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>cell cluster</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0002473">
+    <rdfs:label>composed primarily of</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/d2d30d99-3125-4da5-bb84-51d74a0e3307">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/1612e333-1f0d-4e34-902f-4c9fcabbe3fc"/>
+    <ns:inferred_cell_type>adult enteroendocrine cell</ns:inferred_cell_type>
+    <obo:RO_0015003 rdf:resource="http://example.org/5d4e10fc-5437-4d0f-a3e5-c30e98961e4c"/>
+    <rdfs:label>adult enteroendocrine cell</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/800be275-3479-4601-8694-3ee4a733110b">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/1612e333-1f0d-4e34-902f-4c9fcabbe3fc"/>
+    <ns:cluster_nb>Cluster 14</ns:cluster_nb>
+    <obo:RO_0015003 rdf:resource="http://example.org/5d4e10fc-5437-4d0f-a3e5-c30e98961e4c"/>
+    <rdfs:label>Cluster 14</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/c0bcbc86-d862-4ea3-b8a7-4ea6f2c9371b">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/1612e333-1f0d-4e34-902f-4c9fcabbe3fc"/>
+    <ns:cluster_nb>Cluster 21</ns:cluster_nb>
+    <obo:RO_0015003 rdf:resource="http://example.org/5d4e10fc-5437-4d0f-a3e5-c30e98961e4c"/>
+    <rdfs:label>Cluster 21</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/2dbe3f65-8174-4fd8-8d43-12066a7a5e41">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/1612e333-1f0d-4e34-902f-4c9fcabbe3fc"/>
+    <ns:cluster_nb>Cluster 4</ns:cluster_nb>
+    <obo:RO_0015003 rdf:resource="http://example.org/5d4e10fc-5437-4d0f-a3e5-c30e98961e4c"/>
+    <rdfs:label>Cluster 4</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/94d0be5e-0aa2-4551-9306-2b883104d7ff">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/1612e333-1f0d-4e34-902f-4c9fcabbe3fc"/>
+    <ns:cluster_nb>Cluster 19</ns:cluster_nb>
+    <obo:RO_0015003 rdf:resource="http://example.org/5d4e10fc-5437-4d0f-a3e5-c30e98961e4c"/>
+    <rdfs:label>Cluster 19</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ab1bcf00-e373-4afa-8c58-6ebaf814bcc5">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/1612e333-1f0d-4e34-902f-4c9fcabbe3fc"/>
+    <ns:cluster_nb>Cluster 5</ns:cluster_nb>
+    <obo:RO_0015003 rdf:resource="http://example.org/5d4e10fc-5437-4d0f-a3e5-c30e98961e4c"/>
+    <rdfs:label>Cluster 5</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/77aa5dd9-4674-46c3-bb6d-1b0ce52f886d">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/1612e333-1f0d-4e34-902f-4c9fcabbe3fc"/>
+    <ns:cluster_nb>Cluster 20</ns:cluster_nb>
+    <obo:RO_0015003 rdf:resource="http://example.org/5d4e10fc-5437-4d0f-a3e5-c30e98961e4c"/>
+    <rdfs:label>Cluster 20</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/309c2aa4-4c5b-46d2-9b5e-96eb6d9ccf4e">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/1612e333-1f0d-4e34-902f-4c9fcabbe3fc"/>
+    <ns:inferred_cell_type>intestinal stem cell</ns:inferred_cell_type>
+    <obo:RO_0015003 rdf:resource="http://example.org/5d4e10fc-5437-4d0f-a3e5-c30e98961e4c"/>
+    <rdfs:label>intestinal stem cell</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/source">
+    <rdfs:label>has_source</rdfs:label>
+  </rdf:Description>
+</rdf:RDF>
