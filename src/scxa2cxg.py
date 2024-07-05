@@ -9,6 +9,7 @@ import numpy as np
 import pandas as pd
 
 BASE_URL = "https://ftp.ebi.ac.uk/pub/databases/microarray/data/atlas/sc_experiments/{study}/"
+MODIFIED_LOCATION = "https://ftp.ebi.ac.uk/pub/databases/spot/scxa/"
 H5AD_EXT_FILE = ".project.h5ad"
 MODIFIED_H5AD_EXT_FILE = "_modified.project.h5ad"
 METADATA_EXT_FILE = ".idf.txt"
@@ -117,7 +118,7 @@ def convert_and_save(study: str):
     """
     ann_data = ad.read_h5ad(
         f"downloads/{study}/{study}{H5AD_EXT_FILE}",
-        backed="r+"
+        backed="r"
     )
     new_obs = ann_data.obs.copy()
     new_obs.rename(columns={
@@ -211,7 +212,6 @@ def convert_and_save(study: str):
         new_obs["cell_type"] = "cell"
         new_obs["cell_type_ontology_term_id"] = "CL:0000000"
 
-    print(new_obs.columns)
     new_var = ann_data.var.copy()
     new_var["feature_is_filtered"] = False
 
@@ -219,10 +219,13 @@ def convert_and_save(study: str):
         f"downloads/{study}/{study}{METADATA_EXT_FILE}", sep="\t", header=None
     )
     new_uns = ann_data.uns.copy()
-    new_uns["title"] = metadata[metadata[0].fillna('').str.startswith("Investigation Title")].values[0][0]
+    new_uns["title"] = metadata[metadata[0].fillna('').str.startswith("Investigation Title")].values[0][1]
     new_uns["default_embedding"] = "X_umap_neighbors_n_neighbors_20"
+    pub = ""
     if not metadata[metadata[0].fillna('').str.startswith('Publication DOI')].empty:
-        new_uns["citation"] = f"Publication: https://doi.org/{metadata[metadata[0].fillna('').str.startswith('Publication DOI')].values[0][0]}"
+        pub = f"Publication: https://doi.org/{metadata[metadata[0].fillna('').str.startswith('Publication DOI')].values[0][1]} "
+    dataset = f"Dataset Version: {MODIFIED_LOCATION}{study}{MODIFIED_H5AD_EXT_FILE}"
+    new_uns["citation"] = f"{pub}{dataset}"
     new_uns["dataset_curie"] = f"SCXA:{study}"
     new_uns["schema_reference"] = "https://github.com/chanzuckerberg/single-cell-curation/blob/main/schema/4.0.0/schema.md"
 
@@ -233,6 +236,7 @@ def convert_and_save(study: str):
         f"downloads/{study}/{study}_modified{H5AD_EXT_FILE}",
         compression="gzip"
     )
+    ann_data.file.close()
 
     return ann_data
 
