@@ -35,7 +35,7 @@ def generate_rdf(anndata_file_path: str, author_cell_type_list: List[str], outpu
     gg.save_rdf_graph(file_name=output_rdf_path)
 
 
-def bulk_process(study_filter: str, chunk: int, download: bool, modified: bool):
+def bulk_process(study_filter: str, chunk: int, download: bool, modified: bool, exp_list: List[str]):
     """
     Process bulk experiments.
 
@@ -47,12 +47,12 @@ def bulk_process(study_filter: str, chunk: int, download: bool, modified: bool):
     Returns:
         None
     """
-    if download:
-        # Get the studies in FTP containing the filter to download
-        studies = get_studies(study_filter)
-    else:
-        # Get the studies located in the downloads folder
-        studies = get_studies_downloaded("downloads", study_filter)
+    # if download:
+    #     # Get the studies in FTP containing the filter to download
+    #     studies = get_studies(study_filter)
+    # else:
+    #     # Get the studies located in the downloads folder
+    #     studies = get_studies_downloaded("downloads", study_filter)
 
     author_cell_type_list = [
         "cluster_nb",
@@ -60,7 +60,7 @@ def bulk_process(study_filter: str, chunk: int, download: bool, modified: bool):
         "authors_cell_type",
         "authors_cell_type_ontology_label"
     ]
-    studies_iter = iter(studies)
+    studies_iter = iter(exp_list)
     while True:
         chunk_of_studies = list(itertools.islice(studies_iter, chunk))
         if not chunk_of_studies:
@@ -93,4 +93,33 @@ if __name__ == "__main__":
     parser.add_argument("--modified", action="store_true", help="Flag to indicate whether to use modified files")
     args = parser.parse_args()
 
-    bulk_process(args.study_filter, args.chunk_size, args.download, args.modified)
+    exp_list = ["E-MTAB-8698",
+                "E-MTAB-9444",
+                "E-MTAB-10519",
+                "E-MTAB-10628",
+                "E-MTAB-7194",
+                "E-MTAB-7195",
+                "E-GEOD-141273",
+                "E-GEOD-100058",
+                "E-GEOD-134722",
+                "E-GEOD-136162",
+                "E-GEOD-146040",
+                "E-GEOD-172231",
+                "E-GEOD-152495",
+                "E-GEOD-141807",
+                "E-GEOD-157775",
+                "E-GEOD-103771",
+                "E-GEOD-126139",
+                "E-GEOD-157202",
+                "E-GEOD-125948",
+                "E-GEOD-125948",
+                "E-GEOD-147601",
+                "E-CURD-21",
+                "E-CURD-134",
+                "E-CURD-91",
+                "E-CURD-90",
+                "E-CURD-92",
+                "E-CURD-56",
+                "E-CURD-124",
+                "E-CURD-87"]
+    bulk_process(args.study_filter, args.chunk_size, args.download, args.modified, exp_list)
