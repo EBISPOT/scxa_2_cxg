@@ -34,6 +34,13 @@ def generate_rdf(anndata_file_path: str, author_cell_type_list: List[str], outpu
     gg.add_label_to_terms()
     gg.save_rdf_graph(file_name=output_rdf_path)
 
+    metadata_field_list = ["tissue", "disease", "development_stage", "organism"]
+    for field_name in metadata_field_list:
+        if field_name in aea.enricher_manager.anndata.obs.columns:
+            continue
+        metadata_field_list.remove(field_name)
+    gg.add_metadata_nodes(metadata_fields=metadata_field_list)
+    gg.save_rdf_graph(file_name=output_rdf_path)
 
 def bulk_process(study_filter: str, chunk: int, download: bool, modified: bool):
     """
