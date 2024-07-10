@@ -6,20 +6,103 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
 >
-  <rdf:Description rdf:about="http://example.org/b259ce3d-ef35-4ab0-9465-50502893d8de">
+  <rdf:Description rdf:about="http://example.org/5e4f9585-fe1f-48f6-960f-ab1094709597">
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/a7829eac-f506-4ff8-a888-d616d9c06d09"/>
+    <dcterms:source rdf:resource="http://example.org/3b0fc243-1d95-48c5-a179-31a5058cce52"/>
+    <ns:authors_cell_type>external sensory cell - ï»¿bristle precursors cells ï»¿surrounding SOPs ï»¿in anterior hinge or anterior presumptive lateral notum region</ns:authors_cell_type>
+    <ns:authors_cell_type_ontology_label>scutellar bristle precursor cell</ns:authors_cell_type_ontology_label>
+    <obo:RO_0015003 rdf:resource="http://example.org/f773f35c-1a5e-4720-99ed-72bfba7681b3"/>
+    <rdfs:label>external sensory cell - ï»¿bristle precursors cells ï»¿surrounding SOPs ï»¿in anterior hinge or anterior presumptive lateral notum region</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/e6fe79e0-85ab-488e-8ead-428d6082e5b1">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/3b0fc243-1d95-48c5-a179-31a5058cce52"/>
     <ns:cluster_nb>Cluster 12</ns:cluster_nb>
-    <obo:RO_0015003 rdf:resource="http://example.org/be24ee91-1652-4878-8b1b-31fd89fb47ef"/>
+    <obo:RO_0015003 rdf:resource="http://example.org/f773f35c-1a5e-4720-99ed-72bfba7681b3"/>
     <rdfs:label>Cluster 12</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0015003">
-    <rdfs:label>subcluster of</rdfs:label>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  <rdf:Description rdf:about="http://example.org/cec38f5d-810a-466c-a06e-ffa95fab8e38">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/3b0fc243-1d95-48c5-a179-31a5058cce52"/>
+    <ns:cluster_nb>Cluster 3</ns:cluster_nb>
+    <obo:RO_0015003 rdf:resource="http://example.org/f773f35c-1a5e-4720-99ed-72bfba7681b3"/>
+    <rdfs:label>Cluster 3</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/a7829eac-f506-4ff8-a888-d616d9c06d09">
+  <rdf:Description rdf:about="http://example.org/423c6f98-fc7a-48bc-9077-599bdf5bef40">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/3b0fc243-1d95-48c5-a179-31a5058cce52"/>
+    <ns:authors_cell_type>epithelial cell - ï»¿post-notum in the posterior heminotum</ns:authors_cell_type>
+    <obo:RO_0015003 rdf:resource="http://example.org/df577b6c-2c0e-4902-920a-62d871833106"/>
+    <rdfs:label>epithelial cell - ï»¿post-notum in the posterior heminotum</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/df577b6c-2c0e-4902-920a-62d871833106">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/3b0fc243-1d95-48c5-a179-31a5058cce52"/>
+    <ns:authors_cell_type_ontology_label>epithelial cell of wing disc</ns:authors_cell_type_ontology_label>
+    <obo:RO_0015003 rdf:resource="http://example.org/f773f35c-1a5e-4720-99ed-72bfba7681b3"/>
+    <rdfs:label>epithelial cell of wing disc</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/b95d1d6e-65e8-4573-a95a-16f106b27533">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/3b0fc243-1d95-48c5-a179-31a5058cce52"/>
+    <ns:cluster_nb>Cluster 11</ns:cluster_nb>
+    <obo:RO_0015003 rdf:resource="http://example.org/f773f35c-1a5e-4720-99ed-72bfba7681b3"/>
+    <rdfs:label>Cluster 11</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/bc88b629-8cc1-486c-a4b4-8be70e95effd">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/3b0fc243-1d95-48c5-a179-31a5058cce52"/>
+    <ns:authors_cell_type>indirect flight muscle precursor cell</ns:authors_cell_type>
+    <obo:RO_0015003 rdf:resource="http://example.org/eb373a9f-26ac-4ca0-9089-13769c307337"/>
+    <rdfs:label>indirect flight muscle precursor cell</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/3f13396c-8d13-4878-8a0c-8cce89a06798">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/3b0fc243-1d95-48c5-a179-31a5058cce52"/>
+    <ns:cluster_nb>Cluster 8</ns:cluster_nb>
+    <obo:RO_0015003 rdf:resource="http://example.org/f773f35c-1a5e-4720-99ed-72bfba7681b3"/>
+    <rdfs:label>Cluster 8</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/38a4c6d2-d905-45da-b9b3-b434bdb752e3">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/3b0fc243-1d95-48c5-a179-31a5058cce52"/>
+    <ns:authors_cell_type>epithelial cell - ï»¿prospective notum</ns:authors_cell_type>
+    <obo:RO_0015003 rdf:resource="http://example.org/df577b6c-2c0e-4902-920a-62d871833106"/>
+    <rdfs:label>epithelial cell - ï»¿prospective notum</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/a06185b0-d44c-42bf-88fc-c79116b17d52">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/3b0fc243-1d95-48c5-a179-31a5058cce52"/>
+    <ns:cluster_nb>Cluster 2</ns:cluster_nb>
+    <obo:RO_0015003 rdf:resource="http://example.org/f773f35c-1a5e-4720-99ed-72bfba7681b3"/>
+    <rdfs:label>Cluster 2</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ed64763f-08d6-4ae3-8fd9-373b99dca8ee">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/3b0fc243-1d95-48c5-a179-31a5058cce52"/>
+    <ns:authors_cell_type>epithelial cell - ï»¿presumptive scutum in the lateral heminotum (near scutellum)</ns:authors_cell_type>
+    <obo:RO_0015003 rdf:resource="http://example.org/df577b6c-2c0e-4902-920a-62d871833106"/>
+    <rdfs:label>epithelial cell - ï»¿presumptive scutum in the lateral heminotum (near scutellum)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/02af674b-3972-494b-beb1-7919fe256964">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/3b0fc243-1d95-48c5-a179-31a5058cce52"/>
+    <ns:authors_cell_type>peripodial membrane cell - dorsal</ns:authors_cell_type>
+    <obo:RO_0015003 rdf:resource="http://example.org/c6188e21-41de-4cef-9065-9850fa93ed1b"/>
+    <rdfs:label>peripodial membrane cell - dorsal</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/184d8353-2d39-489b-a211-ce506b8b2280">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/3b0fc243-1d95-48c5-a179-31a5058cce52"/>
+    <ns:cluster_nb>Cluster 9</ns:cluster_nb>
+    <obo:RO_0015003 rdf:resource="http://example.org/f773f35c-1a5e-4720-99ed-72bfba7681b3"/>
+    <rdfs:label>Cluster 9</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/3b0fc243-1d95-48c5-a179-31a5058cce52">
     <rdf:type rdf:resource="https://schema.org/Dataset"/>
     <rdfs:label>dataset</rdfs:label>
+    <ns:publication>https://doi.org/10.15252/embr.201949555</ns:publication>
+    <ns:download_link>https://ftp.ebi.ac.uk/pub/databases/spot/scxa/E-MTAB-9444_modified.project.h5ad</ns:download_link>
     <ns:citation>Publication: https://doi.org/10.15252/embr.201949555 Dataset Version: https://ftp.ebi.ac.uk/pub/databases/spot/scxa/E-MTAB-9444_modified.project.h5ad</ns:citation>
     <ns:dataset_curie>SCXA:E-MTAB-9444</ns:dataset_curie>
     <ns:default_embedding>X_umap_neighbors_n_neighbors_20</ns:default_embedding>
@@ -27,304 +110,223 @@
     <ns:title>Single cell transcriptional profile of third instar larval wing discs in Drosophila</ns:title>
     <ns:obs_meta>[[{"field_name": "cluster_nb", "field_type": "author_cell_type_label"}], [{"field_name": "inferred_cell_type", "field_type": "author_cell_type_label"}], [{"field_name": "authors_cell_type", "field_type": "author_cell_type_label"}], [{"field_name": "authors_cell_type_ontology_label", "field_type": "author_cell_type_label"}], [{"field_name": "cell_type", "field_type": "author_cell_type_label"}]]</ns:obs_meta>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/a0656a98-20c0-49eb-bb54-2ea5eca0158d">
+  <rdf:Description rdf:about="http://example.org/3a53ce28-9a62-46f3-afdc-cc5b42c41f88">
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/a7829eac-f506-4ff8-a888-d616d9c06d09"/>
-    <ns:cluster_nb>Cluster 11</ns:cluster_nb>
-    <obo:RO_0015003 rdf:resource="http://example.org/be24ee91-1652-4878-8b1b-31fd89fb47ef"/>
-    <rdfs:label>Cluster 11</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/a7e5cc4c-196b-406a-b0f7-396f11373dfd">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/a7829eac-f506-4ff8-a888-d616d9c06d09"/>
-    <ns:cluster_nb>Cluster 7</ns:cluster_nb>
-    <obo:RO_0015003 rdf:resource="http://example.org/be24ee91-1652-4878-8b1b-31fd89fb47ef"/>
-    <rdfs:label>Cluster 7</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/35e79196-3bae-4895-8db4-1d2e072566a0">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/a7829eac-f506-4ff8-a888-d616d9c06d09"/>
-    <ns:authors_cell_type>epithelial cell - ï»¿anterior compartment near the anterior/posterior boundary of the hinge</ns:authors_cell_type>
-    <obo:RO_0015003 rdf:resource="http://example.org/af171971-e652-42fe-8f87-721a332ba747"/>
-    <rdfs:label>epithelial cell - ï»¿anterior compartment near the anterior/posterior boundary of the hinge</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/5d7853a5-a0ab-4512-b208-944a364fad71">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/a7829eac-f506-4ff8-a888-d616d9c06d09"/>
-    <ns:authors_cell_type>external sensory cell - ï»¿bristle precursors cells ï»¿surrounding SOPs ï»¿in anterior hinge or anterior presumptive lateral notum region</ns:authors_cell_type>
-    <ns:authors_cell_type_ontology_label>scutellar bristle precursor cell</ns:authors_cell_type_ontology_label>
-    <obo:RO_0015003 rdf:resource="http://example.org/be24ee91-1652-4878-8b1b-31fd89fb47ef"/>
-    <rdfs:label>external sensory cell - ï»¿bristle precursors cells ï»¿surrounding SOPs ï»¿in anterior hinge or anterior presumptive lateral notum region</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/88b9ffee-5409-48e1-9165-92157cb721e9">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/a7829eac-f506-4ff8-a888-d616d9c06d09"/>
-    <ns:authors_cell_type_ontology_label>peripodial epithelial cell</ns:authors_cell_type_ontology_label>
-    <obo:RO_0015003 rdf:resource="http://example.org/be24ee91-1652-4878-8b1b-31fd89fb47ef"/>
-    <rdfs:label>peripodial epithelial cell</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/537013a4-d442-4342-bc99-952387c5e85e">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/a7829eac-f506-4ff8-a888-d616d9c06d09"/>
-    <ns:cluster_nb>Cluster 14</ns:cluster_nb>
-    <obo:RO_0015003 rdf:resource="http://example.org/be24ee91-1652-4878-8b1b-31fd89fb47ef"/>
-    <rdfs:label>Cluster 14</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/464ee8b7-d4cb-494d-8733-5af4c523a04a">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/a7829eac-f506-4ff8-a888-d616d9c06d09"/>
-    <ns:authors_cell_type>external sensory organ precursor cell</ns:authors_cell_type>
-    <ns:authors_cell_type_ontology_label>external sensory organ precursor cell</ns:authors_cell_type_ontology_label>
-    <obo:RO_0015003 rdf:resource="http://example.org/be24ee91-1652-4878-8b1b-31fd89fb47ef"/>
-    <rdfs:label>external sensory organ precursor cell</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/32a3f529-4d91-4f62-94fd-62d32309db66">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/a7829eac-f506-4ff8-a888-d616d9c06d09"/>
-    <ns:authors_cell_type>epithelial cell - ï»¿post-notum in the posterior heminotum</ns:authors_cell_type>
-    <obo:RO_0015003 rdf:resource="http://example.org/af171971-e652-42fe-8f87-721a332ba747"/>
-    <rdfs:label>epithelial cell - ï»¿post-notum in the posterior heminotum</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/be24ee91-1652-4878-8b1b-31fd89fb47ef">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/a7829eac-f506-4ff8-a888-d616d9c06d09"/>
-    <ns:cell_type>myoblast, epithelial cell and tracheal cell</ns:cell_type>
-    <rdfs:label>myoblast, epithelial cell and tracheal cell</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/0b648c39-7f39-4091-af65-1a7c809061ea">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/a7829eac-f506-4ff8-a888-d616d9c06d09"/>
-    <ns:cluster_nb>Cluster 6</ns:cluster_nb>
-    <obo:RO_0015003 rdf:resource="http://example.org/be24ee91-1652-4878-8b1b-31fd89fb47ef"/>
-    <rdfs:label>Cluster 6</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/af2bf4f0-9450-4767-9889-a1c774e66d5c">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/a7829eac-f506-4ff8-a888-d616d9c06d09"/>
-    <ns:cluster_nb>Cluster 13</ns:cluster_nb>
-    <obo:RO_0015003 rdf:resource="http://example.org/be24ee91-1652-4878-8b1b-31fd89fb47ef"/>
-    <rdfs:label>Cluster 13</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/174812cc-7554-461b-842e-7bac139824cf">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/a7829eac-f506-4ff8-a888-d616d9c06d09"/>
-    <ns:cluster_nb>Cluster 10</ns:cluster_nb>
-    <obo:RO_0015003 rdf:resource="http://example.org/be24ee91-1652-4878-8b1b-31fd89fb47ef"/>
-    <rdfs:label>Cluster 10</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/c8b0e1cc-e3fa-42e4-990e-2a3c3a236681">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/a7829eac-f506-4ff8-a888-d616d9c06d09"/>
-    <ns:cluster_nb>Cluster 4</ns:cluster_nb>
-    <obo:RO_0015003 rdf:resource="http://example.org/be24ee91-1652-4878-8b1b-31fd89fb47ef"/>
-    <rdfs:label>Cluster 4</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/36313fd6-0234-40a5-9547-9791b0839104">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/a7829eac-f506-4ff8-a888-d616d9c06d09"/>
-    <ns:authors_cell_type>direct flight muscle precursor cell</ns:authors_cell_type>
-    <obo:RO_0015003 rdf:resource="http://example.org/2b26279e-fe1f-4e4e-8230-df62f71724e0"/>
-    <rdfs:label>direct flight muscle precursor cell</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/175f60e9-6640-4634-be53-6b0c300ddb35">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/a7829eac-f506-4ff8-a888-d616d9c06d09"/>
-    <ns:authors_cell_type_ontology_label>indirect flight muscle precursor cell</ns:authors_cell_type_ontology_label>
-    <obo:RO_0015003 rdf:resource="http://example.org/be24ee91-1652-4878-8b1b-31fd89fb47ef"/>
-    <rdfs:label>indirect flight muscle precursor cell</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ad5f549c-23b1-4ba2-b4d6-0a0e6bfa4b7b">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/a7829eac-f506-4ff8-a888-d616d9c06d09"/>
-    <ns:authors_cell_type>epithelial cell - ï»¿anterior medial notum</ns:authors_cell_type>
-    <obo:RO_0015003 rdf:resource="http://example.org/af171971-e652-42fe-8f87-721a332ba747"/>
-    <rdfs:label>epithelial cell - ï»¿anterior medial notum</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/363fc7a2-a90d-4658-a1a0-414ee182fb06">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/a7829eac-f506-4ff8-a888-d616d9c06d09"/>
-    <ns:authors_cell_type>ï»¿tracheal cell - tracheoblasts of the spiracular branches</ns:authors_cell_type>
-    <ns:authors_cell_type_ontology_label>imaginal tracheoblast</ns:authors_cell_type_ontology_label>
-    <obo:RO_0015003 rdf:resource="http://example.org/a0656a98-20c0-49eb-bb54-2ea5eca0158d"/>
-    <rdfs:label>ï»¿tracheal cell - tracheoblasts of the spiracular branches</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/e719897b-3594-4e1d-b15b-aacc14db4fb3">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/a7829eac-f506-4ff8-a888-d616d9c06d09"/>
-    <ns:authors_cell_type>epithelial cell - dorso-ventral boundary in wing blade</ns:authors_cell_type>
-    <obo:RO_0015003 rdf:resource="http://example.org/af171971-e652-42fe-8f87-721a332ba747"/>
-    <rdfs:label>epithelial cell - dorso-ventral boundary in wing blade</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/1208c2c2-1c07-47f9-880d-7097de2e042c">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/a7829eac-f506-4ff8-a888-d616d9c06d09"/>
-    <ns:cluster_nb>Cluster 3</ns:cluster_nb>
-    <obo:RO_0015003 rdf:resource="http://example.org/be24ee91-1652-4878-8b1b-31fd89fb47ef"/>
-    <rdfs:label>Cluster 3</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/f3c95437-703c-464a-ad5b-9bcb4baf3441">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/a7829eac-f506-4ff8-a888-d616d9c06d09"/>
-    <ns:cluster_nb>Cluster 5</ns:cluster_nb>
-    <obo:RO_0015003 rdf:resource="http://example.org/be24ee91-1652-4878-8b1b-31fd89fb47ef"/>
-    <rdfs:label>Cluster 5</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/00a91e1b-b858-4821-9903-2bc287fbee9b">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/a7829eac-f506-4ff8-a888-d616d9c06d09"/>
-    <ns:authors_cell_type>direct flight muscles - differentiating myoblasts</ns:authors_cell_type>
-    <obo:RO_0015003 rdf:resource="http://example.org/2b26279e-fe1f-4e4e-8230-df62f71724e0"/>
-    <rdfs:label>direct flight muscles - differentiating myoblasts</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/679313ae-34cb-45ee-a6c4-434602040066">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/a7829eac-f506-4ff8-a888-d616d9c06d09"/>
-    <ns:cluster_nb>Cluster 9</ns:cluster_nb>
-    <obo:RO_0015003 rdf:resource="http://example.org/be24ee91-1652-4878-8b1b-31fd89fb47ef"/>
-    <rdfs:label>Cluster 9</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/689c90d8-417d-4fd6-9258-a0ed659af6e8">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/a7829eac-f506-4ff8-a888-d616d9c06d09"/>
-    <ns:authors_cell_type>tracheal cell - ï»¿air sac primordium</ns:authors_cell_type>
-    <ns:authors_cell_type_ontology_label>air sac tracheoblast of dorsal air sac primordium</ns:authors_cell_type_ontology_label>
-    <obo:RO_0015003 rdf:resource="http://example.org/be24ee91-1652-4878-8b1b-31fd89fb47ef"/>
-    <rdfs:label>tracheal cell - ï»¿air sac primordium</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/9058e64d-0bba-41a7-9643-38394aa2e437">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/a7829eac-f506-4ff8-a888-d616d9c06d09"/>
-    <ns:authors_cell_type>epithelial cell - ï»¿anterior lateral notum near the hinge</ns:authors_cell_type>
-    <obo:RO_0015003 rdf:resource="http://example.org/af171971-e652-42fe-8f87-721a332ba747"/>
-    <rdfs:label>epithelial cell - ï»¿anterior lateral notum near the hinge</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/bce666fa-5be7-467e-9224-6b59e9733d7f">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/a7829eac-f506-4ff8-a888-d616d9c06d09"/>
-    <ns:cluster_nb>Cluster 1</ns:cluster_nb>
-    <obo:RO_0015003 rdf:resource="http://example.org/be24ee91-1652-4878-8b1b-31fd89fb47ef"/>
-    <rdfs:label>Cluster 1</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/2b26279e-fe1f-4e4e-8230-df62f71724e0">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/a7829eac-f506-4ff8-a888-d616d9c06d09"/>
-    <ns:authors_cell_type_ontology_label>direct flight muscle precursor cell</ns:authors_cell_type_ontology_label>
-    <obo:RO_0015003 rdf:resource="http://example.org/be24ee91-1652-4878-8b1b-31fd89fb47ef"/>
-    <rdfs:label>direct flight muscle precursor cell</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/e2c20d91-4f87-41af-b5e5-1f28219d5918">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/a7829eac-f506-4ff8-a888-d616d9c06d09"/>
-    <ns:authors_cell_type>epithelial cell - ï»¿presumptive scutum in the lateral heminotum (near scutellum)</ns:authors_cell_type>
-    <obo:RO_0015003 rdf:resource="http://example.org/af171971-e652-42fe-8f87-721a332ba747"/>
-    <rdfs:label>epithelial cell - ï»¿presumptive scutum in the lateral heminotum (near scutellum)</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/bf49e3c7-4f48-4448-ab6f-40b705d05185">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/a7829eac-f506-4ff8-a888-d616d9c06d09"/>
-    <ns:authors_cell_type>peripodial membrane cell - dorsal</ns:authors_cell_type>
-    <obo:RO_0015003 rdf:resource="http://example.org/88b9ffee-5409-48e1-9165-92157cb721e9"/>
-    <rdfs:label>peripodial membrane cell - dorsal</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/24b8369a-5a3a-4c7a-907e-4024e212623f">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/a7829eac-f506-4ff8-a888-d616d9c06d09"/>
-    <ns:authors_cell_type>epithelial cell - ï»¿prospective notum</ns:authors_cell_type>
-    <obo:RO_0015003 rdf:resource="http://example.org/af171971-e652-42fe-8f87-721a332ba747"/>
-    <rdfs:label>epithelial cell - ï»¿prospective notum</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/b2c19ba1-c75a-4503-9122-b0497ca9e580">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/a7829eac-f506-4ff8-a888-d616d9c06d09"/>
+    <dcterms:source rdf:resource="http://example.org/3b0fc243-1d95-48c5-a179-31a5058cce52"/>
     <ns:authors_cell_type>indirect flight muscles - differentiating myoblasts</ns:authors_cell_type>
-    <obo:RO_0015003 rdf:resource="http://example.org/175f60e9-6640-4634-be53-6b0c300ddb35"/>
+    <obo:RO_0015003 rdf:resource="http://example.org/eb373a9f-26ac-4ca0-9089-13769c307337"/>
     <rdfs:label>indirect flight muscles - differentiating myoblasts</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/45605cfd-b0f3-404c-bc15-62e4e1624dd3">
+  <rdf:Description rdf:about="http://example.org/db59da08-bba5-4315-9465-6f53bd1e156f">
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/a7829eac-f506-4ff8-a888-d616d9c06d09"/>
-    <ns:authors_cell_type>epithelial cell - ï»¿periphery of the wing blade</ns:authors_cell_type>
-    <obo:RO_0015003 rdf:resource="http://example.org/af171971-e652-42fe-8f87-721a332ba747"/>
-    <rdfs:label>epithelial cell - ï»¿periphery of the wing blade</rdfs:label>
+    <dcterms:source rdf:resource="http://example.org/3b0fc243-1d95-48c5-a179-31a5058cce52"/>
+    <ns:authors_cell_type>epithelial cell - dorso-ventral boundary in wing blade</ns:authors_cell_type>
+    <obo:RO_0015003 rdf:resource="http://example.org/df577b6c-2c0e-4902-920a-62d871833106"/>
+    <rdfs:label>epithelial cell - dorso-ventral boundary in wing blade</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/5e15f317-1116-4d64-abef-11a448c69a5a">
+  <rdf:Description rdf:about="http://example.org/b512641d-aa85-423d-93ce-3e72e73f9202">
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/a7829eac-f506-4ff8-a888-d616d9c06d09"/>
-    <ns:cluster_nb>Cluster 8</ns:cluster_nb>
-    <obo:RO_0015003 rdf:resource="http://example.org/be24ee91-1652-4878-8b1b-31fd89fb47ef"/>
-    <rdfs:label>Cluster 8</rdfs:label>
+    <dcterms:source rdf:resource="http://example.org/3b0fc243-1d95-48c5-a179-31a5058cce52"/>
+    <ns:authors_cell_type>external sensory organ precursor cell</ns:authors_cell_type>
+    <ns:authors_cell_type_ontology_label>external sensory organ precursor cell</ns:authors_cell_type_ontology_label>
+    <obo:RO_0015003 rdf:resource="http://example.org/f773f35c-1a5e-4720-99ed-72bfba7681b3"/>
+    <rdfs:label>external sensory organ precursor cell</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/c7d33239-8475-4141-ab18-14f5b1f56b95">
+  <rdf:Description rdf:about="http://example.org/510572aa-1506-4111-b3a1-6be4a4de8df1">
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/a7829eac-f506-4ff8-a888-d616d9c06d09"/>
-    <ns:authors_cell_type>epithelial cell - ï»¿hinge between the inner and outer rings</ns:authors_cell_type>
-    <obo:RO_0015003 rdf:resource="http://example.org/af171971-e652-42fe-8f87-721a332ba747"/>
-    <rdfs:label>epithelial cell - ï»¿hinge between the inner and outer rings</rdfs:label>
+    <dcterms:source rdf:resource="http://example.org/3b0fc243-1d95-48c5-a179-31a5058cce52"/>
+    <ns:cluster_nb>Cluster 6</ns:cluster_nb>
+    <obo:RO_0015003 rdf:resource="http://example.org/f773f35c-1a5e-4720-99ed-72bfba7681b3"/>
+    <rdfs:label>Cluster 6</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/source">
-    <rdfs:label>has_source</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/bddc812d-68a2-46df-9265-bffc7a05fbe7">
+  <rdf:Description rdf:about="http://example.org/0bbab19d-5f7a-4b9c-8b02-f33cb3af0d68">
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/a7829eac-f506-4ff8-a888-d616d9c06d09"/>
-    <ns:authors_cell_type>epithelial cell - ï»¿posterior lateral heminotum (near scutum)</ns:authors_cell_type>
-    <obo:RO_0015003 rdf:resource="http://example.org/af171971-e652-42fe-8f87-721a332ba747"/>
-    <rdfs:label>epithelial cell - ï»¿posterior lateral heminotum (near scutum)</rdfs:label>
+    <dcterms:source rdf:resource="http://example.org/3b0fc243-1d95-48c5-a179-31a5058cce52"/>
+    <ns:authors_cell_type>peripodial membrane cell</ns:authors_cell_type>
+    <obo:RO_0015003 rdf:resource="http://example.org/c6188e21-41de-4cef-9065-9850fa93ed1b"/>
+    <rdfs:label>peripodial membrane cell</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PCL_0010001">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
     <rdfs:label>cell cluster</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/af171971-e652-42fe-8f87-721a332ba747">
+  <rdf:Description rdf:about="http://example.org/57ef9852-a58f-4783-a999-7d7d6d239b13">
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/a7829eac-f506-4ff8-a888-d616d9c06d09"/>
-    <ns:authors_cell_type_ontology_label>epithelial cell of wing disc</ns:authors_cell_type_ontology_label>
-    <obo:RO_0015003 rdf:resource="http://example.org/be24ee91-1652-4878-8b1b-31fd89fb47ef"/>
-    <rdfs:label>epithelial cell of wing disc</rdfs:label>
+    <dcterms:source rdf:resource="http://example.org/3b0fc243-1d95-48c5-a179-31a5058cce52"/>
+    <ns:cluster_nb>Cluster 4</ns:cluster_nb>
+    <obo:RO_0015003 rdf:resource="http://example.org/f773f35c-1a5e-4720-99ed-72bfba7681b3"/>
+    <rdfs:label>Cluster 4</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/bc9b0d37-9604-41fb-a028-d210ecda5923">
+  <rdf:Description rdf:about="http://example.org/08f06738-faf9-4475-a2ac-356df5b69a6a">
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/a7829eac-f506-4ff8-a888-d616d9c06d09"/>
+    <dcterms:source rdf:resource="http://example.org/3b0fc243-1d95-48c5-a179-31a5058cce52"/>
+    <ns:authors_cell_type>tracheal cell - ï»¿air sac primordium</ns:authors_cell_type>
+    <ns:authors_cell_type_ontology_label>air sac tracheoblast of dorsal air sac primordium</ns:authors_cell_type_ontology_label>
+    <obo:RO_0015003 rdf:resource="http://example.org/f773f35c-1a5e-4720-99ed-72bfba7681b3"/>
+    <rdfs:label>tracheal cell - ï»¿air sac primordium</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/8a084f3c-3662-4255-9c66-2c2223f5073a">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/3b0fc243-1d95-48c5-a179-31a5058cce52"/>
+    <ns:authors_cell_type>direct flight muscles - differentiating myoblasts</ns:authors_cell_type>
+    <obo:RO_0015003 rdf:resource="http://example.org/1f6cc6e0-1313-4d20-8fe3-0b404f5fc71a"/>
+    <rdfs:label>direct flight muscles - differentiating myoblasts</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ceaa3f73-d429-425d-a294-ec0d77ced927">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/3b0fc243-1d95-48c5-a179-31a5058cce52"/>
+    <ns:authors_cell_type>ï»¿tracheal cell - tracheoblasts of the spiracular branches</ns:authors_cell_type>
+    <ns:authors_cell_type_ontology_label>imaginal tracheoblast</ns:authors_cell_type_ontology_label>
+    <obo:RO_0015003 rdf:resource="http://example.org/b95d1d6e-65e8-4573-a95a-16f106b27533"/>
+    <rdfs:label>ï»¿tracheal cell - tracheoblasts of the spiracular branches</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/9551b5cc-1fa2-427d-8d4e-e56b5c9e581c">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/3b0fc243-1d95-48c5-a179-31a5058cce52"/>
+    <ns:authors_cell_type>epithelial cell - ï»¿hinge between the inner and outer rings</ns:authors_cell_type>
+    <obo:RO_0015003 rdf:resource="http://example.org/df577b6c-2c0e-4902-920a-62d871833106"/>
+    <rdfs:label>epithelial cell - ï»¿hinge between the inner and outer rings</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/a0b176e4-a9a8-4377-8e2e-8db2bd3ca060">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/3b0fc243-1d95-48c5-a179-31a5058cce52"/>
+    <ns:cluster_nb>Cluster 7</ns:cluster_nb>
+    <obo:RO_0015003 rdf:resource="http://example.org/f773f35c-1a5e-4720-99ed-72bfba7681b3"/>
+    <rdfs:label>Cluster 7</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/768bc100-ff3b-4659-a384-2ecde60ba0bb">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/3b0fc243-1d95-48c5-a179-31a5058cce52"/>
+    <ns:cluster_nb>Cluster 5</ns:cluster_nb>
+    <obo:RO_0015003 rdf:resource="http://example.org/f773f35c-1a5e-4720-99ed-72bfba7681b3"/>
+    <rdfs:label>Cluster 5</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/f773f35c-1a5e-4720-99ed-72bfba7681b3">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/3b0fc243-1d95-48c5-a179-31a5058cce52"/>
+    <ns:cell_type>myoblast, epithelial cell and tracheal cell</ns:cell_type>
+    <rdfs:label>myoblast, epithelial cell and tracheal cell</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/d1519db6-62c9-4b9e-ab00-817a9f4d6723">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/3b0fc243-1d95-48c5-a179-31a5058cce52"/>
+    <ns:authors_cell_type>epithelial cell - ï»¿periphery of the wing blade</ns:authors_cell_type>
+    <obo:RO_0015003 rdf:resource="http://example.org/df577b6c-2c0e-4902-920a-62d871833106"/>
+    <rdfs:label>epithelial cell - ï»¿periphery of the wing blade</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/4bc9a99b-9b6f-419b-aa3f-f3b19751a31f">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/3b0fc243-1d95-48c5-a179-31a5058cce52"/>
+    <ns:cluster_nb>Cluster 13</ns:cluster_nb>
+    <obo:RO_0015003 rdf:resource="http://example.org/f773f35c-1a5e-4720-99ed-72bfba7681b3"/>
+    <rdfs:label>Cluster 13</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/1f6cc6e0-1313-4d20-8fe3-0b404f5fc71a">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/3b0fc243-1d95-48c5-a179-31a5058cce52"/>
+    <ns:authors_cell_type_ontology_label>direct flight muscle precursor cell</ns:authors_cell_type_ontology_label>
+    <obo:RO_0015003 rdf:resource="http://example.org/f773f35c-1a5e-4720-99ed-72bfba7681b3"/>
+    <rdfs:label>direct flight muscle precursor cell</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/9077e836-9bff-45a0-a7e7-cd13b992d5bc">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/3b0fc243-1d95-48c5-a179-31a5058cce52"/>
+    <ns:authors_cell_type>epithelial cell - ï»¿posterior lateral heminotum (near scutum)</ns:authors_cell_type>
+    <obo:RO_0015003 rdf:resource="http://example.org/df577b6c-2c0e-4902-920a-62d871833106"/>
+    <rdfs:label>epithelial cell - ï»¿posterior lateral heminotum (near scutum)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/075dab4d-8643-4f66-b17f-94e5cbffcf07">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/3b0fc243-1d95-48c5-a179-31a5058cce52"/>
+    <ns:cluster_nb>Cluster 15</ns:cluster_nb>
+    <obo:RO_0015003 rdf:resource="http://example.org/f773f35c-1a5e-4720-99ed-72bfba7681b3"/>
+    <rdfs:label>Cluster 15</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/13765aa1-78aa-4210-88f9-709d812fe46c">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/3b0fc243-1d95-48c5-a179-31a5058cce52"/>
+    <ns:cluster_nb>Cluster 1</ns:cluster_nb>
+    <obo:RO_0015003 rdf:resource="http://example.org/f773f35c-1a5e-4720-99ed-72bfba7681b3"/>
+    <rdfs:label>Cluster 1</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/412496f5-bc85-4972-8910-ea0f3d656e1d">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/3b0fc243-1d95-48c5-a179-31a5058cce52"/>
     <ns:authors_cell_type>epithelial cell - ï»¿anterior hinge close to the presumptive lateral notum</ns:authors_cell_type>
-    <obo:RO_0015003 rdf:resource="http://example.org/af171971-e652-42fe-8f87-721a332ba747"/>
+    <obo:RO_0015003 rdf:resource="http://example.org/df577b6c-2c0e-4902-920a-62d871833106"/>
     <rdfs:label>epithelial cell - ï»¿anterior hinge close to the presumptive lateral notum</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/66e02743-2ca9-4c07-a462-2229762fc047">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/3b0fc243-1d95-48c5-a179-31a5058cce52"/>
+    <ns:cluster_nb>Cluster 10</ns:cluster_nb>
+    <obo:RO_0015003 rdf:resource="http://example.org/f773f35c-1a5e-4720-99ed-72bfba7681b3"/>
+    <rdfs:label>Cluster 10</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/8392b21a-d5ac-4c5f-b23d-caa9103e5b21">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/3b0fc243-1d95-48c5-a179-31a5058cce52"/>
+    <ns:authors_cell_type>epithelial cell - ï»¿anterior lateral notum near the hinge</ns:authors_cell_type>
+    <obo:RO_0015003 rdf:resource="http://example.org/df577b6c-2c0e-4902-920a-62d871833106"/>
+    <rdfs:label>epithelial cell - ï»¿anterior lateral notum near the hinge</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/1beb8740-15aa-4ecc-80b2-0efa96bdf0a2">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/3b0fc243-1d95-48c5-a179-31a5058cce52"/>
+    <ns:authors_cell_type>epithelial cell - ï»¿anterior medial notum</ns:authors_cell_type>
+    <obo:RO_0015003 rdf:resource="http://example.org/df577b6c-2c0e-4902-920a-62d871833106"/>
+    <rdfs:label>epithelial cell - ï»¿anterior medial notum</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/80b0d932-aaa3-47bc-a549-1bdb3503834e">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/3b0fc243-1d95-48c5-a179-31a5058cce52"/>
+    <ns:authors_cell_type>direct flight muscle precursor cell</ns:authors_cell_type>
+    <obo:RO_0015003 rdf:resource="http://example.org/1f6cc6e0-1313-4d20-8fe3-0b404f5fc71a"/>
+    <rdfs:label>direct flight muscle precursor cell</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0002473">
     <rdfs:label>composed primarily of</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/f80b634d-e0de-4381-9153-66632ad1bba0">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/a7829eac-f506-4ff8-a888-d616d9c06d09"/>
-    <ns:authors_cell_type>peripodial membrane cell</ns:authors_cell_type>
-    <obo:RO_0015003 rdf:resource="http://example.org/88b9ffee-5409-48e1-9165-92157cb721e9"/>
-    <rdfs:label>peripodial membrane cell</rdfs:label>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/source">
+    <rdfs:label>has_source</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/e6912bbf-38c2-48f6-ba7d-d4c4b2168e7e">
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0015003">
+    <rdfs:label>subcluster of</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/e7dc890f-9ec8-46af-b7bf-f365be000529">
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/a7829eac-f506-4ff8-a888-d616d9c06d09"/>
+    <dcterms:source rdf:resource="http://example.org/3b0fc243-1d95-48c5-a179-31a5058cce52"/>
     <ns:authors_cell_type>epithelial cell - dorso-ventral boundary inï»¿ posterior area of the hinge</ns:authors_cell_type>
-    <obo:RO_0015003 rdf:resource="http://example.org/af171971-e652-42fe-8f87-721a332ba747"/>
+    <obo:RO_0015003 rdf:resource="http://example.org/df577b6c-2c0e-4902-920a-62d871833106"/>
     <rdfs:label>epithelial cell - dorso-ventral boundary inï»¿ posterior area of the hinge</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/6c01cefc-e7b5-4734-a7ae-b509d92807ed">
+  <rdf:Description rdf:about="http://example.org/c6188e21-41de-4cef-9065-9850fa93ed1b">
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/a7829eac-f506-4ff8-a888-d616d9c06d09"/>
-    <ns:cluster_nb>Cluster 15</ns:cluster_nb>
-    <obo:RO_0015003 rdf:resource="http://example.org/be24ee91-1652-4878-8b1b-31fd89fb47ef"/>
-    <rdfs:label>Cluster 15</rdfs:label>
+    <dcterms:source rdf:resource="http://example.org/3b0fc243-1d95-48c5-a179-31a5058cce52"/>
+    <ns:authors_cell_type_ontology_label>peripodial epithelial cell</ns:authors_cell_type_ontology_label>
+    <obo:RO_0015003 rdf:resource="http://example.org/f773f35c-1a5e-4720-99ed-72bfba7681b3"/>
+    <rdfs:label>peripodial epithelial cell</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/63bc7f0a-7e01-4ece-a5ad-8e0dc72bd2cd">
+  <rdf:Description rdf:about="http://example.org/493364b6-5ef0-4936-bd37-2211d10e854e">
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/a7829eac-f506-4ff8-a888-d616d9c06d09"/>
-    <ns:cluster_nb>Cluster 2</ns:cluster_nb>
-    <obo:RO_0015003 rdf:resource="http://example.org/be24ee91-1652-4878-8b1b-31fd89fb47ef"/>
-    <rdfs:label>Cluster 2</rdfs:label>
+    <dcterms:source rdf:resource="http://example.org/3b0fc243-1d95-48c5-a179-31a5058cce52"/>
+    <ns:cluster_nb>Cluster 14</ns:cluster_nb>
+    <obo:RO_0015003 rdf:resource="http://example.org/f773f35c-1a5e-4720-99ed-72bfba7681b3"/>
+    <rdfs:label>Cluster 14</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/02f430a5-418c-4385-81d1-56049bd34ea0">
+  <rdf:Description rdf:about="http://example.org/eb373a9f-26ac-4ca0-9089-13769c307337">
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/a7829eac-f506-4ff8-a888-d616d9c06d09"/>
-    <ns:authors_cell_type>indirect flight muscle precursor cell</ns:authors_cell_type>
-    <obo:RO_0015003 rdf:resource="http://example.org/175f60e9-6640-4634-be53-6b0c300ddb35"/>
+    <dcterms:source rdf:resource="http://example.org/3b0fc243-1d95-48c5-a179-31a5058cce52"/>
+    <ns:authors_cell_type_ontology_label>indirect flight muscle precursor cell</ns:authors_cell_type_ontology_label>
+    <obo:RO_0015003 rdf:resource="http://example.org/f773f35c-1a5e-4720-99ed-72bfba7681b3"/>
     <rdfs:label>indirect flight muscle precursor cell</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/2492ca13-98f0-4598-bba1-9e68a118fcd1">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/3b0fc243-1d95-48c5-a179-31a5058cce52"/>
+    <ns:authors_cell_type>epithelial cell - ï»¿anterior compartment near the anterior/posterior boundary of the hinge</ns:authors_cell_type>
+    <obo:RO_0015003 rdf:resource="http://example.org/df577b6c-2c0e-4902-920a-62d871833106"/>
+    <rdfs:label>epithelial cell - ï»¿anterior compartment near the anterior/posterior boundary of the hinge</rdfs:label>
   </rdf:Description>
 </rdf:RDF>
