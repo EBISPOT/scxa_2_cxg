@@ -2,12 +2,39 @@
 <rdf:RDF
    xmlns:dcterms="http://purl.org/dc/terms/"
    xmlns:ns="http://example.org/"
+   xmlns:obo="http://purl.obolibrary.org/obo/"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
 >
-  <rdf:Description rdf:about="http://example.org/f16a43a2-aa6e-4583-9d63-0e38f0dab47e">
+  <rdf:Description rdf:about="http://example.org/e077c6dc-60b6-47a9-9cef-ca33fd90d677">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/06e5ba4a-aa04-42d1-ac21-0535dffd4f78"/>
+    <ns:cluster_nb>Cluster 2</ns:cluster_nb>
+    <obo:RO_0015003 rdf:resource="http://example.org/a0ec0626-3c31-4a50-8b13-3629585747e9"/>
+    <rdfs:label>Cluster 2</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PCL_0010001">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>cell cluster</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/b386bf0b-7d98-42ec-af07-81be8d474191">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/06e5ba4a-aa04-42d1-ac21-0535dffd4f78"/>
+    <ns:cluster_nb>Cluster 1</ns:cluster_nb>
+    <obo:RO_0015003 rdf:resource="http://example.org/a0ec0626-3c31-4a50-8b13-3629585747e9"/>
+    <rdfs:label>Cluster 1</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/a0ec0626-3c31-4a50-8b13-3629585747e9">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/06e5ba4a-aa04-42d1-ac21-0535dffd4f78"/>
+    <ns:cell_type>adult optic lobe neuron</ns:cell_type>
+    <rdfs:label>adult optic lobe neuron</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/06e5ba4a-aa04-42d1-ac21-0535dffd4f78">
     <rdf:type rdf:resource="https://schema.org/Dataset"/>
     <rdfs:label>dataset</rdfs:label>
+    <ns:publication>https://doi.org/10.1016/j.cell.2018.05.021</ns:publication>
+    <ns:download_link>https://ftp.ebi.ac.uk/pub/databases/spot/scxa/E-GEOD-103771_modified.project.h5ad</ns:download_link>
     <ns:citation>Publication: https://doi.org/10.1016/j.cell.2018.05.021 Dataset Version: https://ftp.ebi.ac.uk/pub/databases/spot/scxa/E-GEOD-103771_modified.project.h5ad</ns:citation>
     <ns:dataset_curie>SCXA:E-GEOD-103771</ns:dataset_curie>
     <ns:default_embedding>X_umap_neighbors_n_neighbors_20</ns:default_embedding>
@@ -15,30 +42,14 @@
     <ns:title>Single-cell RNA sequencing of Drosophila melanogaster optic lobe cells</ns:title>
     <ns:obs_meta>[[{"field_name": "cluster_nb", "field_type": "author_cell_type_label"}], [{"field_name": "inferred_cell_type", "field_type": "author_cell_type_label"}], [{"field_name": "authors_cell_type", "field_type": "author_cell_type_label"}], [{"field_name": "authors_cell_type_ontology_label", "field_type": "author_cell_type_label"}], [{"field_name": "cell_type", "field_type": "author_cell_type_label"}]]</ns:obs_meta>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/602dc0c8-3e1d-4089-a360-96ee17a7b630">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/f16a43a2-aa6e-4583-9d63-0e38f0dab47e"/>
-    <ns:cluster_nb>Cluster 2</ns:cluster_nb>
-    <rdfs:label>Cluster 2</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0015003">
-    <rdfs:label>subcluster of</rdfs:label>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PCL_0010001">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:label>cell cluster</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/59f6c009-82a1-498b-aac5-ff0aae3c0620">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/f16a43a2-aa6e-4583-9d63-0e38f0dab47e"/>
-    <ns:cluster_nb>Cluster 1</ns:cluster_nb>
-    <rdfs:label>Cluster 1</rdfs:label>
-  </rdf:Description>
   <rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0002473">
     <rdfs:label>composed primarily of</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="http://purl.org/dc/terms/source">
     <rdfs:label>has_source</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0015003">
+    <rdfs:label>subcluster of</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
   </rdf:Description>
 </rdf:RDF>

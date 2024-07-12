@@ -32,7 +32,6 @@ def generate_rdf(anndata_file_path: str, author_cell_type_list: List[str], outpu
     gg.generate_rdf_graph()
     gg.set_label_adding_priority(author_cell_type_list)
     gg.add_label_to_terms()
-    gg.save_rdf_graph(file_name=output_rdf_path)
 
     metadata_field_list = ["tissue", "disease", "development_stage", "organism"]
     for field_name in metadata_field_list:

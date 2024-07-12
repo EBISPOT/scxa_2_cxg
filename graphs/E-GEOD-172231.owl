@@ -3,321 +3,213 @@
    xmlns:dcterms="http://purl.org/dc/terms/"
    xmlns:ns="http://example.org/"
    xmlns:obo="http://purl.obolibrary.org/obo/"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
 >
-  <rdf:Description rdf:about="http://example.org/485186a8-2686-4223-8366-b60d660158f8">
+  <rdf:Description rdf:about="http://example.org/1a139b4b-06bd-4277-8f61-851d91adf723">
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/092c9df2-9531-4b44-98a5-2b1cab95434b"/>
-    <ns:cluster_nb>Cluster 24</ns:cluster_nb>
-    <rdfs:label>Cluster 24</rdfs:label>
+    <dcterms:source rdf:resource="http://example.org/a1ddedc9-df7f-4d80-b460-14a463546f43"/>
+    <ns:cluster_nb>Cluster 10</ns:cluster_nb>
+    <rdfs:label>Cluster 10</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/689e5ac6-81bf-4d40-b9fa-927bda48b31f">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/092c9df2-9531-4b44-98a5-2b1cab95434b"/>
-    <ns:cluster_nb>Cluster 19</ns:cluster_nb>
-    <rdfs:label>Cluster 19</rdfs:label>
+  <rdf:Description rdf:nodeID="N204dbc960eb84593b0073aeb099941a6">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002473"/>
+    <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_00051298"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/90a150e5-01af-4c25-89ef-92b6c395e56a">
+  <rdf:Description rdf:about="http://example.org/61840d2c-801a-4714-9ecd-f07e2e2404c6">
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/092c9df2-9531-4b44-98a5-2b1cab95434b"/>
-    <ns:authors_cell_type>mixed serotonergic and dopaminergic neuron 1</ns:authors_cell_type>
-    <ns:cell_type>mixed serotonergic and dopaminergic neuron</ns:cell_type>
-    <rdfs:label>mixed serotonergic and dopaminergic neuron 1</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/95974491-d678-4539-82af-fe930e724203">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/092c9df2-9531-4b44-98a5-2b1cab95434b"/>
-    <ns:authors_cell_type>adult optic lobe neuron 7</ns:authors_cell_type>
-    <obo:RO_0015003 rdf:resource="http://example.org/2e3f4653-75cd-4232-8724-225ce026e7de"/>
-    <rdfs:label>adult optic lobe neuron 7</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/975c0951-88c4-459f-ac42-ae4cb193dfd3">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/092c9df2-9531-4b44-98a5-2b1cab95434b"/>
-    <ns:authors_cell_type>GABAergic neuron 21</ns:authors_cell_type>
-    <obo:RO_0015003 rdf:resource="http://example.org/848a17b7-ec29-461e-bfe3-94f65af871d5"/>
-    <rdfs:label>GABAergic neuron 21</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ff3951b9-5c09-4b9a-bcb9-800e0086b8f3">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/092c9df2-9531-4b44-98a5-2b1cab95434b"/>
-    <ns:authors_cell_type>GABAergic neuron 14</ns:authors_cell_type>
-    <obo:RO_0015003 rdf:resource="http://example.org/848a17b7-ec29-461e-bfe3-94f65af871d5"/>
-    <rdfs:label>GABAergic neuron 14</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/1917fea6-434e-4cab-94ef-978f756b63a7">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/092c9df2-9531-4b44-98a5-2b1cab95434b"/>
-    <ns:authors_cell_type>astrocyte-like glial cell 24</ns:authors_cell_type>
-    <obo:RO_0015003 rdf:resource="http://example.org/0e49b0f3-7204-483e-912c-87d82096cf03"/>
-    <rdfs:label>astrocyte-like glial cell 24</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/2973f4a5-a705-46e2-90df-0f9867134fed">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/092c9df2-9531-4b44-98a5-2b1cab95434b"/>
-    <ns:cluster_nb>Cluster 9</ns:cluster_nb>
-    <rdfs:label>Cluster 9</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/d15389f4-1341-430f-8574-32cd597bf6cf">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/092c9df2-9531-4b44-98a5-2b1cab95434b"/>
-    <ns:authors_cell_type>olfactory projection neuron 10</ns:authors_cell_type>
-    <ns:cell_type>olfactory projection neuron</ns:cell_type>
-    <rdfs:label>olfactory projection neuron 10</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/37b48671-61ac-4b2b-bf82-1a3ddfc0678f">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/092c9df2-9531-4b44-98a5-2b1cab95434b"/>
-    <ns:authors_cell_type>undetermined cluster 34</ns:authors_cell_type>
-    <rdfs:label>undetermined cluster 34</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/05501423-2bdd-4857-b60a-d1b9a1e050fe">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/092c9df2-9531-4b44-98a5-2b1cab95434b"/>
-    <ns:authors_cell_type>photoreceptor neuron 29</ns:authors_cell_type>
-    <ns:cell_type>photoreceptor neuron</ns:cell_type>
-    <rdfs:label>photoreceptor neuron 29</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/6caf444f-0b00-49b0-afb9-a8f91f9aec96">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/092c9df2-9531-4b44-98a5-2b1cab95434b"/>
-    <ns:cluster_nb>Cluster 33</ns:cluster_nb>
-    <rdfs:label>Cluster 33</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/6970186f-bb73-4617-bf64-cc40bdc62efe">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/092c9df2-9531-4b44-98a5-2b1cab95434b"/>
-    <ns:authors_cell_type>cholinergic neuron 38</ns:authors_cell_type>
-    <obo:RO_0015003 rdf:resource="http://example.org/18edc2ac-b62a-44f6-abfe-91d7653aae66"/>
-    <rdfs:label>cholinergic neuron 38</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/d084910c-fbcd-43e0-9ba0-0571c7e87595">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/092c9df2-9531-4b44-98a5-2b1cab95434b"/>
-    <ns:cluster_nb>Cluster 11</ns:cluster_nb>
-    <rdfs:label>Cluster 11</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/6a85403c-b9f0-4e0f-a9b8-95f0c6c39774">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/092c9df2-9531-4b44-98a5-2b1cab95434b"/>
-    <ns:cluster_nb>Cluster 5</ns:cluster_nb>
-    <rdfs:label>Cluster 5</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/4867dcec-1b3b-472d-855f-e0c223311c41">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/092c9df2-9531-4b44-98a5-2b1cab95434b"/>
-    <ns:cluster_nb>Cluster 12</ns:cluster_nb>
-    <rdfs:label>Cluster 12</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/39d47173-3198-4995-ad16-72ae145fc422">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/092c9df2-9531-4b44-98a5-2b1cab95434b"/>
-    <ns:cluster_nb>Cluster 31</ns:cluster_nb>
-    <rdfs:label>Cluster 31</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/18edc2ac-b62a-44f6-abfe-91d7653aae66">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/092c9df2-9531-4b44-98a5-2b1cab95434b"/>
-    <ns:cell_type>cholinergic neuron</ns:cell_type>
-    <rdfs:label>cholinergic neuron</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/0d759402-e6e6-4f43-9a9a-1332f852da07">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/092c9df2-9531-4b44-98a5-2b1cab95434b"/>
-    <ns:cluster_nb>Cluster 22</ns:cluster_nb>
-    <rdfs:label>Cluster 22</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/905ebd2e-0346-409f-a200-609b626288bc">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/092c9df2-9531-4b44-98a5-2b1cab95434b"/>
+    <dcterms:source rdf:resource="http://example.org/a1ddedc9-df7f-4d80-b460-14a463546f43"/>
     <ns:authors_cell_type>adult fan-shaped body-ellipsoid body neuron 28</ns:authors_cell_type>
     <ns:cell_type>adult fan-shaped body-ellipsoid body neuron</ns:cell_type>
     <rdfs:label>adult fan-shaped body-ellipsoid body neuron 28</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/9602dc2d-63a8-4b92-b7f3-8439a6102b6f">
+  <rdf:Description rdf:about="http://example.org/a7944409-a254-4476-a24e-05f5660a490e">
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/092c9df2-9531-4b44-98a5-2b1cab95434b"/>
-    <ns:authors_cell_type>glutamatergic neuron 2</ns:authors_cell_type>
-    <obo:RO_0015003 rdf:resource="http://example.org/220b4eb7-245a-4db5-9cc9-0f7f7b612abb"/>
-    <rdfs:label>glutamatergic neuron 2</rdfs:label>
+    <dcterms:source rdf:resource="http://example.org/a1ddedc9-df7f-4d80-b460-14a463546f43"/>
+    <ns:authors_cell_type>mixed serotonergic and dopaminergic neuron 1</ns:authors_cell_type>
+    <ns:cell_type>mixed serotonergic and dopaminergic neuron</ns:cell_type>
+    <rdfs:label>mixed serotonergic and dopaminergic neuron 1</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/a53234ab-7489-4bd5-8076-1fce6aa00a6c">
+  <rdf:Description rdf:about="http://example.org/df8088ad-4637-4fed-a24a-cc8c88c603f7">
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/092c9df2-9531-4b44-98a5-2b1cab95434b"/>
-    <ns:authors_cell_type>mixed ellipsoid body and mushroom body 35</ns:authors_cell_type>
-    <ns:cell_type>mixed ellipsoid body and mushroom body</ns:cell_type>
-    <rdfs:label>mixed ellipsoid body and mushroom body 35</rdfs:label>
+    <dcterms:source rdf:resource="http://example.org/a1ddedc9-df7f-4d80-b460-14a463546f43"/>
+    <ns:authors_cell_type>undetermined cluster 31</ns:authors_cell_type>
+    <rdfs:label>undetermined cluster 31</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/e0c4fc19-8c69-4d9d-a4dd-620572f87472">
+  <rdf:Description rdf:about="http://example.org/66d910c7-138a-442e-aad7-eb8d2db23180">
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/092c9df2-9531-4b44-98a5-2b1cab95434b"/>
-    <ns:authors_cell_type>undetermined cluster 27</ns:authors_cell_type>
-    <rdfs:label>undetermined cluster 27</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/e0ad5b36-8bc7-46a4-83f1-696d1f148b63">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/092c9df2-9531-4b44-98a5-2b1cab95434b"/>
-    <ns:cluster_nb>Cluster 25</ns:cluster_nb>
-    <rdfs:label>Cluster 25</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/19df826f-ffdf-4ee4-9ac6-7643da8ba369">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/092c9df2-9531-4b44-98a5-2b1cab95434b"/>
-    <ns:cluster_nb>Cluster 8</ns:cluster_nb>
-    <rdfs:label>Cluster 8</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/74e60792-d67d-4034-8bb5-516826e85f88">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/092c9df2-9531-4b44-98a5-2b1cab95434b"/>
-    <ns:cluster_nb>Cluster 21</ns:cluster_nb>
-    <rdfs:label>Cluster 21</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/4217c05d-eb92-414d-91bd-c4eca4ff9eb4">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/092c9df2-9531-4b44-98a5-2b1cab95434b"/>
+    <dcterms:source rdf:resource="http://example.org/a1ddedc9-df7f-4d80-b460-14a463546f43"/>
     <ns:authors_cell_type>mixed peptidergic neuron and cholinergic neuron 3</ns:authors_cell_type>
-    <obo:RO_0015003 rdf:resource="http://example.org/18edc2ac-b62a-44f6-abfe-91d7653aae66"/>
+    <obo:RO_0015003 rdf:resource="http://example.org/7d0ca268-2797-4815-b1a3-140f5e67d5d8"/>
     <rdfs:label>mixed peptidergic neuron and cholinergic neuron 3</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/a05f13f7-0089-4db5-8a04-f653ba1afa73">
+  <rdf:Description rdf:about="http://example.org/56513acb-6438-473d-a05a-8b5433b6323b">
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/092c9df2-9531-4b44-98a5-2b1cab95434b"/>
-    <ns:cluster_nb>Cluster 16</ns:cluster_nb>
-    <rdfs:label>Cluster 16</rdfs:label>
+    <dcterms:source rdf:resource="http://example.org/a1ddedc9-df7f-4d80-b460-14a463546f43"/>
+    <ns:authors_cell_type>GABAergic neuron 26</ns:authors_cell_type>
+    <obo:RO_0015003 rdf:resource="http://example.org/274f592a-921f-4208-a050-b5dcbba8f4e9"/>
+    <rdfs:label>GABAergic neuron 26</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/27ed69d1-5850-4cae-9823-69382f669d8d">
+  <rdf:Description rdf:about="http://example.org/0b725014-6617-4e4a-80e9-867ed5d033ff">
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/092c9df2-9531-4b44-98a5-2b1cab95434b"/>
+    <dcterms:source rdf:resource="http://example.org/a1ddedc9-df7f-4d80-b460-14a463546f43"/>
     <ns:cluster_nb>Cluster 18</ns:cluster_nb>
     <rdfs:label>Cluster 18</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/b814e693-dbed-4578-bfe2-ea16fb4b5f3d">
+  <rdf:Description rdf:about="http://example.org/a1f1d1ab-8ea5-4c20-88cb-301ad9ffc683">
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/092c9df2-9531-4b44-98a5-2b1cab95434b"/>
+    <dcterms:source rdf:resource="http://example.org/a1ddedc9-df7f-4d80-b460-14a463546f43"/>
+    <ns:authors_cell_type>glutamatergic neuron 4</ns:authors_cell_type>
+    <obo:RO_0015003 rdf:resource="http://example.org/a7ba4f51-cee7-473d-8b0d-d03415a822ac"/>
+    <rdfs:label>glutamatergic neuron 4</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/471c39cb-11f4-4629-badc-06815d29686b">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/a1ddedc9-df7f-4d80-b460-14a463546f43"/>
+    <ns:cluster_nb>Cluster 22</ns:cluster_nb>
+    <rdfs:label>Cluster 22</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N836c304862384536982b336b983eba53">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002473"/>
+    <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_00003686"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/b1540dc3-a8b6-4f4f-b834-b90c625cae8a">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/a1ddedc9-df7f-4d80-b460-14a463546f43"/>
+    <ns:cluster_nb>Cluster 31</ns:cluster_nb>
+    <rdfs:label>Cluster 31</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/c756fd0a-afe5-4f9f-a427-1f61f3735570">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/a1ddedc9-df7f-4d80-b460-14a463546f43"/>
+    <ns:authors_cell_type>glutamatergic neuron 20</ns:authors_cell_type>
+    <obo:RO_0015003 rdf:resource="http://example.org/a7ba4f51-cee7-473d-8b0d-d03415a822ac"/>
+    <rdfs:label>glutamatergic neuron 20</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_00051298">
+    <rdfs:label>olfactory projection neuron</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/13b8e260-965d-450e-868a-15422c037503">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/a1ddedc9-df7f-4d80-b460-14a463546f43"/>
+    <ns:cluster_nb>Cluster 11</ns:cluster_nb>
+    <rdfs:label>Cluster 11</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000700">
+    <rdfs:label>dopaminergic neuron</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/43e82d66-9b30-4545-aafb-1e049a615caf">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/a1ddedc9-df7f-4d80-b460-14a463546f43"/>
     <ns:authors_cell_type>Kenyon cell 25</ns:authors_cell_type>
-    <obo:RO_0015003 rdf:resource="http://example.org/3813fbc2-cfdb-4394-9266-a354a3e583f1"/>
+    <obo:RO_0015003 rdf:resource="http://example.org/d7cb9e1e-dead-423a-8d1c-f7dae9d55624"/>
     <rdfs:label>Kenyon cell 25</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/e95c654e-3cd1-4f06-aece-27beea0c92a5">
+  <rdf:Description rdf:about="http://example.org/a49c4c16-1510-4afa-96de-87d237187288">
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/092c9df2-9531-4b44-98a5-2b1cab95434b"/>
+    <dcterms:source rdf:resource="http://example.org/a1ddedc9-df7f-4d80-b460-14a463546f43"/>
+    <ns:authors_cell_type>developmental genes cluster 39</ns:authors_cell_type>
+    <rdfs:label>developmental genes cluster 39</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/f81a420f-bc3d-4697-9a32-0e4f4a793526">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/a1ddedc9-df7f-4d80-b460-14a463546f43"/>
+    <ns:cluster_nb>Cluster 6</ns:cluster_nb>
+    <rdfs:label>Cluster 6</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/96d287cf-7c22-4479-ae45-0be5f3664a90">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/a1ddedc9-df7f-4d80-b460-14a463546f43"/>
+    <ns:authors_cell_type>undetermined cluster 41</ns:authors_cell_type>
+    <rdfs:label>undetermined cluster 41</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/74b7b5d7-0e79-43ed-af3d-8ba76988d24c">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/a1ddedc9-df7f-4d80-b460-14a463546f43"/>
+    <ns:authors_cell_type>glutamatergic neuron 13</ns:authors_cell_type>
+    <obo:RO_0015003 rdf:resource="http://example.org/a7ba4f51-cee7-473d-8b0d-d03415a822ac"/>
+    <rdfs:label>glutamatergic neuron 13</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/11faa806-bf65-4500-b600-a12bf4e0f41c">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/a1ddedc9-df7f-4d80-b460-14a463546f43"/>
+    <ns:authors_cell_type>undetermined cluster 40</ns:authors_cell_type>
+    <rdfs:label>undetermined cluster 40</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/443087b2-5aea-4eab-b1b9-71c7f5322b17">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/a1ddedc9-df7f-4d80-b460-14a463546f43"/>
+    <ns:authors_cell_type>glial cell of the perineurium 5</ns:authors_cell_type>
+    <ns:cell_type>glial cell of the perineurium</ns:cell_type>
+    <rdfs:label>glial cell of the perineurium 5</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N55a4b9109c1b4f88bed47dbc9928aa25">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002473"/>
+    <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000700"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/4ef12eed-a636-422f-8516-4dede64af9ce">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/a1ddedc9-df7f-4d80-b460-14a463546f43"/>
+    <ns:cluster_nb>Cluster 9</ns:cluster_nb>
+    <rdfs:label>Cluster 9</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/f5a60310-581c-412c-8cbd-63e2bbf15759">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/a1ddedc9-df7f-4d80-b460-14a463546f43"/>
+    <ns:authors_cell_type>mixed surface glial cell and fat body cell 33</ns:authors_cell_type>
+    <ns:cell_type>mixed surface glial cell and fat body cell</ns:cell_type>
+    <rdfs:label>mixed surface glial cell and fat body cell 33</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/0fbca1a9-7221-46c4-8a4d-9b5b4fe2d903">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/a1ddedc9-df7f-4d80-b460-14a463546f43"/>
+    <ns:cluster_nb>Cluster 26</ns:cluster_nb>
+    <rdfs:label>Cluster 26</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/a41e5699-7599-413a-b9f5-44c2cfbdf81e">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/a1ddedc9-df7f-4d80-b460-14a463546f43"/>
+    <ns:cluster_nb>Cluster 21</ns:cluster_nb>
+    <rdfs:label>Cluster 21</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/bbb719f7-df0a-4368-a167-85ae8740a1fc">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/a1ddedc9-df7f-4d80-b460-14a463546f43"/>
+    <ns:cluster_nb>Cluster 2</ns:cluster_nb>
+    <rdfs:label>Cluster 2</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/2dd623e0-c854-45a4-9991-5f053ad3e126">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/a1ddedc9-df7f-4d80-b460-14a463546f43"/>
     <ns:authors_cell_type>mixed optic lobe and antennal lobe neuron 11</ns:authors_cell_type>
     <ns:cell_type>mixed optic lobe and antennal lobe neuron</ns:cell_type>
     <rdfs:label>mixed optic lobe and antennal lobe neuron 11</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/25ab74eb-9057-4a4b-88a0-33f82332ae56">
+  <rdf:Description rdf:about="http://example.org/dc771407-312b-47e4-9ebc-4e905f2e6754">
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/092c9df2-9531-4b44-98a5-2b1cab95434b"/>
-    <ns:authors_cell_type>adult optic lobe neuron 0</ns:authors_cell_type>
-    <obo:RO_0015003 rdf:resource="http://example.org/2e3f4653-75cd-4232-8724-225ce026e7de"/>
-    <rdfs:label>adult optic lobe neuron 0</rdfs:label>
+    <dcterms:source rdf:resource="http://example.org/a1ddedc9-df7f-4d80-b460-14a463546f43"/>
+    <ns:authors_cell_type>astrocyte-like glial cell 24</ns:authors_cell_type>
+    <obo:RO_0015003 rdf:resource="http://example.org/829304e4-7129-4379-969b-2f0b7fdfe926"/>
+    <rdfs:label>astrocyte-like glial cell 24</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/3813fbc2-cfdb-4394-9266-a354a3e583f1">
+  <rdf:Description rdf:about="http://example.org/549cce4b-c0de-4380-9631-3f5dac3d831f">
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/092c9df2-9531-4b44-98a5-2b1cab95434b"/>
-    <ns:cell_type>Kenyon cell</ns:cell_type>
-    <rdfs:label>Kenyon cell</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/7398c469-acf8-416b-9103-cd6d8ffa7b33">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/092c9df2-9531-4b44-98a5-2b1cab95434b"/>
-    <ns:cluster_nb>Cluster 13</ns:cluster_nb>
-    <rdfs:label>Cluster 13</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/dc01d3ea-995f-4d9d-b453-518ca5f505b4">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/092c9df2-9531-4b44-98a5-2b1cab95434b"/>
-    <ns:cluster_nb>Cluster 30</ns:cluster_nb>
-    <rdfs:label>Cluster 30</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ebf2ba11-825c-4416-ab6d-92142da37482">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/092c9df2-9531-4b44-98a5-2b1cab95434b"/>
-    <ns:authors_cell_type>GABAergic neuron 9</ns:authors_cell_type>
-    <obo:RO_0015003 rdf:resource="http://example.org/848a17b7-ec29-461e-bfe3-94f65af871d5"/>
-    <rdfs:label>GABAergic neuron 9</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/d2f9b8d3-b59c-4015-acd6-079abae1467c">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/092c9df2-9531-4b44-98a5-2b1cab95434b"/>
-    <ns:authors_cell_type>glutamatergic neuron 13</ns:authors_cell_type>
-    <obo:RO_0015003 rdf:resource="http://example.org/220b4eb7-245a-4db5-9cc9-0f7f7b612abb"/>
-    <rdfs:label>glutamatergic neuron 13</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/c42f0aa9-7e86-4430-8c76-35cbb18912f5">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/092c9df2-9531-4b44-98a5-2b1cab95434b"/>
-    <ns:cluster_nb>Cluster 23</ns:cluster_nb>
-    <rdfs:label>Cluster 23</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/4eaa66a6-b538-49fe-b47e-7f06de6b4423">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/092c9df2-9531-4b44-98a5-2b1cab95434b"/>
-    <ns:authors_cell_type>mixed tachykinin and neuropeptidergic neuron 42</ns:authors_cell_type>
-    <ns:cell_type>tachykinin neuron</ns:cell_type>
-    <rdfs:label>mixed tachykinin and neuropeptidergic neuron 42</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/835de704-4b0b-43dd-b366-d394e7768073">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/092c9df2-9531-4b44-98a5-2b1cab95434b"/>
-    <ns:cluster_nb>Cluster 1</ns:cluster_nb>
-    <rdfs:label>Cluster 1</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/0e49b0f3-7204-483e-912c-87d82096cf03">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/092c9df2-9531-4b44-98a5-2b1cab95434b"/>
-    <ns:cell_type>astrocyte-like glial cell</ns:cell_type>
-    <rdfs:label>astrocyte-like glial cell</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/db23564a-2bd8-4080-bee2-abd66f6d8a70">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/092c9df2-9531-4b44-98a5-2b1cab95434b"/>
-    <ns:authors_cell_type>adult dorsal fan-shaped body 32</ns:authors_cell_type>
-    <ns:cell_type>adult dorsal fan-shaped body</ns:cell_type>
-    <rdfs:label>adult dorsal fan-shaped body 32</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/ca4a1a1b-f3b3-4da7-864a-162154adcd2d">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/092c9df2-9531-4b44-98a5-2b1cab95434b"/>
-    <ns:cluster_nb>Cluster 6</ns:cluster_nb>
-    <rdfs:label>Cluster 6</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/04f989ec-069c-440d-b53c-6d2d417fbdad">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/092c9df2-9531-4b44-98a5-2b1cab95434b"/>
-    <ns:cluster_nb>Cluster 3</ns:cluster_nb>
-    <rdfs:label>Cluster 3</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/c1e08bd6-2cc3-4a93-a1cd-dfdf946d2930">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/092c9df2-9531-4b44-98a5-2b1cab95434b"/>
-    <ns:cluster_nb>Cluster 17</ns:cluster_nb>
-    <rdfs:label>Cluster 17</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/09cb3522-9e53-4e66-a6b2-211cd90e4550">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/092c9df2-9531-4b44-98a5-2b1cab95434b"/>
-    <ns:authors_cell_type>undetermined cluster 40</ns:authors_cell_type>
-    <rdfs:label>undetermined cluster 40</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/1afb8178-79be-4019-9612-7c3d0ac2826a">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/092c9df2-9531-4b44-98a5-2b1cab95434b"/>
-    <ns:authors_cell_type>GABAergic neuron 8</ns:authors_cell_type>
-    <obo:RO_0015003 rdf:resource="http://example.org/848a17b7-ec29-461e-bfe3-94f65af871d5"/>
-    <rdfs:label>GABAergic neuron 8</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/77acc12e-0ab6-4488-a71a-ab4eebabfe5e">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/092c9df2-9531-4b44-98a5-2b1cab95434b"/>
+    <dcterms:source rdf:resource="http://example.org/a1ddedc9-df7f-4d80-b460-14a463546f43"/>
     <ns:authors_cell_type>GABAergic neuron 16</ns:authors_cell_type>
-    <obo:RO_0015003 rdf:resource="http://example.org/848a17b7-ec29-461e-bfe3-94f65af871d5"/>
+    <obo:RO_0015003 rdf:resource="http://example.org/274f592a-921f-4208-a050-b5dcbba8f4e9"/>
     <rdfs:label>GABAergic neuron 16</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/092c9df2-9531-4b44-98a5-2b1cab95434b">
+  <rdf:Description rdf:about="http://example.org/a1ddedc9-df7f-4d80-b460-14a463546f43">
     <rdf:type rdf:resource="https://schema.org/Dataset"/>
     <rdfs:label>dataset</rdfs:label>
+    <ns:publication>https://doi.org/10.3389/fpsyt.2021.699033</ns:publication>
+    <ns:download_link>https://ftp.ebi.ac.uk/pub/databases/spot/scxa/E-GEOD-172231_modified.project.h5ad</ns:download_link>
     <ns:citation>Publication: https://doi.org/10.3389/fpsyt.2021.699033 Dataset Version: https://ftp.ebi.ac.uk/pub/databases/spot/scxa/E-GEOD-172231_modified.project.h5ad</ns:citation>
     <ns:dataset_curie>SCXA:E-GEOD-172231</ns:dataset_curie>
     <ns:default_embedding>X_umap_neighbors_n_neighbors_20</ns:default_embedding>
@@ -325,235 +217,406 @@
     <ns:title>Adult Phenotypes and Gene Expression in the Brain at Single Cell Resolution After Developmental Alcohol Exposure in Drosophila</ns:title>
     <ns:obs_meta>[[{"field_name": "cluster_nb", "field_type": "author_cell_type_label"}], [{"field_name": "inferred_cell_type", "field_type": "author_cell_type_label"}], [{"field_name": "authors_cell_type", "field_type": "author_cell_type_label"}], [{"field_name": "authors_cell_type_ontology_label", "field_type": "author_cell_type_label"}], [{"field_name": "cell_type", "field_type": "author_cell_type_label"}]]</ns:obs_meta>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/f910df97-f189-46cf-b511-666e6c8156f8">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/092c9df2-9531-4b44-98a5-2b1cab95434b"/>
-    <ns:authors_cell_type>glial cell of the perineurium 5</ns:authors_cell_type>
-    <ns:cell_type>glial cell of the perineurium</ns:cell_type>
-    <rdfs:label>glial cell of the perineurium 5</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/c556150b-9949-4d3f-8497-f4ac14c02203">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/092c9df2-9531-4b44-98a5-2b1cab95434b"/>
-    <ns:cluster_nb>Cluster 15</ns:cluster_nb>
-    <rdfs:label>Cluster 15</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/296cfa90-e441-4f67-8df8-a80c1a73fcf6">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/092c9df2-9531-4b44-98a5-2b1cab95434b"/>
-    <ns:cluster_nb>Cluster 27</ns:cluster_nb>
-    <rdfs:label>Cluster 27</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0002473">
-    <rdfs:label>composed primarily of</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/390d6aca-d670-4dc4-86e7-22a416a389a7">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/092c9df2-9531-4b44-98a5-2b1cab95434b"/>
-    <ns:authors_cell_type>glutamatergic neuron 4</ns:authors_cell_type>
-    <obo:RO_0015003 rdf:resource="http://example.org/220b4eb7-245a-4db5-9cc9-0f7f7b612abb"/>
-    <rdfs:label>glutamatergic neuron 4</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/0f156f36-c531-4e6c-bf56-00f0fc148d1a">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/092c9df2-9531-4b44-98a5-2b1cab95434b"/>
-    <ns:authors_cell_type>glutamatergic neuron 20</ns:authors_cell_type>
-    <obo:RO_0015003 rdf:resource="http://example.org/220b4eb7-245a-4db5-9cc9-0f7f7b612abb"/>
-    <rdfs:label>glutamatergic neuron 20</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/22d12f11-98a9-4733-9ba8-b6b1b4802d67">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/092c9df2-9531-4b44-98a5-2b1cab95434b"/>
-    <ns:cluster_nb>Cluster 26</ns:cluster_nb>
-    <rdfs:label>Cluster 26</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/93103cbf-d10a-47f1-8a7f-9a15800783d0">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/092c9df2-9531-4b44-98a5-2b1cab95434b"/>
-    <ns:authors_cell_type>undetermined cluster 41</ns:authors_cell_type>
-    <rdfs:label>undetermined cluster 41</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/d96e7335-6c50-4c66-8c29-3c0299b8dbfa">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/092c9df2-9531-4b44-98a5-2b1cab95434b"/>
-    <ns:cluster_nb>Cluster 4</ns:cluster_nb>
-    <rdfs:label>Cluster 4</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/f697d42d-7617-4047-9c8d-42120584cef1">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/092c9df2-9531-4b44-98a5-2b1cab95434b"/>
-    <ns:cluster_nb>Cluster 14</ns:cluster_nb>
-    <rdfs:label>Cluster 14</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/0149c575-50e0-4ee8-a996-ffeaa7f3e1c2">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/092c9df2-9531-4b44-98a5-2b1cab95434b"/>
-    <ns:authors_cell_type>Kenyon cell 12</ns:authors_cell_type>
-    <obo:RO_0015003 rdf:resource="http://example.org/3813fbc2-cfdb-4394-9266-a354a3e583f1"/>
-    <rdfs:label>Kenyon cell 12</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/f60613fa-a0c0-4b9e-b526-57ddd744661d">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/092c9df2-9531-4b44-98a5-2b1cab95434b"/>
-    <ns:cluster_nb>Cluster 10</ns:cluster_nb>
-    <rdfs:label>Cluster 10</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/848a17b7-ec29-461e-bfe3-94f65af871d5">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/092c9df2-9531-4b44-98a5-2b1cab95434b"/>
-    <ns:cell_type>GABAergic neuron</ns:cell_type>
-    <rdfs:label>GABAergic neuron</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/28660a70-476d-4249-b77e-67909b850de0">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/092c9df2-9531-4b44-98a5-2b1cab95434b"/>
-    <ns:cluster_nb>Cluster 2</ns:cluster_nb>
-    <rdfs:label>Cluster 2</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/4aea96d9-40e3-4d20-a5b8-7b913e033cd0">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/092c9df2-9531-4b44-98a5-2b1cab95434b"/>
-    <ns:authors_cell_type>mixed peptidergic neuron and cholinergic neuron 6</ns:authors_cell_type>
-    <obo:RO_0015003 rdf:resource="http://example.org/18edc2ac-b62a-44f6-abfe-91d7653aae66"/>
-    <rdfs:label>mixed peptidergic neuron and cholinergic neuron 6</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/e967dd7b-ea0a-4cbb-86db-08e57782c872">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/092c9df2-9531-4b44-98a5-2b1cab95434b"/>
-    <ns:authors_cell_type>GABAergic neuron 26</ns:authors_cell_type>
-    <obo:RO_0015003 rdf:resource="http://example.org/848a17b7-ec29-461e-bfe3-94f65af871d5"/>
-    <rdfs:label>GABAergic neuron 26</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/4cd6435a-5ecb-4e81-b0d0-d3e4182852f9">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/092c9df2-9531-4b44-98a5-2b1cab95434b"/>
-    <ns:authors_cell_type>developmental genes cluster 39</ns:authors_cell_type>
-    <rdfs:label>developmental genes cluster 39</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/9f01804e-84a7-42d6-aa7c-f1ed17898041">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/092c9df2-9531-4b44-98a5-2b1cab95434b"/>
-    <ns:cluster_nb>Cluster 29</ns:cluster_nb>
-    <rdfs:label>Cluster 29</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/dde3edb6-4b0f-45f6-972c-a49da5a8a15c">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/092c9df2-9531-4b44-98a5-2b1cab95434b"/>
-    <ns:authors_cell_type>dopaminergic neuron 36</ns:authors_cell_type>
-    <ns:cell_type>dopaminergic neuron</ns:cell_type>
-    <rdfs:label>dopaminergic neuron 36</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/1e7f8dbd-7002-4e36-9be5-801ac390b820">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/092c9df2-9531-4b44-98a5-2b1cab95434b"/>
-    <ns:authors_cell_type>cholinergic neuron 17</ns:authors_cell_type>
-    <obo:RO_0015003 rdf:resource="http://example.org/18edc2ac-b62a-44f6-abfe-91d7653aae66"/>
-    <rdfs:label>cholinergic neuron 17</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/02349fa7-18c9-4baf-b742-8a9e699f2ca4">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/092c9df2-9531-4b44-98a5-2b1cab95434b"/>
-    <ns:cluster_nb>Cluster 7</ns:cluster_nb>
-    <rdfs:label>Cluster 7</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/220b4eb7-245a-4db5-9cc9-0f7f7b612abb">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/092c9df2-9531-4b44-98a5-2b1cab95434b"/>
-    <ns:cell_type>glutamatergic neuron</ns:cell_type>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000679">
     <rdfs:label>glutamatergic neuron</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/3611cff2-0c3c-46f7-9283-032d6617fe6d">
+  <rdf:Description rdf:about="http://example.org/a4d26f24-cbdc-434d-85bb-47f5a35593ba">
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/092c9df2-9531-4b44-98a5-2b1cab95434b"/>
-    <ns:authors_cell_type>undetermined cluster 37</ns:authors_cell_type>
-    <rdfs:label>undetermined cluster 37</rdfs:label>
+    <dcterms:source rdf:resource="http://example.org/a1ddedc9-df7f-4d80-b460-14a463546f43"/>
+    <ns:authors_cell_type>adult optic lobe neuron 7</ns:authors_cell_type>
+    <obo:RO_0015003 rdf:resource="http://example.org/03f19df9-b38c-498b-95fa-1a0b37a7ab92"/>
+    <rdfs:label>adult optic lobe neuron 7</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/dd6a3b8e-f669-4897-ba21-ab7e697257c9">
+  <rdf:Description rdf:about="http://example.org/40fc097a-161f-41fc-8d53-03db79d8c764">
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/092c9df2-9531-4b44-98a5-2b1cab95434b"/>
-    <ns:authors_cell_type>undetermined cluster 19</ns:authors_cell_type>
-    <rdfs:label>undetermined cluster 19</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/787ee8e3-d2b8-4288-8339-afbf87680e79">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/092c9df2-9531-4b44-98a5-2b1cab95434b"/>
-    <ns:authors_cell_type>mixed eye, cuticle and glia 15</ns:authors_cell_type>
-    <ns:cell_type>mixed eye, cuticle and glia</ns:cell_type>
-    <rdfs:label>mixed eye, cuticle and glia 15</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/b0db73bb-4edd-4417-b363-0bcc174a7c93">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/092c9df2-9531-4b44-98a5-2b1cab95434b"/>
-    <ns:authors_cell_type>mixed surface glial cell and fat body cell 33</ns:authors_cell_type>
-    <ns:cell_type>mixed surface glial cell and fat body cell</ns:cell_type>
-    <rdfs:label>mixed surface glial cell and fat body cell 33</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/3fa7cccc-9d48-458f-bcbc-5e10e9fd00a7">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/092c9df2-9531-4b44-98a5-2b1cab95434b"/>
-    <ns:authors_cell_type>undetermined cluster 31</ns:authors_cell_type>
-    <rdfs:label>undetermined cluster 31</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/333076b4-28a5-464b-9767-5be49108b926">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/092c9df2-9531-4b44-98a5-2b1cab95434b"/>
-    <ns:authors_cell_type>undetermined cluster 22</ns:authors_cell_type>
-    <rdfs:label>undetermined cluster 22</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/97780a10-9c7d-4240-a871-84d84047adf7">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/092c9df2-9531-4b44-98a5-2b1cab95434b"/>
-    <ns:authors_cell_type>adult optic lobe neuron 18</ns:authors_cell_type>
-    <obo:RO_0015003 rdf:resource="http://example.org/2e3f4653-75cd-4232-8724-225ce026e7de"/>
-    <rdfs:label>adult optic lobe neuron 18</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/084e9f77-3147-4f9b-aadf-b720eb10c771">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/092c9df2-9531-4b44-98a5-2b1cab95434b"/>
-    <ns:authors_cell_type>astrocyte-like glial cell 23</ns:authors_cell_type>
-    <obo:RO_0015003 rdf:resource="http://example.org/0e49b0f3-7204-483e-912c-87d82096cf03"/>
-    <rdfs:label>astrocyte-like glial cell 23</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/0fb47258-3c98-4965-8907-c86d4cda2ba2">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/092c9df2-9531-4b44-98a5-2b1cab95434b"/>
+    <dcterms:source rdf:resource="http://example.org/a1ddedc9-df7f-4d80-b460-14a463546f43"/>
     <ns:cluster_nb>Cluster 32</ns:cluster_nb>
     <rdfs:label>Cluster 32</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/4f55a0ae-c776-4b8a-beb2-fc4b8fe5d827">
+  <rdf:Description rdf:about="http://example.org/78d8764b-b357-4d83-9b52-6bc3288eec0e">
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/092c9df2-9531-4b44-98a5-2b1cab95434b"/>
+    <dcterms:source rdf:resource="http://example.org/a1ddedc9-df7f-4d80-b460-14a463546f43"/>
+    <ns:cluster_nb>Cluster 17</ns:cluster_nb>
+    <rdfs:label>Cluster 17</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/8244cd8b-07ea-4c18-8eae-4c5f000b677f">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/a1ddedc9-df7f-4d80-b460-14a463546f43"/>
+    <ns:cluster_nb>Cluster 33</ns:cluster_nb>
+    <rdfs:label>Cluster 33</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/76ec89f3-b210-4baa-bbef-ee5fb734738c">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/a1ddedc9-df7f-4d80-b460-14a463546f43"/>
+    <ns:cluster_nb>Cluster 30</ns:cluster_nb>
+    <rdfs:label>Cluster 30</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/a763f937-224e-4cc6-bf3a-412bfb2f59db">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/a1ddedc9-df7f-4d80-b460-14a463546f43"/>
     <ns:cluster_nb>Cluster 28</ns:cluster_nb>
     <rdfs:label>Cluster 28</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0015003">
-    <rdfs:label>subcluster of</rdfs:label>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/4222a82b-23b4-49ec-bfc0-18eaccf27e98">
+  <rdf:Description rdf:about="http://example.org/d4a3c47a-7de1-43d6-b4ae-91761abdfc21">
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/092c9df2-9531-4b44-98a5-2b1cab95434b"/>
-    <ns:cluster_nb>Cluster 20</ns:cluster_nb>
-    <rdfs:label>Cluster 20</rdfs:label>
+    <dcterms:source rdf:resource="http://example.org/a1ddedc9-df7f-4d80-b460-14a463546f43"/>
+    <ns:authors_cell_type>Kenyon cell 12</ns:authors_cell_type>
+    <obo:RO_0015003 rdf:resource="http://example.org/d7cb9e1e-dead-423a-8d1c-f7dae9d55624"/>
+    <rdfs:label>Kenyon cell 12</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/2678d462-6725-4d43-8ce7-a527c6daa3cc">
+  <rdf:Description rdf:about="http://example.org/f81b2928-cc80-451f-beab-dfe5aab402fb">
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/092c9df2-9531-4b44-98a5-2b1cab95434b"/>
-    <ns:authors_cell_type>GABAergic neuron 30</ns:authors_cell_type>
-    <obo:RO_0015003 rdf:resource="http://example.org/848a17b7-ec29-461e-bfe3-94f65af871d5"/>
-    <rdfs:label>GABAergic neuron 30</rdfs:label>
+    <dcterms:source rdf:resource="http://example.org/a1ddedc9-df7f-4d80-b460-14a463546f43"/>
+    <ns:cluster_nb>Cluster 7</ns:cluster_nb>
+    <rdfs:label>Cluster 7</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/source">
-    <rdfs:label>has_source</rdfs:label>
+  <rdf:Description rdf:about="http://example.org/dfc52c0a-e022-4079-ba09-bf9e544f6d21">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/a1ddedc9-df7f-4d80-b460-14a463546f43"/>
+    <ns:cluster_nb>Cluster 13</ns:cluster_nb>
+    <rdfs:label>Cluster 13</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/7d0ca268-2797-4815-b1a3-140f5e67d5d8">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/a1ddedc9-df7f-4d80-b460-14a463546f43"/>
+    <ns:cell_type>cholinergic neuron</ns:cell_type>
+    <rdfs:label>cholinergic neuron</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/9f3a907e-5f5e-4cad-b020-e13a700f8629">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/a1ddedc9-df7f-4d80-b460-14a463546f43"/>
+    <ns:cluster_nb>Cluster 8</ns:cluster_nb>
+    <rdfs:label>Cluster 8</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/64fbe6e0-5dba-4060-93eb-ca64cf2ab4e1">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <rdf:type rdf:nodeID="N55a4b9109c1b4f88bed47dbc9928aa25"/>
+    <dcterms:source rdf:resource="http://example.org/a1ddedc9-df7f-4d80-b460-14a463546f43"/>
+    <ns:authors_cell_type>dopaminergic neuron 36</ns:authors_cell_type>
+    <ns:cell_type>dopaminergic neuron</ns:cell_type>
+    <rdfs:label>dopaminergic neuron 36</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PCL_0010001">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
     <rdfs:label>cell cluster</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/2e3f4653-75cd-4232-8724-225ce026e7de">
+  <rdf:Description rdf:about="http://example.org/efd11097-ed6c-4770-9620-52291c47a4ea">
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/092c9df2-9531-4b44-98a5-2b1cab95434b"/>
+    <dcterms:source rdf:resource="http://example.org/a1ddedc9-df7f-4d80-b460-14a463546f43"/>
+    <ns:authors_cell_type>GABAergic neuron 21</ns:authors_cell_type>
+    <obo:RO_0015003 rdf:resource="http://example.org/274f592a-921f-4208-a050-b5dcbba8f4e9"/>
+    <rdfs:label>GABAergic neuron 21</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/7a4cae49-e448-422c-9ebd-04414df3946f">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/a1ddedc9-df7f-4d80-b460-14a463546f43"/>
+    <ns:authors_cell_type>undetermined cluster 34</ns:authors_cell_type>
+    <rdfs:label>undetermined cluster 34</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/683b268b-dca8-4eb0-8cdd-6a04010f7077">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/a1ddedc9-df7f-4d80-b460-14a463546f43"/>
+    <ns:authors_cell_type>mixed tachykinin and neuropeptidergic neuron 42</ns:authors_cell_type>
+    <ns:cell_type>tachykinin neuron</ns:cell_type>
+    <rdfs:label>mixed tachykinin and neuropeptidergic neuron 42</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/c0814c07-608f-4255-ab64-c26b3e4ef09b">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/a1ddedc9-df7f-4d80-b460-14a463546f43"/>
+    <ns:authors_cell_type>undetermined cluster 19</ns:authors_cell_type>
+    <rdfs:label>undetermined cluster 19</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/c9b653b8-61cf-4a4a-9070-079bc3a40970">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/a1ddedc9-df7f-4d80-b460-14a463546f43"/>
+    <ns:cluster_nb>Cluster 29</ns:cluster_nb>
+    <rdfs:label>Cluster 29</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/05b260cd-afcc-4d8d-87de-c4f2ac2cc479">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/a1ddedc9-df7f-4d80-b460-14a463546f43"/>
+    <ns:authors_cell_type>photoreceptor neuron 29</ns:authors_cell_type>
+    <ns:cell_type>photoreceptor neuron</ns:cell_type>
+    <rdfs:label>photoreceptor neuron 29</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/67b1ac1c-2a73-4b59-b99e-16b7d6be564d">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/a1ddedc9-df7f-4d80-b460-14a463546f43"/>
+    <ns:authors_cell_type>adult dorsal fan-shaped body 32</ns:authors_cell_type>
+    <ns:cell_type>adult dorsal fan-shaped body</ns:cell_type>
+    <rdfs:label>adult dorsal fan-shaped body 32</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/b980202f-5b09-42d9-9f13-235b780c97c1">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/a1ddedc9-df7f-4d80-b460-14a463546f43"/>
+    <ns:cluster_nb>Cluster 27</ns:cluster_nb>
+    <rdfs:label>Cluster 27</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/6dbba71c-8f63-4d1a-9fd2-65d04b0bfc35">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/a1ddedc9-df7f-4d80-b460-14a463546f43"/>
+    <ns:cluster_nb>Cluster 4</ns:cluster_nb>
+    <rdfs:label>Cluster 4</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0015003">
+    <rdfs:label>subcluster of</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/829304e4-7129-4379-969b-2f0b7fdfe926">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <rdf:type rdf:nodeID="Ncf3d671bd359414aa047f2a70254a8f1"/>
+    <dcterms:source rdf:resource="http://example.org/a1ddedc9-df7f-4d80-b460-14a463546f43"/>
+    <ns:cell_type>astrocyte-like glial cell</ns:cell_type>
+    <rdfs:label>astrocyte-like glial cell</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/2eb6f83e-25df-4630-b805-1fbebd6b5359">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/a1ddedc9-df7f-4d80-b460-14a463546f43"/>
+    <ns:authors_cell_type>adult optic lobe neuron 0</ns:authors_cell_type>
+    <obo:RO_0015003 rdf:resource="http://example.org/03f19df9-b38c-498b-95fa-1a0b37a7ab92"/>
+    <rdfs:label>adult optic lobe neuron 0</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_00003686">
+    <rdfs:label>Kenyon cell</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/1a0854df-b1fa-4d30-9a6d-97ee50b2354e">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/a1ddedc9-df7f-4d80-b460-14a463546f43"/>
+    <ns:cluster_nb>Cluster 1</ns:cluster_nb>
+    <rdfs:label>Cluster 1</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/631e8a31-ea82-4bd3-8320-ececec00a013">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/a1ddedc9-df7f-4d80-b460-14a463546f43"/>
+    <ns:authors_cell_type>GABAergic neuron 30</ns:authors_cell_type>
+    <obo:RO_0015003 rdf:resource="http://example.org/274f592a-921f-4208-a050-b5dcbba8f4e9"/>
+    <rdfs:label>GABAergic neuron 30</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/c397c0b9-d1d7-44ed-88f1-3ceae96d32ce">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/a1ddedc9-df7f-4d80-b460-14a463546f43"/>
+    <ns:authors_cell_type>mixed ellipsoid body and mushroom body 35</ns:authors_cell_type>
+    <ns:cell_type>mixed ellipsoid body and mushroom body</ns:cell_type>
+    <rdfs:label>mixed ellipsoid body and mushroom body 35</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ncf3d671bd359414aa047f2a70254a8f1">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002473"/>
+    <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_00100505"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/b57dd870-8959-4d7c-b3e4-709f1d0c33b4">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/a1ddedc9-df7f-4d80-b460-14a463546f43"/>
+    <ns:authors_cell_type>undetermined cluster 22</ns:authors_cell_type>
+    <rdfs:label>undetermined cluster 22</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/4c100914-5039-454f-9e55-82de23cd696c">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/a1ddedc9-df7f-4d80-b460-14a463546f43"/>
+    <ns:cluster_nb>Cluster 12</ns:cluster_nb>
+    <rdfs:label>Cluster 12</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/274f592a-921f-4208-a050-b5dcbba8f4e9">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <rdf:type rdf:nodeID="Ne626f13c03fa4f81a33b7f1aaa7778cc"/>
+    <dcterms:source rdf:resource="http://example.org/a1ddedc9-df7f-4d80-b460-14a463546f43"/>
+    <ns:cell_type>GABAergic neuron</ns:cell_type>
+    <rdfs:label>GABAergic neuron</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/f28e2a13-6b83-4d79-8426-213da6ce2c81">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/a1ddedc9-df7f-4d80-b460-14a463546f43"/>
+    <ns:authors_cell_type>mixed peptidergic neuron and cholinergic neuron 6</ns:authors_cell_type>
+    <obo:RO_0015003 rdf:resource="http://example.org/7d0ca268-2797-4815-b1a3-140f5e67d5d8"/>
+    <rdfs:label>mixed peptidergic neuron and cholinergic neuron 6</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/7c75ae90-0a3c-4419-b760-f6559361bce3">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/a1ddedc9-df7f-4d80-b460-14a463546f43"/>
+    <ns:cluster_nb>Cluster 25</ns:cluster_nb>
+    <rdfs:label>Cluster 25</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/a7ba4f51-cee7-473d-8b0d-d03415a822ac">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <rdf:type rdf:nodeID="N1c38ab990c3a4766b9b1f5494f60cf6c"/>
+    <dcterms:source rdf:resource="http://example.org/a1ddedc9-df7f-4d80-b460-14a463546f43"/>
+    <ns:cell_type>glutamatergic neuron</ns:cell_type>
+    <rdfs:label>glutamatergic neuron</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/efe55a11-f398-4d2d-ba2f-31158b209682">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/a1ddedc9-df7f-4d80-b460-14a463546f43"/>
+    <ns:authors_cell_type>cholinergic neuron 17</ns:authors_cell_type>
+    <obo:RO_0015003 rdf:resource="http://example.org/7d0ca268-2797-4815-b1a3-140f5e67d5d8"/>
+    <rdfs:label>cholinergic neuron 17</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/d303390c-54d5-443c-94ab-fc082186a1eb">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/a1ddedc9-df7f-4d80-b460-14a463546f43"/>
+    <ns:cluster_nb>Cluster 16</ns:cluster_nb>
+    <rdfs:label>Cluster 16</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/2fb6576a-03c2-4617-b486-222492addb1a">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/a1ddedc9-df7f-4d80-b460-14a463546f43"/>
+    <ns:cluster_nb>Cluster 3</ns:cluster_nb>
+    <rdfs:label>Cluster 3</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/34ea6364-c870-49d2-b8d7-cb5325223924">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/a1ddedc9-df7f-4d80-b460-14a463546f43"/>
+    <ns:authors_cell_type>cholinergic neuron 38</ns:authors_cell_type>
+    <obo:RO_0015003 rdf:resource="http://example.org/7d0ca268-2797-4815-b1a3-140f5e67d5d8"/>
+    <rdfs:label>cholinergic neuron 38</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/7aaca452-0b05-4caf-9bb9-4403e10b837c">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <rdf:type rdf:nodeID="N204dbc960eb84593b0073aeb099941a6"/>
+    <dcterms:source rdf:resource="http://example.org/a1ddedc9-df7f-4d80-b460-14a463546f43"/>
+    <ns:authors_cell_type>olfactory projection neuron 10</ns:authors_cell_type>
+    <ns:cell_type>olfactory projection neuron</ns:cell_type>
+    <rdfs:label>olfactory projection neuron 10</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/680591dc-654f-4f51-a784-442fa7d7f451">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/a1ddedc9-df7f-4d80-b460-14a463546f43"/>
+    <ns:authors_cell_type>adult optic lobe neuron 18</ns:authors_cell_type>
+    <obo:RO_0015003 rdf:resource="http://example.org/03f19df9-b38c-498b-95fa-1a0b37a7ab92"/>
+    <rdfs:label>adult optic lobe neuron 18</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/a429eba2-15ee-4179-82aa-1b160426035f">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/a1ddedc9-df7f-4d80-b460-14a463546f43"/>
+    <ns:authors_cell_type>GABAergic neuron 8</ns:authors_cell_type>
+    <obo:RO_0015003 rdf:resource="http://example.org/274f592a-921f-4208-a050-b5dcbba8f4e9"/>
+    <rdfs:label>GABAergic neuron 8</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/e587e748-f592-4edd-84c1-fa1fa06059f8">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/a1ddedc9-df7f-4d80-b460-14a463546f43"/>
+    <ns:authors_cell_type>glutamatergic neuron 2</ns:authors_cell_type>
+    <obo:RO_0015003 rdf:resource="http://example.org/a7ba4f51-cee7-473d-8b0d-d03415a822ac"/>
+    <rdfs:label>glutamatergic neuron 2</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/d7cb9e1e-dead-423a-8d1c-f7dae9d55624">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <rdf:type rdf:nodeID="N836c304862384536982b336b983eba53"/>
+    <dcterms:source rdf:resource="http://example.org/a1ddedc9-df7f-4d80-b460-14a463546f43"/>
+    <ns:cell_type>Kenyon cell</ns:cell_type>
+    <rdfs:label>Kenyon cell</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/771cc67b-71e6-40cc-ab2f-7525a99cdd95">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/a1ddedc9-df7f-4d80-b460-14a463546f43"/>
+    <ns:authors_cell_type>undetermined cluster 37</ns:authors_cell_type>
+    <rdfs:label>undetermined cluster 37</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/c83ff606-0db6-4949-b44d-37d2e1f22576">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/a1ddedc9-df7f-4d80-b460-14a463546f43"/>
+    <ns:authors_cell_type>undetermined cluster 27</ns:authors_cell_type>
+    <rdfs:label>undetermined cluster 27</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/e7872852-8a6b-470b-aa31-f3204af74137">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/a1ddedc9-df7f-4d80-b460-14a463546f43"/>
+    <ns:authors_cell_type>GABAergic neuron 9</ns:authors_cell_type>
+    <obo:RO_0015003 rdf:resource="http://example.org/274f592a-921f-4208-a050-b5dcbba8f4e9"/>
+    <rdfs:label>GABAergic neuron 9</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/45638abc-ffa1-4979-b220-8bd6e7c0b8a9">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/a1ddedc9-df7f-4d80-b460-14a463546f43"/>
+    <ns:authors_cell_type>GABAergic neuron 14</ns:authors_cell_type>
+    <obo:RO_0015003 rdf:resource="http://example.org/274f592a-921f-4208-a050-b5dcbba8f4e9"/>
+    <rdfs:label>GABAergic neuron 14</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/7fde8d2f-0944-4f96-a3c3-6a1be059e6bb">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/a1ddedc9-df7f-4d80-b460-14a463546f43"/>
+    <ns:cluster_nb>Cluster 20</ns:cluster_nb>
+    <rdfs:label>Cluster 20</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N1c38ab990c3a4766b9b1f5494f60cf6c">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002473"/>
+    <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000679"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/3b1aeaa6-ee39-47c3-b76e-83051f74e25d">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/a1ddedc9-df7f-4d80-b460-14a463546f43"/>
+    <ns:authors_cell_type>mixed eye, cuticle and glia 15</ns:authors_cell_type>
+    <ns:cell_type>mixed eye, cuticle and glia</ns:cell_type>
+    <rdfs:label>mixed eye, cuticle and glia 15</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/4dc17a85-33af-45a5-89b0-d5a699ba8b15">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/a1ddedc9-df7f-4d80-b460-14a463546f43"/>
+    <ns:cluster_nb>Cluster 14</ns:cluster_nb>
+    <rdfs:label>Cluster 14</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/51afd0f2-744f-418f-933d-8a5fbaeb4eca">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/a1ddedc9-df7f-4d80-b460-14a463546f43"/>
+    <ns:cluster_nb>Cluster 24</ns:cluster_nb>
+    <rdfs:label>Cluster 24</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/f038105d-2fd7-45a4-8cdc-e894ab2ccbc7">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/a1ddedc9-df7f-4d80-b460-14a463546f43"/>
+    <ns:cluster_nb>Cluster 23</ns:cluster_nb>
+    <rdfs:label>Cluster 23</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_00100505">
+    <rdfs:label>astrocyte-like glial cell</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000617">
+    <rdfs:label>GABAergic neuron</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/dd5c4bdd-3477-4035-b1f7-0eda0a4573e5">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/a1ddedc9-df7f-4d80-b460-14a463546f43"/>
+    <ns:cluster_nb>Cluster 5</ns:cluster_nb>
+    <rdfs:label>Cluster 5</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/7a9de363-a182-4aa7-9ad0-3ce7617c4e23">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/a1ddedc9-df7f-4d80-b460-14a463546f43"/>
+    <ns:authors_cell_type>astrocyte-like glial cell 23</ns:authors_cell_type>
+    <obo:RO_0015003 rdf:resource="http://example.org/829304e4-7129-4379-969b-2f0b7fdfe926"/>
+    <rdfs:label>astrocyte-like glial cell 23</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/03f19df9-b38c-498b-95fa-1a0b37a7ab92">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/a1ddedc9-df7f-4d80-b460-14a463546f43"/>
     <ns:cell_type>adult optic lobe neuron</ns:cell_type>
     <rdfs:label>adult optic lobe neuron</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/836254f7-7af6-4821-89a7-e91dac8a4b7e">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/a1ddedc9-df7f-4d80-b460-14a463546f43"/>
+    <ns:cluster_nb>Cluster 19</ns:cluster_nb>
+    <rdfs:label>Cluster 19</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/bbaa23af-2838-4fdb-885b-5de2cd4b62c5">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/a1ddedc9-df7f-4d80-b460-14a463546f43"/>
+    <ns:cluster_nb>Cluster 15</ns:cluster_nb>
+    <rdfs:label>Cluster 15</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0002473">
+    <rdfs:label>composed primarily of</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/source">
+    <rdfs:label>has_source</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ne626f13c03fa4f81a33b7f1aaa7778cc">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002473"/>
+    <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000617"/>
   </rdf:Description>
 </rdf:RDF>
