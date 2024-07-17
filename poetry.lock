@@ -539,13 +539,13 @@ dev = ["flake8", "ipython", "mock", "pytest", "pytest-cov", "restview", "setupto
 
 [[package]]
 name = "exceptiongroup"
-version = "1.2.1"
+version = "1.2.2"
 description = "Backport of PEP 654 (exception groups)"
 optional = false
 python-versions = ">=3.7"
 files = [
-    {file = "exceptiongroup-1.2.1-py3-none-any.whl", hash = "sha256:5258b9ed329c5bbdd31a309f53cbfb0b155341807f6ff7606a1e801a891b29ad"},
-    {file = "exceptiongroup-1.2.1.tar.gz", hash = "sha256:a4785e48b045528f5bfe627b6ad554ff32def154f42372786903b7abcfe1aa16"},
+    {file = "exceptiongroup-1.2.2-py3-none-any.whl", hash = "sha256:3111b9d131c238bec2f8f516e123e14ba243563fb135d3fe885990585aa7795b"},
+    {file = "exceptiongroup-1.2.2.tar.gz", hash = "sha256:47c2edf7c6738fafb49fd34290706d1a1a2f4d1c6df275526b62cbb4aa5393cc"},
 ]
 
 [package.extras]
@@ -1920,13 +1920,13 @@ docs = ["sphinx (>=7.2.6,<8.0.0)", "sphinx-copybutton (>=0.5.2,<0.6.0)", "sphinx
 
 [[package]]
 name = "pandasaurus-cxg"
-version = "0.1.21"
+version = "0.1.22"
 description = "Ontology enrichment tool for CxG standard AnnData files."
 optional = false
 python-versions = "<4.0,>=3.9"
 files = [
-    {file = "pandasaurus_cxg-0.1.21-py3-none-any.whl", hash = "sha256:ccc9c49bd3bbbf312931ecc6e2f175abe09a6f7b1296bc957d3baf66bcaa8a04"},
-    {file = "pandasaurus_cxg-0.1.21.tar.gz", hash = "sha256:5fb4dbeb5ca155fa08571bd47172860f1fd1c5581c9d7d6c9213576118bd25cd"},
+    {file = "pandasaurus_cxg-0.1.22-py3-none-any.whl", hash = "sha256:b7fd7639f08ecad9cfddb7158a70bcb2ba9de048411f4c5a1c9bd60fcc675551"},
+    {file = "pandasaurus_cxg-0.1.22.tar.gz", hash = "sha256:d2f8a0d44c46ccb65c6842d8a9ac7a72e51c6c4ad0ba4e2d011c1d14ad872dfb"},
 ]
 
 [package.dependencies]
@@ -3426,13 +3426,13 @@ zstd = ["zstandard (>=0.18.0)"]
 
 [[package]]
 name = "validators"
-version = "0.32.0"
+version = "0.33.0"
 description = "Python Data Validation for Humans™"
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "validators-0.32.0-py3-none-any.whl", hash = "sha256:e9ce1703afb0adf7724b0f98e4081d9d10e88fa5d37254d21e41f27774c020cd"},
-    {file = "validators-0.32.0.tar.gz", hash = "sha256:9ee6e6d7ac9292b9b755a3155d7c361d76bb2dce23def4f0627662da1e300676"},
+    {file = "validators-0.33.0-py3-none-any.whl", hash = "sha256:134b586a98894f8139865953899fc2daeb3d0c35569552c5518f089ae43ed075"},
+    {file = "validators-0.33.0.tar.gz", hash = "sha256:535867e9617f0100e676a1257ba1e206b9bfd847ddc171e4d44811f07ff0bfbf"},
 ]
 
 [package.extras]
@@ -3520,4 +3520,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "fe75dec791fd4a6b309cf2fa8aeddb8f97fc980a953d70d00d7dd8e6cd9b54d4"
+content-hash = "ff258138012e9504b20a06e963e497487ff2b4dd4cc656839b86804848bd213d"
