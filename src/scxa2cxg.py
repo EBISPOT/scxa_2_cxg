@@ -212,6 +212,22 @@ def convert_and_save(study: str):
         new_obs["cell_type"] = "cell"
         new_obs["cell_type_ontology_term_id"] = "CL:0000000"
 
+    if "tissue" not in new_obs.columns:
+        new_obs["tissue"] = ""
+        new_obs["tissue_ontology_term_id"] = ""
+
+    if "development_stage" not in new_obs.columns:
+        new_obs["development_stage"] = ""
+        new_obs["development_stage_ontology_term_id"] = ""
+
+    if "disease" not in new_obs.columns:
+        new_obs["disease"] = ""
+        new_obs["disease_ontology_term_id"] = ""
+
+    if "organism" not in new_obs.columns:
+        new_obs["organism"] = ""
+        new_obs["organism_ontology_term_id"] = ""
+
     new_var = ann_data.var.copy()
     new_var["feature_is_filtered"] = False
 
