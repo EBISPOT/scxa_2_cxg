@@ -7,102 +7,110 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
 >
-  <rdf:Description rdf:about="http://example.org/25583c66-55aa-4e1e-8e4f-b5e34e8b3358">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/1febd591-1f14-4740-b157-4e35fbadb92f"/>
-    <ns:cluster_nb>Cluster 3</ns:cluster_nb>
-    <obo:RO_0015003 rdf:resource="http://example.org/aebc4286-ee22-4fbf-ad35-f178e0814ce2"/>
-    <rdfs:label>Cluster 3</rdfs:label>
+  <rdf:Description rdf:nodeID="N295427ec5f104ce8a5d78aeb8422b48c">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <owl:annotatedSource rdf:resource="http://example.org/9b0012de-659f-4bc9-a21e-cd0f5f60aa1b"/>
+    <owl:annotatedProperty rdf:resource="http://example.org/tissue"/>
+    <owl:annotatedTarget rdf:resource="None00001768"/>
+    <ns:percentage>100.00</ns:percentage>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/dae63593-adaa-4071-bebf-5b6ea013360c">
+  <rdf:Description rdf:nodeID="N17800301cce943f1857e44f0ff0746c9">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <owl:annotatedSource rdf:resource="http://example.org/13ebba3a-4bf4-442c-9fe5-3a77d3968db1"/>
+    <owl:annotatedProperty rdf:resource="http://example.org/organism"/>
+    <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7227"/>
+    <ns:percentage>100.00</ns:percentage>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N1662307912e143309d284dbd196a7dfa">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <owl:annotatedSource rdf:resource="http://example.org/b8c19365-eed4-4c46-84b5-8a80a2d27255"/>
+    <owl:annotatedProperty rdf:resource="http://example.org/disease"/>
+    <owl:annotatedTarget rdf:resource="http://example.org/bff92228-9e77-4d2a-9d26-e0312a33dced"/>
+    <ns:percentage>100.00</ns:percentage>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N43d7d3a3063f4728b14f16b029751059">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <owl:annotatedSource rdf:resource="http://example.org/4ee8fa8c-e311-40c0-9089-d72301823c87"/>
+    <owl:annotatedProperty rdf:resource="http://example.org/organism"/>
+    <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7227"/>
+    <ns:percentage>100.00</ns:percentage>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nbfb84f4f29ce40a6bb13dbdf52fe82ba">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <owl:annotatedSource rdf:resource="http://example.org/4ee8fa8c-e311-40c0-9089-d72301823c87"/>
+    <owl:annotatedProperty rdf:resource="http://example.org/tissue"/>
+    <owl:annotatedTarget rdf:resource="None00001768"/>
+    <ns:percentage>100.00</ns:percentage>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N36959918afc94fc0b2ffcd6114d7538e">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <owl:annotatedSource rdf:resource="http://example.org/4f70ab0f-a479-445c-ba1f-7d1f707e07fe"/>
+    <owl:annotatedProperty rdf:resource="http://example.org/development_stage"/>
+    <owl:annotatedTarget rdf:resource="http://www.ebi.ac.uk/efo/EFO_0002682"/>
+    <ns:percentage>100.00</ns:percentage>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N3f5a420df244431492bc90bd21adec67">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <owl:annotatedSource rdf:resource="http://example.org/e0adf6cf-054b-40f2-856d-8b43dd3669b9"/>
+    <owl:annotatedProperty rdf:resource="http://example.org/organism"/>
+    <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7227"/>
+    <ns:percentage>100.00</ns:percentage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/bff92228-9e77-4d2a-9d26-e0312a33dced">
+    <rdfs:label></rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/4ee8fa8c-e311-40c0-9089-d72301823c87">
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/1febd591-1f14-4740-b157-4e35fbadb92f"/>
+    <dcterms:source rdf:resource="http://example.org/2d71378e-9d65-4d00-8766-79d845767432"/>
     <ns:cluster_nb>Cluster 11</ns:cluster_nb>
-    <obo:RO_0015003 rdf:resource="http://example.org/aebc4286-ee22-4fbf-ad35-f178e0814ce2"/>
+    <obo:RO_0015003 rdf:resource="http://example.org/e0adf6cf-054b-40f2-856d-8b43dd3669b9"/>
     <rdfs:label>Cluster 11</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/6b3108c6-c784-4724-ba51-c8779585b454">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/1febd591-1f14-4740-b157-4e35fbadb92f"/>
-    <ns:cluster_nb>Cluster 9</ns:cluster_nb>
-    <obo:RO_0015003 rdf:resource="http://example.org/aebc4286-ee22-4fbf-ad35-f178e0814ce2"/>
-    <rdfs:label>Cluster 9</rdfs:label>
+  <rdf:Description rdf:nodeID="Nf5d64d26b440432cafdce9041c93585d">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <owl:annotatedSource rdf:resource="http://example.org/4669d4e4-7a25-414c-881c-3cda73ec420e"/>
+    <owl:annotatedProperty rdf:resource="http://example.org/disease"/>
+    <owl:annotatedTarget rdf:resource="http://example.org/c022c04f-fea3-40fd-b215-a0c46799ae30"/>
+    <ns:percentage>100.00</ns:percentage>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/e1d311d5-59c0-4689-8064-955d8c14993b">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/1febd591-1f14-4740-b157-4e35fbadb92f"/>
-    <ns:cluster_nb>Cluster 1</ns:cluster_nb>
-    <obo:RO_0015003 rdf:resource="http://example.org/aebc4286-ee22-4fbf-ad35-f178e0814ce2"/>
-    <rdfs:label>Cluster 1</rdfs:label>
+  <rdf:Description rdf:nodeID="Ne3ade17909174ffb9028620c5a278da6">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <owl:annotatedSource rdf:resource="http://example.org/4889fb93-5540-4a28-90f1-94f20b53f8e1"/>
+    <owl:annotatedProperty rdf:resource="http://example.org/organism"/>
+    <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7227"/>
+    <ns:percentage>100.00</ns:percentage>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/cca4f2d9-b801-4a7f-aad9-5c2dc5b19416">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/1febd591-1f14-4740-b157-4e35fbadb92f"/>
-    <ns:cluster_nb>Cluster 12</ns:cluster_nb>
-    <obo:RO_0015003 rdf:resource="http://example.org/aebc4286-ee22-4fbf-ad35-f178e0814ce2"/>
-    <rdfs:label>Cluster 12</rdfs:label>
+  <rdf:Description rdf:nodeID="N6fc80bdf509449b7a63d724a57bd2527">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <owl:annotatedSource rdf:resource="http://example.org/25516d02-813a-4321-9253-58e5c86e3e58"/>
+    <owl:annotatedProperty rdf:resource="http://example.org/development_stage"/>
+    <owl:annotatedTarget rdf:resource="http://www.ebi.ac.uk/efo/EFO_0002682"/>
+    <ns:percentage>100.00</ns:percentage>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/8c06cbb8-2b52-4197-a7dc-a5106b605e88">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/1febd591-1f14-4740-b157-4e35fbadb92f"/>
-    <ns:cluster_nb>Cluster 4</ns:cluster_nb>
-    <obo:RO_0015003 rdf:resource="http://example.org/aebc4286-ee22-4fbf-ad35-f178e0814ce2"/>
-    <rdfs:label>Cluster 4</rdfs:label>
+  <rdf:Description rdf:about="http://example.org/a8a04a8b-ba2e-4dd5-8aa8-ce6384b02db1">
+    <rdfs:label></rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/6f2f4672-5a11-4b06-83cb-6841086ef619">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/1febd591-1f14-4740-b157-4e35fbadb92f"/>
-    <ns:cluster_nb>Cluster 5</ns:cluster_nb>
-    <obo:RO_0015003 rdf:resource="http://example.org/aebc4286-ee22-4fbf-ad35-f178e0814ce2"/>
-    <rdfs:label>Cluster 5</rdfs:label>
+  <rdf:Description rdf:nodeID="Nc3b14eabd20142cc91eff92cb1ba8d26">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <owl:annotatedSource rdf:resource="http://example.org/4669d4e4-7a25-414c-881c-3cda73ec420e"/>
+    <owl:annotatedProperty rdf:resource="http://example.org/tissue"/>
+    <owl:annotatedTarget rdf:resource="None00001768"/>
+    <ns:percentage>100.00</ns:percentage>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/e36bfdf6-0ac8-4907-a3d0-ca0599f1bc10">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/1febd591-1f14-4740-b157-4e35fbadb92f"/>
-    <ns:cluster_nb>Cluster 10</ns:cluster_nb>
-    <obo:RO_0015003 rdf:resource="http://example.org/aebc4286-ee22-4fbf-ad35-f178e0814ce2"/>
-    <rdfs:label>Cluster 10</rdfs:label>
+  <rdf:Description rdf:about="http://example.org/c022c04f-fea3-40fd-b215-a0c46799ae30">
+    <rdfs:label></rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/bc0a9b1c-521a-4f0e-b328-bdbdce1e1e72">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/1febd591-1f14-4740-b157-4e35fbadb92f"/>
-    <ns:cluster_nb>Cluster 14</ns:cluster_nb>
-    <obo:RO_0015003 rdf:resource="http://example.org/aebc4286-ee22-4fbf-ad35-f178e0814ce2"/>
-    <rdfs:label>Cluster 14</rdfs:label>
+  <rdf:Description rdf:about="http://example.org/82a7430b-e2ab-40b1-bc08-e6889bf3ad0b">
+    <rdfs:label></rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/0351b164-f67a-4ac0-96e0-21bbf610e86f">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/1febd591-1f14-4740-b157-4e35fbadb92f"/>
-    <ns:cluster_nb>Cluster 2</ns:cluster_nb>
-    <obo:RO_0015003 rdf:resource="http://example.org/aebc4286-ee22-4fbf-ad35-f178e0814ce2"/>
-    <rdfs:label>Cluster 2</rdfs:label>
+  <rdf:Description rdf:nodeID="N8d3ee3aa419145f0b61f40adafb46766">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <owl:annotatedSource rdf:resource="http://example.org/13ebba3a-4bf4-442c-9fe5-3a77d3968db1"/>
+    <owl:annotatedProperty rdf:resource="http://example.org/tissue"/>
+    <owl:annotatedTarget rdf:resource="None00001768"/>
+    <ns:percentage>100.00</ns:percentage>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/21ec3b51-80ca-430a-8829-3f65edeb8cb1">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/1febd591-1f14-4740-b157-4e35fbadb92f"/>
-    <ns:cluster_nb>Cluster 13</ns:cluster_nb>
-    <obo:RO_0015003 rdf:resource="http://example.org/aebc4286-ee22-4fbf-ad35-f178e0814ce2"/>
-    <rdfs:label>Cluster 13</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/6336cc03-5312-4536-aa85-85de151d9acd">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/1febd591-1f14-4740-b157-4e35fbadb92f"/>
-    <ns:cluster_nb>Cluster 7</ns:cluster_nb>
-    <obo:RO_0015003 rdf:resource="http://example.org/aebc4286-ee22-4fbf-ad35-f178e0814ce2"/>
-    <rdfs:label>Cluster 7</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000000">
-    <rdfs:label>cell</rdfs:label>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/2e5c17bd-b4ba-4631-92f9-40c339d6b0f4">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/1febd591-1f14-4740-b157-4e35fbadb92f"/>
-    <ns:cluster_nb>Cluster 8</ns:cluster_nb>
-    <obo:RO_0015003 rdf:resource="http://example.org/aebc4286-ee22-4fbf-ad35-f178e0814ce2"/>
-    <rdfs:label>Cluster 8</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/1febd591-1f14-4740-b157-4e35fbadb92f">
+  <rdf:Description rdf:about="http://example.org/2d71378e-9d65-4d00-8766-79d845767432">
     <rdf:type rdf:resource="https://schema.org/Dataset"/>
     <rdfs:label>dataset</rdfs:label>
     <ns:publication>https://doi.org/nan</ns:publication>
@@ -114,37 +122,506 @@
     <ns:title>Single-cell RNA-seq on Drosophila melanogaster wild type third instar eye discs</ns:title>
     <ns:obs_meta>[[{"field_name": "cluster_nb", "field_type": "author_cell_type_label"}], [{"field_name": "inferred_cell_type", "field_type": "author_cell_type_label"}], [{"field_name": "authors_cell_type", "field_type": "author_cell_type_label"}], [{"field_name": "authors_cell_type_ontology_label", "field_type": "author_cell_type_label"}], [{"field_name": "cell_type", "field_type": "author_cell_type_label"}]]</ns:obs_meta>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="N64e850ff86f042d39338f40a37d7078f">
+  <rdf:Description rdf:about="http://example.org/3e32f63f-8d61-400a-b1fc-a921eb85449a">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/2d71378e-9d65-4d00-8766-79d845767432"/>
+    <ns:cluster_nb>Cluster 3</ns:cluster_nb>
+    <obo:RO_0015003 rdf:resource="http://example.org/e0adf6cf-054b-40f2-856d-8b43dd3669b9"/>
+    <rdfs:label>Cluster 3</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N8b1c3b2df87b4399a735fc29dbb3c85a">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <owl:annotatedSource rdf:resource="http://example.org/b8c19365-eed4-4c46-84b5-8a80a2d27255"/>
+    <owl:annotatedProperty rdf:resource="http://example.org/organism"/>
+    <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7227"/>
+    <ns:percentage>100.00</ns:percentage>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nd47f1942293445848e79bf2726469e91">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <owl:annotatedSource rdf:resource="http://example.org/6fcd148b-2e60-4ef5-92a5-7fab58a34727"/>
+    <owl:annotatedProperty rdf:resource="http://example.org/disease"/>
+    <owl:annotatedTarget rdf:resource="http://example.org/82a7430b-e2ab-40b1-bc08-e6889bf3ad0b"/>
+    <ns:percentage>100.00</ns:percentage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/9b3bf19f-fcd2-4fc3-9e12-d24a8134b56e">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/2d71378e-9d65-4d00-8766-79d845767432"/>
+    <ns:cluster_nb>Cluster 14</ns:cluster_nb>
+    <obo:RO_0015003 rdf:resource="http://example.org/e0adf6cf-054b-40f2-856d-8b43dd3669b9"/>
+    <rdfs:label>Cluster 14</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nefb32c3509444fdc9984062f6b1d6a3f">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <owl:annotatedSource rdf:resource="http://example.org/2e23fd42-75b9-4f3c-bb20-95236ae2cdcf"/>
+    <owl:annotatedProperty rdf:resource="http://example.org/development_stage"/>
+    <owl:annotatedTarget rdf:resource="http://www.ebi.ac.uk/efo/EFO_0002682"/>
+    <ns:percentage>100.00</ns:percentage>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N5b944b1b2c7b434eb8c283e79e25d513">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <owl:annotatedSource rdf:resource="http://example.org/812ba043-fce8-4878-82fe-275169bb7b37"/>
+    <owl:annotatedProperty rdf:resource="http://example.org/disease"/>
+    <owl:annotatedTarget rdf:resource="http://example.org/b79e4846-b6ae-48ec-ac2a-ad33daaa9c0d"/>
+    <ns:percentage>100.00</ns:percentage>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nf4846ac38e504a50ad0aca426534db91">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <owl:annotatedSource rdf:resource="http://example.org/4889fb93-5540-4a28-90f1-94f20b53f8e1"/>
+    <owl:annotatedProperty rdf:resource="http://example.org/development_stage"/>
+    <owl:annotatedTarget rdf:resource="http://www.ebi.ac.uk/efo/EFO_0002682"/>
+    <ns:percentage>100.00</ns:percentage>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N677eea7d73324d8f9bfde55b093ccc4d">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <owl:annotatedSource rdf:resource="http://example.org/4669d4e4-7a25-414c-881c-3cda73ec420e"/>
+    <owl:annotatedProperty rdf:resource="http://example.org/organism"/>
+    <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7227"/>
+    <ns:percentage>100.00</ns:percentage>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N226de253eb1d485398f83547aca76b72">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <owl:annotatedSource rdf:resource="http://example.org/4f70ab0f-a479-445c-ba1f-7d1f707e07fe"/>
+    <owl:annotatedProperty rdf:resource="http://example.org/disease"/>
+    <owl:annotatedTarget rdf:resource="http://example.org/2bded2f3-bcfd-4fc5-a3b0-7e2e7ef51de9"/>
+    <ns:percentage>100.00</ns:percentage>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ncae630cc50194a869642ed7c7178db88">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <owl:annotatedSource rdf:resource="http://example.org/e0adf6cf-054b-40f2-856d-8b43dd3669b9"/>
+    <owl:annotatedProperty rdf:resource="http://example.org/disease"/>
+    <owl:annotatedTarget rdf:resource="http://example.org/1925ffd3-8e0a-45ae-91e0-9e8c22565274"/>
+    <ns:percentage>100.00</ns:percentage>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N399d57d5de524ea09f8ca228e2c23504">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <owl:annotatedSource rdf:resource="http://example.org/25516d02-813a-4321-9253-58e5c86e3e58"/>
+    <owl:annotatedProperty rdf:resource="http://example.org/tissue"/>
+    <owl:annotatedTarget rdf:resource="None00001768"/>
+    <ns:percentage>100.00</ns:percentage>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N2119e1716f3840f98921eff0ca0dc4b9">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <owl:annotatedSource rdf:resource="http://example.org/812ba043-fce8-4878-82fe-275169bb7b37"/>
+    <owl:annotatedProperty rdf:resource="http://example.org/tissue"/>
+    <owl:annotatedTarget rdf:resource="None00001768"/>
+    <ns:percentage>100.00</ns:percentage>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N021539d83e7341fba66c8ccd27da8f24">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <owl:annotatedSource rdf:resource="http://example.org/6fcd148b-2e60-4ef5-92a5-7fab58a34727"/>
+    <owl:annotatedProperty rdf:resource="http://example.org/development_stage"/>
+    <owl:annotatedTarget rdf:resource="http://www.ebi.ac.uk/efo/EFO_0002682"/>
+    <ns:percentage>100.00</ns:percentage>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nfce346d2851641d7bb2969a88438f1d2">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <owl:annotatedSource rdf:resource="http://example.org/9b3bf19f-fcd2-4fc3-9e12-d24a8134b56e"/>
+    <owl:annotatedProperty rdf:resource="http://example.org/tissue"/>
+    <owl:annotatedTarget rdf:resource="None00001768"/>
+    <ns:percentage>100.00</ns:percentage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/9b0012de-659f-4bc9-a21e-cd0f5f60aa1b">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/2d71378e-9d65-4d00-8766-79d845767432"/>
+    <ns:cluster_nb>Cluster 12</ns:cluster_nb>
+    <obo:RO_0015003 rdf:resource="http://example.org/e0adf6cf-054b-40f2-856d-8b43dd3669b9"/>
+    <rdfs:label>Cluster 12</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N1f0108e5013b4714a77c6856cac351d1">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <owl:annotatedSource rdf:resource="http://example.org/2e23fd42-75b9-4f3c-bb20-95236ae2cdcf"/>
+    <owl:annotatedProperty rdf:resource="http://example.org/disease"/>
+    <owl:annotatedTarget rdf:resource="http://example.org/163b78dd-9a14-4b8b-afa7-d0673793f89e"/>
+    <ns:percentage>100.00</ns:percentage>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N8935f701612940ddaae43f2d0668cd71">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <owl:annotatedSource rdf:resource="http://example.org/9b0012de-659f-4bc9-a21e-cd0f5f60aa1b"/>
+    <owl:annotatedProperty rdf:resource="http://example.org/development_stage"/>
+    <owl:annotatedTarget rdf:resource="http://www.ebi.ac.uk/efo/EFO_0002682"/>
+    <ns:percentage>100.00</ns:percentage>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N1e17db9ea4cb494fa76f3adfd58b742e">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <owl:annotatedSource rdf:resource="http://example.org/e0adf6cf-054b-40f2-856d-8b43dd3669b9"/>
+    <owl:annotatedProperty rdf:resource="http://example.org/development_stage"/>
+    <owl:annotatedTarget rdf:resource="http://www.ebi.ac.uk/efo/EFO_0002682"/>
+    <ns:percentage>100.00</ns:percentage>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nae8b4e2bd08f48418e9e5db3fd65d4b2">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <owl:annotatedSource rdf:resource="http://example.org/9b3bf19f-fcd2-4fc3-9e12-d24a8134b56e"/>
+    <owl:annotatedProperty rdf:resource="http://example.org/disease"/>
+    <owl:annotatedTarget rdf:resource="http://example.org/a529b850-4084-46f0-9ba6-abe8325d22bb"/>
+    <ns:percentage>100.00</ns:percentage>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ne393f805ab0649349b52997753deddd3">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <owl:annotatedSource rdf:resource="http://example.org/a78a6c17-e076-4e0e-b788-bac1be46209c"/>
+    <owl:annotatedProperty rdf:resource="http://example.org/organism"/>
+    <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7227"/>
+    <ns:percentage>100.00</ns:percentage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/e0adf6cf-054b-40f2-856d-8b43dd3669b9">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <rdf:type rdf:nodeID="N88b7b50da60d41218ba1cd80a9ff7ade"/>
+    <dcterms:source rdf:resource="http://example.org/2d71378e-9d65-4d00-8766-79d845767432"/>
+    <ns:cell_type>cell</ns:cell_type>
+    <rdfs:label>cell</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/4f70ab0f-a479-445c-ba1f-7d1f707e07fe">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/2d71378e-9d65-4d00-8766-79d845767432"/>
+    <ns:cluster_nb>Cluster 8</ns:cluster_nb>
+    <obo:RO_0015003 rdf:resource="http://example.org/e0adf6cf-054b-40f2-856d-8b43dd3669b9"/>
+    <rdfs:label>Cluster 8</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/a78a6c17-e076-4e0e-b788-bac1be46209c">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/2d71378e-9d65-4d00-8766-79d845767432"/>
+    <ns:cluster_nb>Cluster 5</ns:cluster_nb>
+    <obo:RO_0015003 rdf:resource="http://example.org/e0adf6cf-054b-40f2-856d-8b43dd3669b9"/>
+    <rdfs:label>Cluster 5</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nbf1b9f0ac0cf43c89a3a90919c4efb9d">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <owl:annotatedSource rdf:resource="http://example.org/9b0012de-659f-4bc9-a21e-cd0f5f60aa1b"/>
+    <owl:annotatedProperty rdf:resource="http://example.org/disease"/>
+    <owl:annotatedTarget rdf:resource="http://example.org/a2b11e4b-b4a5-458c-a98b-f00df157fa38"/>
+    <ns:percentage>100.00</ns:percentage>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N67d896e620164f47865e8303f79cb7f8">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <owl:annotatedSource rdf:resource="http://example.org/a78a6c17-e076-4e0e-b788-bac1be46209c"/>
+    <owl:annotatedProperty rdf:resource="http://example.org/development_stage"/>
+    <owl:annotatedTarget rdf:resource="http://www.ebi.ac.uk/efo/EFO_0002682"/>
+    <ns:percentage>100.00</ns:percentage>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N68af684fbe2e41deb003129d5a19c569">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <owl:annotatedSource rdf:resource="http://example.org/4f70ab0f-a479-445c-ba1f-7d1f707e07fe"/>
+    <owl:annotatedProperty rdf:resource="http://example.org/organism"/>
+    <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7227"/>
+    <ns:percentage>100.00</ns:percentage>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N3af3756aa1704e708629cf60dcc4892a">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <owl:annotatedSource rdf:resource="http://example.org/e0adf6cf-054b-40f2-856d-8b43dd3669b9"/>
+    <owl:annotatedProperty rdf:resource="http://example.org/tissue"/>
+    <owl:annotatedTarget rdf:resource="None00001768"/>
+    <ns:percentage>100.00</ns:percentage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/13ebba3a-4bf4-442c-9fe5-3a77d3968db1">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/2d71378e-9d65-4d00-8766-79d845767432"/>
+    <ns:cluster_nb>Cluster 10</ns:cluster_nb>
+    <obo:RO_0015003 rdf:resource="http://example.org/e0adf6cf-054b-40f2-856d-8b43dd3669b9"/>
+    <rdfs:label>Cluster 10</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N4b8f39f5964b45a79753f53d8ebb26c4">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <owl:annotatedSource rdf:resource="http://example.org/4669d4e4-7a25-414c-881c-3cda73ec420e"/>
+    <owl:annotatedProperty rdf:resource="http://example.org/development_stage"/>
+    <owl:annotatedTarget rdf:resource="http://www.ebi.ac.uk/efo/EFO_0002682"/>
+    <ns:percentage>100.00</ns:percentage>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nc52659595ca64181a9b0148c66c5fb18">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <owl:annotatedSource rdf:resource="http://example.org/13ebba3a-4bf4-442c-9fe5-3a77d3968db1"/>
+    <owl:annotatedProperty rdf:resource="http://example.org/disease"/>
+    <owl:annotatedTarget rdf:resource="http://example.org/4da6da79-e9d8-4718-b73e-2360c9f405a1"/>
+    <ns:percentage>100.00</ns:percentage>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N229cc1af26244c9e8625fa2cb7a7c6dc">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <owl:annotatedSource rdf:resource="http://example.org/4889fb93-5540-4a28-90f1-94f20b53f8e1"/>
+    <owl:annotatedProperty rdf:resource="http://example.org/disease"/>
+    <owl:annotatedTarget rdf:resource="http://example.org/8b6cf2d6-ed10-4dad-8a2d-9b7aa706c836"/>
+    <ns:percentage>100.00</ns:percentage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0015003">
+    <rdfs:label>subcluster of</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/2e23fd42-75b9-4f3c-bb20-95236ae2cdcf">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/2d71378e-9d65-4d00-8766-79d845767432"/>
+    <ns:cluster_nb>Cluster 13</ns:cluster_nb>
+    <obo:RO_0015003 rdf:resource="http://example.org/e0adf6cf-054b-40f2-856d-8b43dd3669b9"/>
+    <rdfs:label>Cluster 13</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/163b78dd-9a14-4b8b-afa7-d0673793f89e">
+    <rdfs:label></rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N55452dc6aa5f44a79f56edf385d54f85">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <owl:annotatedSource rdf:resource="http://example.org/3e32f63f-8d61-400a-b1fc-a921eb85449a"/>
+    <owl:annotatedProperty rdf:resource="http://example.org/disease"/>
+    <owl:annotatedTarget rdf:resource="http://example.org/7804d870-0b50-41e7-8a44-ebed4ba4c152"/>
+    <ns:percentage>100.00</ns:percentage>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ndc42c1b1b92942389ee8a32efdac9227">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <owl:annotatedSource rdf:resource="http://example.org/6fcd148b-2e60-4ef5-92a5-7fab58a34727"/>
+    <owl:annotatedProperty rdf:resource="http://example.org/tissue"/>
+    <owl:annotatedTarget rdf:resource="None00001768"/>
+    <ns:percentage>100.00</ns:percentage>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N0c84914f36f84f13b56fab1e2e71bd68">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <owl:annotatedSource rdf:resource="http://example.org/812ba043-fce8-4878-82fe-275169bb7b37"/>
+    <owl:annotatedProperty rdf:resource="http://example.org/development_stage"/>
+    <owl:annotatedTarget rdf:resource="http://www.ebi.ac.uk/efo/EFO_0002682"/>
+    <ns:percentage>100.00</ns:percentage>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N76cd41c9fedc43f381777d768affe46e">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <owl:annotatedSource rdf:resource="http://example.org/13ebba3a-4bf4-442c-9fe5-3a77d3968db1"/>
+    <owl:annotatedProperty rdf:resource="http://example.org/development_stage"/>
+    <owl:annotatedTarget rdf:resource="http://www.ebi.ac.uk/efo/EFO_0002682"/>
+    <ns:percentage>100.00</ns:percentage>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nabf9b074252d487096d03c465a962881">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <owl:annotatedSource rdf:resource="http://example.org/9b3bf19f-fcd2-4fc3-9e12-d24a8134b56e"/>
+    <owl:annotatedProperty rdf:resource="http://example.org/organism"/>
+    <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7227"/>
+    <ns:percentage>100.00</ns:percentage>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N7fe512bb11ed41b79500bfbbddf8073c">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <owl:annotatedSource rdf:resource="http://example.org/a78a6c17-e076-4e0e-b788-bac1be46209c"/>
+    <owl:annotatedProperty rdf:resource="http://example.org/tissue"/>
+    <owl:annotatedTarget rdf:resource="None00001768"/>
+    <ns:percentage>100.00</ns:percentage>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ne65cfb72f646475b952e57dd67253742">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <owl:annotatedSource rdf:resource="http://example.org/9b3bf19f-fcd2-4fc3-9e12-d24a8134b56e"/>
+    <owl:annotatedProperty rdf:resource="http://example.org/development_stage"/>
+    <owl:annotatedTarget rdf:resource="http://www.ebi.ac.uk/efo/EFO_0002682"/>
+    <ns:percentage>100.00</ns:percentage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/b8c19365-eed4-4c46-84b5-8a80a2d27255">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/2d71378e-9d65-4d00-8766-79d845767432"/>
+    <ns:cluster_nb>Cluster 1</ns:cluster_nb>
+    <obo:RO_0015003 rdf:resource="http://example.org/e0adf6cf-054b-40f2-856d-8b43dd3669b9"/>
+    <rdfs:label>Cluster 1</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N3b0935e5ef4c4599808e67fb63b833c4">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <owl:annotatedSource rdf:resource="http://example.org/2e23fd42-75b9-4f3c-bb20-95236ae2cdcf"/>
+    <owl:annotatedProperty rdf:resource="http://example.org/organism"/>
+    <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7227"/>
+    <ns:percentage>100.00</ns:percentage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/4889fb93-5540-4a28-90f1-94f20b53f8e1">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/2d71378e-9d65-4d00-8766-79d845767432"/>
+    <ns:cluster_nb>Cluster 6</ns:cluster_nb>
+    <obo:RO_0015003 rdf:resource="http://example.org/e0adf6cf-054b-40f2-856d-8b43dd3669b9"/>
+    <rdfs:label>Cluster 6</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N88b7b50da60d41218ba1cd80a9ff7ade">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
     <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002473"/>
     <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000000"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/7f3a292b-24bc-4e2e-aeff-c7f198a80948">
+  <rdf:Description rdf:nodeID="N6142097427f047ed9e350dc7f2ea6acc">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <owl:annotatedSource rdf:resource="http://example.org/3e32f63f-8d61-400a-b1fc-a921eb85449a"/>
+    <owl:annotatedProperty rdf:resource="http://example.org/organism"/>
+    <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7227"/>
+    <ns:percentage>100.00</ns:percentage>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nfbdb77379c994372a807a8324195402e">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <owl:annotatedSource rdf:resource="http://example.org/9b0012de-659f-4bc9-a21e-cd0f5f60aa1b"/>
+    <owl:annotatedProperty rdf:resource="http://example.org/organism"/>
+    <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7227"/>
+    <ns:percentage>100.00</ns:percentage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/25516d02-813a-4321-9253-58e5c86e3e58">
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <dcterms:source rdf:resource="http://example.org/1febd591-1f14-4740-b157-4e35fbadb92f"/>
-    <ns:cluster_nb>Cluster 6</ns:cluster_nb>
-    <obo:RO_0015003 rdf:resource="http://example.org/aebc4286-ee22-4fbf-ad35-f178e0814ce2"/>
-    <rdfs:label>Cluster 6</rdfs:label>
+    <dcterms:source rdf:resource="http://example.org/2d71378e-9d65-4d00-8766-79d845767432"/>
+    <ns:cluster_nb>Cluster 4</ns:cluster_nb>
+    <obo:RO_0015003 rdf:resource="http://example.org/e0adf6cf-054b-40f2-856d-8b43dd3669b9"/>
+    <rdfs:label>Cluster 4</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nce9bca1fa7ed48b2965d41df51e28037">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <owl:annotatedSource rdf:resource="http://example.org/2e23fd42-75b9-4f3c-bb20-95236ae2cdcf"/>
+    <owl:annotatedProperty rdf:resource="http://example.org/tissue"/>
+    <owl:annotatedTarget rdf:resource="None00001768"/>
+    <ns:percentage>100.00</ns:percentage>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nd23859355ed04bda955239bcc0a9d419">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <owl:annotatedSource rdf:resource="http://example.org/4ee8fa8c-e311-40c0-9089-d72301823c87"/>
+    <owl:annotatedProperty rdf:resource="http://example.org/development_stage"/>
+    <owl:annotatedTarget rdf:resource="http://www.ebi.ac.uk/efo/EFO_0002682"/>
+    <ns:percentage>100.00</ns:percentage>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ne6fb2eefb95847c48e95699a13010bc3">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <owl:annotatedSource rdf:resource="http://example.org/3e32f63f-8d61-400a-b1fc-a921eb85449a"/>
+    <owl:annotatedProperty rdf:resource="http://example.org/development_stage"/>
+    <owl:annotatedTarget rdf:resource="http://www.ebi.ac.uk/efo/EFO_0002682"/>
+    <ns:percentage>100.00</ns:percentage>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N43b107714c0c453a8747f9b57aff53b6">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <owl:annotatedSource rdf:resource="http://example.org/812ba043-fce8-4878-82fe-275169bb7b37"/>
+    <owl:annotatedProperty rdf:resource="http://example.org/organism"/>
+    <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7227"/>
+    <ns:percentage>100.00</ns:percentage>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N4a3bcff47a5c49b993698578f02d2f0a">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <owl:annotatedSource rdf:resource="http://example.org/3e32f63f-8d61-400a-b1fc-a921eb85449a"/>
+    <owl:annotatedProperty rdf:resource="http://example.org/tissue"/>
+    <owl:annotatedTarget rdf:resource="None00001768"/>
+    <ns:percentage>100.00</ns:percentage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ba5e0848-3ab7-49a1-b378-f061f3b363ba">
+    <rdfs:label></rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/percentage">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Na54460d4a8c440f18d9b39681b740910">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <owl:annotatedSource rdf:resource="http://example.org/4889fb93-5540-4a28-90f1-94f20b53f8e1"/>
+    <owl:annotatedProperty rdf:resource="http://example.org/tissue"/>
+    <owl:annotatedTarget rdf:resource="None00001768"/>
+    <ns:percentage>100.00</ns:percentage>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nafc97a61db6841afb5eab42a8e42dce8">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <owl:annotatedSource rdf:resource="http://example.org/b8c19365-eed4-4c46-84b5-8a80a2d27255"/>
+    <owl:annotatedProperty rdf:resource="http://example.org/tissue"/>
+    <owl:annotatedTarget rdf:resource="None00001768"/>
+    <ns:percentage>100.00</ns:percentage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/812ba043-fce8-4878-82fe-275169bb7b37">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/2d71378e-9d65-4d00-8766-79d845767432"/>
+    <ns:cluster_nb>Cluster 2</ns:cluster_nb>
+    <obo:RO_0015003 rdf:resource="http://example.org/e0adf6cf-054b-40f2-856d-8b43dd3669b9"/>
+    <rdfs:label>Cluster 2</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/b79e4846-b6ae-48ec-ac2a-ad33daaa9c0d">
+    <rdfs:label></rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0002473">
+    <rdfs:label>composed primarily of</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nba0e8cb9fc1a4f2088a6362b57c7392a">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <owl:annotatedSource rdf:resource="http://example.org/4ee8fa8c-e311-40c0-9089-d72301823c87"/>
+    <owl:annotatedProperty rdf:resource="http://example.org/disease"/>
+    <owl:annotatedTarget rdf:resource="http://example.org/a8a04a8b-ba2e-4dd5-8aa8-ce6384b02db1"/>
+    <ns:percentage>100.00</ns:percentage>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N0b49c403d1a54801882c2779fcd64781">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <owl:annotatedSource rdf:resource="http://example.org/4f70ab0f-a479-445c-ba1f-7d1f707e07fe"/>
+    <owl:annotatedProperty rdf:resource="http://example.org/tissue"/>
+    <owl:annotatedTarget rdf:resource="None00001768"/>
+    <ns:percentage>100.00</ns:percentage>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N5321b3cb28dd4b1a8900ab199f12e428">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <owl:annotatedSource rdf:resource="http://example.org/b8c19365-eed4-4c46-84b5-8a80a2d27255"/>
+    <owl:annotatedProperty rdf:resource="http://example.org/development_stage"/>
+    <owl:annotatedTarget rdf:resource="http://www.ebi.ac.uk/efo/EFO_0002682"/>
+    <ns:percentage>100.00</ns:percentage>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nb148c41a63b54c048f4ee9eecade2b42">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <owl:annotatedSource rdf:resource="http://example.org/25516d02-813a-4321-9253-58e5c86e3e58"/>
+    <owl:annotatedProperty rdf:resource="http://example.org/disease"/>
+    <owl:annotatedTarget rdf:resource="http://example.org/ba5e0848-3ab7-49a1-b378-f061f3b363ba"/>
+    <ns:percentage>100.00</ns:percentage>
   </rdf:Description>
   <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PCL_0010001">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
     <rdfs:label>cell cluster</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/aebc4286-ee22-4fbf-ad35-f178e0814ce2">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
-    <rdf:type rdf:nodeID="N64e850ff86f042d39338f40a37d7078f"/>
-    <dcterms:source rdf:resource="http://example.org/1febd591-1f14-4740-b157-4e35fbadb92f"/>
-    <ns:cell_type>cell</ns:cell_type>
-    <rdfs:label>cell</rdfs:label>
+  <rdf:Description rdf:about="http://www.ebi.ac.uk/efo/EFO_0002682">
+    <rdfs:label>third instar larva stage</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0002473">
-    <rdfs:label>composed primarily of</rdfs:label>
+  <rdf:Description rdf:nodeID="N5886837f43204a0aa6d5cbe5fc517b1a">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <owl:annotatedSource rdf:resource="http://example.org/6fcd148b-2e60-4ef5-92a5-7fab58a34727"/>
+    <owl:annotatedProperty rdf:resource="http://example.org/organism"/>
+    <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7227"/>
+    <ns:percentage>100.00</ns:percentage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/6fcd148b-2e60-4ef5-92a5-7fab58a34727">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/2d71378e-9d65-4d00-8766-79d845767432"/>
+    <ns:cluster_nb>Cluster 7</ns:cluster_nb>
+    <obo:RO_0015003 rdf:resource="http://example.org/e0adf6cf-054b-40f2-856d-8b43dd3669b9"/>
+    <rdfs:label>Cluster 7</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="http://purl.org/dc/terms/source">
     <rdfs:label>has_source</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0015003">
-    <rdfs:label>subcluster of</rdfs:label>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  <rdf:Description rdf:about="http://example.org/a2b11e4b-b4a5-458c-a98b-f00df157fa38">
+    <rdfs:label></rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N4c04c73b11fb4941a35bcb7635a78aa7">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <owl:annotatedSource rdf:resource="http://example.org/25516d02-813a-4321-9253-58e5c86e3e58"/>
+    <owl:annotatedProperty rdf:resource="http://example.org/organism"/>
+    <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7227"/>
+    <ns:percentage>100.00</ns:percentage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/4669d4e4-7a25-414c-881c-3cda73ec420e">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/2d71378e-9d65-4d00-8766-79d845767432"/>
+    <ns:cluster_nb>Cluster 9</ns:cluster_nb>
+    <obo:RO_0015003 rdf:resource="http://example.org/e0adf6cf-054b-40f2-856d-8b43dd3669b9"/>
+    <rdfs:label>Cluster 9</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="None00001768">
+    <rdfs:label>eye disc</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N976a19b165db4c74b2649ad2d0243663">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <owl:annotatedSource rdf:resource="http://example.org/a78a6c17-e076-4e0e-b788-bac1be46209c"/>
+    <owl:annotatedProperty rdf:resource="http://example.org/disease"/>
+    <owl:annotatedTarget rdf:resource="http://example.org/63e8c8a6-1282-44f4-8c1f-ae025366ae03"/>
+    <ns:percentage>100.00</ns:percentage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/1925ffd3-8e0a-45ae-91e0-9e8c22565274">
+    <rdfs:label></rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000000">
+    <rdfs:label>cell</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/7804d870-0b50-41e7-8a44-ebed4ba4c152">
+    <rdfs:label></rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/a529b850-4084-46f0-9ba6-abe8325d22bb">
+    <rdfs:label></rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/2bded2f3-bcfd-4fc5-a3b0-7e2e7ef51de9">
+    <rdfs:label></rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_7227">
+    <rdfs:label>Drosophila melanogaster</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/4da6da79-e9d8-4718-b73e-2360c9f405a1">
+    <rdfs:label></rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/63e8c8a6-1282-44f4-8c1f-ae025366ae03">
+    <rdfs:label></rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/8b6cf2d6-ed10-4dad-8a2d-9b7aa706c836">
+    <rdfs:label></rdfs:label>
   </rdf:Description>
 </rdf:RDF>
